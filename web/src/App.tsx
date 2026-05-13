@@ -246,7 +246,7 @@ export default function App() {
   }, [])
 
   const [isSyncing, setIsSyncing] = useState(false)
-  const syncTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+  const syncTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const handleManualSync = async () => {
     if (!user || !auth) return
