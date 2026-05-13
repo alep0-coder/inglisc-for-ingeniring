@@ -5,12 +5,13 @@ import { getFirestore } from 'firebase/firestore';
 // TODO: Replace these with your Firebase project configuration
 // You can find this in the Firebase Console -> Project Settings -> General -> Your apps
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDzCmUxbE8BMTEjJI94CDmEDqpcxP45dE8",
+  authDomain: "english-faf1b.firebaseapp.com",
+  projectId: "english-faf1b",
+  storageBucket: "english-faf1b.firebasestorage.app",
+  messagingSenderId: "228450156721",
+  appId: "1:228450156721:web:ed8caa7edc68cc03172290",
+  measurementId: "G-M18FNKS59N"
 };
 
 // Check if keys are placeholders
