@@ -1,6 +1,5 @@
 .env
 node_modules
-unit_database.json
 input.txt
 input_*.txt
 chapters.json
