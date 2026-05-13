@@ -1,0 +1,63 @@
+{
+  "id": "unit_3",
+  "title": "Unit 3: Design solutions",
+  "lessons": [
+    {
+      "id": "u3_l1",
+      "title": "Design objectives",
+      "theory": "A **design brief** consists of several key elements:\n\n* **Function**: The product's intended use (what it is designed to do).\n* **Constraints**: Limits on the design (e.g., maximum size or weight).\n* **Comparative targets**: How well it performs compared with existing models.\n* **Design features**: Specific things the design must have (e.g., a lock).\n* **Budget**: The cost limits that must not be exceeded.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "What is the term for limits on a design, such as maximum weight?",
+          "options": [
+            { "text": "Constraints", "is_correct": true },
+            { "text": "Functions", "is_correct": false },
+            { "text": "Budgets", "is_correct": false },
+            { "text": "Features", "is_correct": false }
+          ],
+          "hint": "They 'constrain' the design.",
+          "explanation": "Constraints are the limits or restrictions placed on a design."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "The product's intended use is called its ____.",
+          "blanks": [{ "position": 1, "answer": "function" }],
+          "accepted_answers": [["function"]],
+          "hint": "What it 'does'.",
+          "explanation": "Function describes the purpose or intended use of a product."
+        }
+      ]
+    },
+    {
+      "id": "u3_l2",
+      "title": "Design calculations",
+      "theory": "Engineers provide technical requirements in **specifications**. They must **determine** (identify) and **quantify** (calculate) the **loads** (forces) that components will carry. \n\nCalculations are usually based on a **worst-case scenario** (the maximum possible load). After quantifying these loads, engineers apply a **factor of safety** – an extra margin to ensure the component is strong enough.",
+      "exercises": [
+        {
+          "type": "matching",
+          "question": "Match the engineering verbs to their definitions.",
+          "pairs": [
+            { "term": "Determine", "definition": "Identify" },
+            { "term": "Quantify", "definition": "Calculate in number form" },
+            { "term": "Size", "definition": "Calculate required dimensions" }
+          ],
+          "hint": "Think about the calculation process.",
+          "explanation": "Engineers determine loads, quantify them, and then size the components."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the extra margin added to ensure a component doesn't fail?",
+          "options": [
+            { "text": "Factor of safety", "is_correct": true },
+            { "text": "Worst-case scenario", "is_correct": false },
+            { "text": "Specification", "is_correct": false },
+            { "text": "Budget", "is_correct": false }
+          ],
+          "hint": "It's a 'factor' for 'safety'.",
+          "explanation": "A factor of safety provides an extra margin of strength beyond the predicted loads."
+        }
+      ]
+    }
+  ]
+}

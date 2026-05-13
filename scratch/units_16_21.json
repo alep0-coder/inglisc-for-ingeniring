@@ -1,0 +1,147 @@
+[
+  {
+    "id": "unit_16",
+    "title": "Unit 16: Concrete",
+    "lessons": [
+      {
+        "id": "u16_l1",
+        "title": "Concrete mix and reinforcement",
+        "theory": "Concrete is made from **cement**, **fine aggregate** (sand), **coarse aggregate** (gravel) and water.\n\n* **Batching**: Measuring proportions by weight.\n* **Additives**: **Plasticizers** (improve flow) or **retarders** (delay setting).\n* **Reinforced concrete (RC)**: Uses steel bars because concrete is weak in **tension**.\n* **In-situ**: Cast in its final position on site.\n* **Precast**: Cast at a factory.\n* **Prestressed**: Reinforcement is put in tension before or after pouring to resist bending.",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the concrete terms to their meanings.",
+            "pairs": [
+              { "term": "In-situ", "definition": "Cast in its final position on site" },
+              { "term": "Precast", "definition": "Cast at a factory and delivered" },
+              { "term": "Plasticizer", "definition": "Makes concrete flow more easily" },
+              { "term": "Retarder", "definition": "Delays the setting of concrete" }
+            ],
+            "hint": "Think about where and how the concrete is placed.",
+            "explanation": "These terms describe the placement and chemical modification of concrete."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_17",
+    "title": "Unit 17: Wood",
+    "lessons": [
+      {
+        "id": "u17_l1",
+        "title": "Solid and engineered wood",
+        "theory": "### Categories of Wood\n* **Hardwood**: From deciduous trees (lose leaves).\n* **Softwood**: From coniferous trees (evergreen).\n* **Solid wood**: Sawn timber with grain and **knots**.\n* **Engineered wood**: Bonded layers or particles (e.g., **Plywood**, **MDF**, **OSB**, **Glulams**).\n\n### Processing\n* **Rough-sawn**: Surface texture from a circular saw.\n* **Planed**: Smoothed surface.\n* **Stress-graded**: Tested for strength (mechanically or visually).",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "Which category of wood comes from coniferous trees?",
+            "options": [
+              { "text": "Softwood", "is_correct": true },
+              { "text": "Hardwood", "is_correct": false },
+              { "text": "Engineered wood", "is_correct": false },
+              { "text": "Plywood", "is_correct": false }
+            ],
+            "hint": "Evergreen trees usually provide this.",
+            "explanation": "Softwood is the term for timber from coniferous (evergreen) trees."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_18",
+    "title": "Unit 18: Material properties 1",
+    "lessons": [
+      {
+        "id": "u18_l1",
+        "title": "Strength and deformation",
+        "theory": "### Forces and Deformation\n* **Tension**: Stretching forces.\n* **Compression**: Crushing forces.\n* **Elasticity**: Ability to return to original shape.\n* **Plasticity**: Permanent change in shape.\n    * **Malleable**: Can be hammered or rolled.\n    * **Ductile**: Can be drawn out into a wire.\n* **Stiff**: High strength but low elasticity.\n* **Brittle**: Low elasticity and weak (fractures easily, e.g., glass).",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the material properties.",
+            "pairs": [
+              { "term": "Elasticity", "definition": "Returns to original shape" },
+              { "term": "Plasticity", "definition": "Permanent change in shape" },
+              { "term": "Malleable", "definition": "Can be hammered or rolled" },
+              { "term": "Ductile", "definition": "Can be drawn into a wire" }
+            ],
+            "hint": "Think about how the material reacts to force.",
+            "explanation": "These properties define how materials deform under stress."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_19",
+    "title": "Unit 19: Material properties 2",
+    "lessons": [
+      {
+        "id": "u19_l1",
+        "title": "Hardness, fatigue and thermal properties",
+        "theory": "### Hardness and Damage\n* **Scratch hardness**: Resistance to being scratched (**abrasion resistance**).\n* **Indentation hardness**: Resistance to impacts.\n* **Fatigue**: Micro-cracking due to **cyclic loads**.\n* **Creep**: Permanent deformation over time due to loads.\n\n### Thermal Properties\n* **Thermal conductivity**: Ability to conduct heat (conductor vs insulator).\n* **Thermal expansion**: Increase in size when heated (measured by a **coefficient**).",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "The problem caused by cyclic loads and micro-cracking is called ____.",
+            "blanks": [{ "position": 1, "answer": "fatigue" }],
+            "accepted_answers": [["fatigue"], ["metal fatigue"]],
+            "hint": "It's like getting tired.",
+            "explanation": "Fatigue is a major cause of failure in structures like aircraft wings."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_20",
+    "title": "Unit 20: Forming, working and heat-treating",
+    "lessons": [
+      {
+        "id": "u20_l1",
+        "title": "Forging and heat treatment",
+        "theory": "### Forming Metal\n* **Casting**: Pouring molten metal into a mould.\n* **Sintering**: Compressing metal powder.\n* **Extrusion**: Forcing molten metal through a die (long lengths).\n* **Forging**: Shaping metal by hammering (**Drop forging**).\n\n### Heat Treatment\n* **Quenching**: Rapid cooling in water/oil (makes it harder but brittle).\n* **Annealing**: Slow cooling (makes it softer/more elastic).\n* **Tempering**: Heating for a period to balance hardness and elasticity.",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the heat treatment to its effect.",
+            "pairs": [
+              { "term": "Quenching", "definition": "Rapid cooling to increase hardness" },
+              { "term": "Annealing", "definition": "Slow cooling to make metal softer" },
+              { "term": "Tempering", "definition": "Balance between hardness and elasticity" }
+            ],
+            "hint": "Think about the cooling speed.",
+            "explanation": "Heat treatment processes are used to tune the properties of metals."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_21",
+    "title": "Unit 21: Material formats",
+    "lessons": [
+      {
+        "id": "u21_l1",
+        "title": "Raw and processed formats",
+        "theory": "### Raw Materials\n* **Powder**, **Pellets**, **Fibres**.\n* **Ingots**, **Blooms**, **Billets** (metal blocks).\n\n### Processed Formats\n* **Bars** (Round/Rod, Square, Flat).\n* **Sheets** (Thin, < 3mm) and **Plates** (Thick, > 3mm).\n* **Structural sections** (e.g., I-sections).\n* **Tubes** (Hollow) and **Pipes** (for liquids/gas).\n* **Wires** (Single strand) and **Cables** (Multiple wires).",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "What is a hollow format specifically used for carrying liquid or gas?",
+            "options": [
+              { "text": "Pipe", "is_correct": true },
+              { "text": "Bar", "is_correct": false },
+              { "text": "Rod", "is_correct": false },
+              { "text": "Wire", "is_correct": false }
+            ],
+            "hint": "Think of plumbing.",
+            "explanation": "A pipe is a type of tube specifically designed for fluid transport."
+          }
+        ]
+      }
+    ]
+  }
+]

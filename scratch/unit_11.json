@@ -1,0 +1,35 @@
+{
+  "id": "unit_11",
+  "title": "Unit 11: Material types",
+  "lessons": [
+    {
+      "id": "u11_l1",
+      "title": "Metals, elements and composites",
+      "theory": "Materials in engineering are categorized into several types:\n\n* **Metals**: Divided into **ferrous** (contain iron) and **non-ferrous** (do not contain iron).\n* **Elements**: Pure materials (e.g., iron, carbon, aluminium).\n* **Compounds**: Elements that are **chemically bound** (e.g., water).\n* **Mixtures / Alloys**: Metals mixed with other elements (e.g., **steel** is an iron-carbon alloy).\n* **Composite materials**: Consist of a **matrix** (surrounding material) and a **reinforcement** (structural network). Example: Glass-reinforced plastic (GRP).",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "What is a metal that contains iron called?",
+          "options": [
+            { "text": "Ferrous metal", "is_correct": true },
+            { "text": "Non-ferrous metal", "is_correct": false },
+            { "text": "Composite", "is_correct": false },
+            { "text": "Alloy", "is_correct": false }
+          ],
+          "hint": "Think of 'ferrum'.",
+          "explanation": "Ferrous metals contain iron as their main constituent."
+        },
+        {
+          "type": "matching",
+          "question": "Match the composite material terms.",
+          "pairs": [
+            { "term": "Matrix", "definition": "The material surrounding the reinforcement" },
+            { "term": "Reinforcement", "definition": "The structural network inside" }
+          ],
+          "hint": "Think about what 'surrounds' what.",
+          "explanation": "In a composite, the matrix holds the reinforcement in place."
+        }
+      ]
+    }
+  ]
+}

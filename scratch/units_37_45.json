@@ -1,0 +1,169 @@
+[
+  {
+    "id": "unit_37",
+    "title": "Unit 37: Fluid containment",
+    "lessons": [
+      {
+        "id": "u37_l1",
+        "title": "Pipes, ducts and tanks",
+        "theory": "Fluids (liquids and gases) must be contained and transported.\n\n* **Pipes**: Rigid tubes for carrying fluids.\n* **Ducts**: Large-diameter pipes, often square, used for air (ventilation).\n* **Hoses**: Flexible tubes.\n* **Tanks**: Containers for storing fluids.\n* **Pumps**: Machines that move liquids.\n* **Fans/Blowers**: Machines that move gases.\n* **Turbines**: Driven by fluid flow to generate power.",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the containment terms.",
+            "pairs": [
+              { "term": "Pipe", "definition": "A rigid tube for carrying liquids or gas" },
+              { "term": "Hose", "definition": "A flexible tube for fluid transport" },
+              { "term": "Duct", "definition": "Used for air ventilation in buildings" },
+              { "term": "Tank", "definition": "A large container for storing fluids" }
+            ],
+            "hint": "Think about rigidity and purpose.",
+            "explanation": "These are common engineering terms for fluid containers."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_38",
+    "title": "Unit 38: Fluid pressure",
+    "lessons": [
+      {
+        "id": "u38_l1",
+        "title": "Pressure and siphonic action",
+        "theory": "Pressure is the force exerted by a fluid per unit of area.\n\n* **Pascal (Pa)**: The SI unit of pressure (1 Pa = 1 N/m²).\n* **Bar**: Often used in industry (1 bar = 100,000 Pa).\n* **Gauge pressure**: Pressure relative to atmospheric pressure.\n* **Absolute pressure**: Pressure relative to a perfect vacuum.\n* **Hydrostatic pressure**: Pressure exerted by the weight of a fluid.\n* **Siphonic action**: Using atmospheric pressure to move liquid through a U-shaped tube.",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "Pressure measured relative to a perfect vacuum is called ____ pressure.",
+            "blanks": [{ "position": 1, "answer": "absolute" }],
+            "accepted_answers": [["absolute"]],
+            "hint": "It is the 'total' or 'true' pressure.",
+            "explanation": "Absolute pressure starts from zero at a vacuum."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_39",
+    "title": "Unit 39: Fluid dynamics",
+    "lessons": [
+      {
+        "id": "u39_l1",
+        "title": "Flow and aerodynamics",
+        "theory": "Fluid dynamics is the study of fluids in motion. Aerodynamics is the study of airflow.\n\n* **Drag**: Resistance to movement through a fluid (air resistance).\n* **Laminar flow**: Smooth, non-turbulent airflow.\n* **Turbulent flow**: Rough, swirling airflow that increases drag.\n* **Aerofoils**: Wings or blades designed to produce **lift** as air flows over them.\n* **Streamlined**: Shapes designed to minimize drag.",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "What term describes a smooth, efficient flow of air or liquid?",
+            "options": [
+              { "text": "Laminar flow", "is_correct": true },
+              { "text": "Turbulent flow", "is_correct": false },
+              { "text": "Drag", "is_correct": false },
+              { "text": "Lift", "is_correct": false }
+            ],
+            "hint": "Think of layers (laminae).",
+            "explanation": "Laminar flow occurs when fluid travels in parallel layers with no disruption."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_42",
+    "title": "Unit 42: Transmission 2",
+    "lessons": [
+      {
+        "id": "u42_l1",
+        "title": "Chains, belts and cranks",
+        "theory": "### Chains and Belts\n* **Chains**: Drive **sprockets** (toothed wheels). Do not slip.\n* **Belts**: Drive **pulleys** (or sheaves). Can be smooth or toothed.\n\n### Reciprocating to Rotary\n* **Crank and Connecting rod**: Converts up-and-down motion to rotation.\n* **Crankshaft**: The shaft in an engine that turns the pistons' motion into rotation.\n* **Flywheel**: A heavy wheel that provides momentum to keep the engine turning smoothly.\n* **Camshaft**: Opens and closes engine **valves** using **cams** and **followers**.",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the transmission components.",
+            "pairs": [
+              { "term": "Sprocket", "definition": "Toothed wheel driven by a chain" },
+              { "term": "Pulley", "definition": "Wheel driven by a belt" },
+              { "term": "Crankshaft", "definition": "Converts reciprocating motion to rotary" },
+              { "term": "Camshaft", "definition": "Opens and closes engine valves" }
+            ],
+            "hint": "Think about the connection between components.",
+            "explanation": "These are key components in mechanical transmission systems."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_43",
+    "title": "Unit 43: Current, voltage and resistance",
+    "lessons": [
+      {
+        "id": "u43_l1",
+        "title": "Electrical basics",
+        "theory": "### Key Parameters\n* **Current (I)**: Flow of electrons, measured in **Amperes (Amps)**.\n* **Voltage (V)**: Electromotive force (EMF), measured in **Volts**.\n* **Resistance (R)**: Opposes flow, measured in **Ohms (Ω)**.\n* **Power (P)**: Rate of energy transfer, measured in **Watts (W)**.\n\n### Ohm's Law\n* **V = I × R** (Voltage = Current × Resistance).\n* **P = V × I** (Power = Voltage × Current).\n\n### Materials\n* **Conductors**: Low resistance (e.g., copper).\n* **Insulators**: Very high resistance (e.g., plastic).",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the electrical units to their parameters.",
+            "pairs": [
+              { "term": "Ampere", "definition": "Unit of electric current" },
+              { "term": "Volt", "definition": "Unit of voltage (EMF)" },
+              { "term": "Ohm", "definition": "Unit of electrical resistance" },
+              { "term": "Watt", "definition": "Unit of electrical power" }
+            ],
+            "hint": "Think about the scientist names.",
+            "explanation": "These are the fundamental units of electrical measurement."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_44",
+    "title": "Unit 44: Electrical supply",
+    "lessons": [
+      {
+        "id": "u44_l1",
+        "title": "AC and DC systems",
+        "theory": "### AC vs DC\n* **DC (Direct Current)**: Constant flow in one direction (e.g., batteries).\n* **AC (Alternating Current)**: Direction alternates continually (**Frequency** in Hertz).\n\n### Generation and Grid\n* **Generator**: Converts mechanical energy to electricity using **induction**.\n* **Transformer**: Changes voltage levels.\n    * **Step-up**: Increases voltage for efficient long-distance transmission.\n    * **Step-down**: Decreases voltage for home use.\n* **Inverter**: A device that converts DC (e.g., from solar cells) to AC.\n* **Power Grid**: The network of lines that distribute electricity.",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "A device that converts direct current (DC) to alternating current (AC) is an ____.",
+            "blanks": [{ "position": 1, "answer": "inverter" }],
+            "accepted_answers": [["inverter"]],
+            "hint": "It 'inverts' the direction.",
+            "explanation": "Inverters are essential for using solar power in homes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_45",
+    "title": "Unit 45: Circuits and components",
+    "lessons": [
+      {
+        "id": "u45_l1",
+        "title": "Circuit types and electronics",
+        "theory": "### Circuit Connections\n* **Series circuit**: Components are in a single path.\n* **Parallel circuit**: Components are in multiple paths.\n* **Live, Neutral, and Earth (Ground)**: Conductors in a mains supply.\n\n### Safety and Electronics\n* **Circuit-breaker**: Automatically switches off if there is a **short circuit**.\n* **PCB**: Printed Circuit Board populated with components.\n* **Integrated Circuit (IC/Microchip)**: Small circuits made on silicon wafers.\n* **Sensors**: Detect light, heat, or pressure.\n* **Logic gates**: (AND, OR, NOT) Used in control systems.",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "In which type of circuit are all components connected one after another in a single loop?",
+            "options": [
+              { "text": "Series circuit", "is_correct": true },
+              { "text": "Parallel circuit", "is_correct": false },
+              { "text": "Integrated circuit", "is_correct": false },
+              { "text": "Printed circuit", "is_correct": false }
+            ],
+            "hint": "Think of items in a line.",
+            "explanation": "In a series circuit, the same current flows through all components."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "id": "unit_5",
+  "title": "Unit 5: Locating and setting out",
+  "lessons": [
+    {
+      "id": "u5_l1",
+      "title": "Centrelines and offsets",
+      "theory": "To locate positions, engineers use reference lines:\n\n* **Centreline (CL)**: A line through the centre of a hole or component.\n* **Centre-to-centre (c/c)**: The distance between the centrelines of two components.\n* **Offset**: A measurement taken at a **right-angle** (90 degrees) to a centreline.\n\nDistances can be shown as **running dimensions** (measured from a single point) or **chain dimensions** (measured from one centre to the next).",
+      "exercises": [
+        {
+          "type": "fill_in_the_blank",
+          "question": "Distances between centrelines are called ____ dimensions.",
+          "blanks": [{ "position": 1, "answer": "centre-to-centre" }],
+          "accepted_answers": [["centre-to-centre"], ["c/c"]],
+          "hint": "C-to-C",
+          "explanation": "Centre-to-centre dimensions are standard for spacing holes or columns."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is a measurement taken at 90 degrees to a centreline called?",
+          "options": [
+            { "text": "Offset", "is_correct": true },
+            { "text": "Running dimension", "is_correct": false },
+            { "text": "Chain dimension", "is_correct": false },
+            { "text": "Gridline", "is_correct": false }
+          ],
+          "hint": "It is 'set off' from the line.",
+          "explanation": "An offset is a perpendicular measurement from a reference line."
+        }
+      ]
+    },
+    {
+      "id": "u5_l2",
+      "title": "Grids",
+      "theory": "In large designs, **grids** are used for horizontal positioning. \n\n* **Gridlines**: Numbered and lettered lines that run **parallel** to one another. \n* **Perpendicular**: Gridlines run at right-angles to each other.\n* **Intersect**: Where gridlines cross (usually at the centres of columns).\n* **Set out**: To mark the position of components on site by **squaring off** the gridlines.",
+      "exercises": [
+        {
+          "type": "matching",
+          "question": "Match the grid-related terms to their definitions.",
+          "pairs": [
+            { "term": "Parallel", "definition": "Straight lines that are regular distances apart" },
+            { "term": "Perpendicular", "definition": "Lines at a right-angle (90 degrees)" },
+            { "term": "Intersect", "definition": "To cross at a specific point" },
+            { "term": "Set out", "definition": "To mark positions on a site" }
+          ],
+          "hint": "Think about geometry.",
+          "explanation": "Grids rely on parallel and perpendicular lines to locate points accurately."
+        }
+      ]
+    }
+  ]
+}

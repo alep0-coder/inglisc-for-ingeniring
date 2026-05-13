@@ -1,0 +1,86 @@
+{
+  "id": "unit_1",
+  "title": "Unit 1: Drawings",
+  "lessons": [
+    {
+      "id": "u1_l1",
+      "title": "Drawing types and scales",
+      "theory": "In engineering, most design information is shown on **drawings**. Today, drawings are generally produced on computer using **CAD (computer-aided design)** systems. \n\nA key factor on a drawing is the **scale** - the size of items on the drawing in relation to their real size. When all items are shown relative to their real size, the drawing is a **scale drawing**. \n\n### Types of Drawings\n* **General arrangement (GA)**: Show whole devices or structures using a small scale (e.g., 1:100).\n* **Detail drawings**: Show parts in detail using a large scale (e.g., 1:5 or 1:2).\n* **Schematic drawings (schematics)**: Simplified forms used for electrical circuits and pipe networks.\n\nNote: 'Drawing' is often abbreviated to **dwg**.",
+      "exercises": [
+        {
+          "type": "fill_in_the_blank",
+          "question": "Enlarged drawings show components larger than their ____.",
+          "blanks": [{ "position": 1, "answer": "actual size" }],
+          "accepted_answers": [["actual size"]],
+          "hint": "Their real size.",
+          "explanation": "Drawings can be actual size, enlarged, or reduced scale."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "For engineering drawings, 1:5 is a commonly used ____.",
+          "blanks": [{ "position": 1, "answer": "scale" }],
+          "accepted_answers": [["scale"]],
+          "hint": "The ratio between drawing and real size.",
+          "explanation": "Scale determines how much an object is reduced or enlarged on paper."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "Whole machines or structures are shown on ____ drawings.",
+          "blanks": [{ "position": 1, "answer": "general arrangement" }],
+          "accepted_answers": [["general arrangement"], ["GA"]],
+          "hint": "They show the overall layout.",
+          "explanation": "General arrangement (GA) drawings show the whole assembly."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "Electrical drawings don't usually show sizes. They're shown as ____.",
+          "blanks": [{ "position": 1, "answer": "schematics" }],
+          "accepted_answers": [["schematics"], ["schematic drawings"]],
+          "hint": "Simplified diagrams.",
+          "explanation": "Schematics are simplified forms of networks or circuits."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What does CAD stand for?",
+          "options": [
+            { "text": "Computer-Aided Design", "is_correct": true },
+            { "text": "Computer-Aided Drawing", "is_correct": false },
+            { "text": "Calculation and Design", "is_correct": false },
+            { "text": "Controlled Automated Design", "is_correct": false }
+          ],
+          "hint": "C-A-D",
+          "explanation": "CAD is Computer-Aided Design."
+        }
+      ]
+    },
+    {
+      "id": "u1_l2",
+      "title": "Types of views used on drawings",
+      "theory": "Engineers use different **views** to visualize components from various angles:\n\n* **Plan**: A view from above (looking down).\n* **Elevation**: A view from the side (e.g., front elevation).\n* **Section (cross-section)**: A view inside an object, as if it were cut through.\n* **Exploded view**: A 3D view showing components spaced out (taken to pieces).\n* **3D views**: Often shown as **oblique projections** or **isometric projections**.",
+      "exercises": [
+        {
+          "type": "matching",
+          "question": "Match the description of the view with its name.",
+          "pairs": [
+            { "term": "Plan", "definition": "2D view looking down on top of an object" },
+            { "term": "Section", "definition": "2D view inside an object, as if cut through" },
+            { "term": "Elevation", "definition": "2D view of the side of an object" },
+            { "term": "Exploded view", "definition": "3D view showing an assembly taken to pieces" },
+            { "term": "Isometric", "definition": "3D view with a corner of the object at the front" },
+            { "term": "Oblique", "definition": "3D view with the 2D face of the object at the front" }
+          ],
+          "hint": "Think about the angle and perspective.",
+          "explanation": "Each view provides a specific perspective for understanding the geometry."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "A view showing components spaced out is an ____ view.",
+          "blanks": [{ "position": 1, "answer": "exploded" }],
+          "accepted_answers": [["exploded"]],
+          "hint": "Like it has 'exploded'.",
+          "explanation": "An exploded view helps visualize how parts fit together."
+        }
+      ]
+    }
+  ]
+}

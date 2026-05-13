@@ -1,0 +1,52 @@
+{
+  "id": "unit_4",
+  "title": "Unit 4: Horizontal and vertical measurements",
+  "lessons": [
+    {
+      "id": "u4_l1",
+      "title": "Linear dimensions",
+      "theory": "Engineers use specific terms for linear dimensions:\n\n* **Overall length**: Total measurement from front to rear.\n* **Wingspan**: Total distance spanned by both wings.\n* **Overall height**: How tall an object is from the ground to the top.\n* **Width**: Measurement from side to side.\n* **Thickness**: The external or internal dimension of a wall or component.\n* **Span**: The distance between supports (e.g., in a bridge).\n\nPlanes are imaginary surfaces shown as lines on drawings. They strike (touch) the faces of components.",
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "What is the total distance between the wingtips of an aircraft?",
+          "options": [
+            { "text": "Wingspan", "is_correct": true },
+            { "text": "Overall length", "is_correct": false },
+            { "text": "Overall height", "is_correct": false },
+            { "text": "Thickness", "is_correct": false }
+          ],
+          "hint": "It 'spans' the wings.",
+          "explanation": "Wingspan is the standard term for the total distance from wingtip to wingtip."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "The distance between the supports of a bridge is called the ____.",
+          "blanks": [{ "position": 1, "answer": "span" }],
+          "accepted_answers": [["span"]],
+          "hint": "It spans across the gap.",
+          "explanation": "A span is the distance crossed by a bridge between its supports."
+        }
+      ]
+    },
+    {
+      "id": "u4_l2",
+      "title": "Level and plumb",
+      "theory": "Measurements are taken along horizontal or vertical planes.\n\n* **Level**: A surface that is both horizontal and flat (smooth).\n* **Flat**: A surface that is smooth, but not necessarily horizontal (it could be vertical or **inclined**).\n* **Plumb**: Faces that are perfectly vertical (like the walls of a building).\n* **Out of plumb**: Structures that are slightly inclined from the vertical.",
+      "exercises": [
+        {
+          "type": "matching",
+          "question": "Match the terms to their engineering meanings.",
+          "pairs": [
+            { "term": "Level", "definition": "Horizontal and flat" },
+            { "term": "Plumb", "definition": "Perfectly vertical" },
+            { "term": "Inclined", "definition": "Sloping at an angle" },
+            { "term": "Out of plumb", "definition": "Not perfectly vertical" }
+          ],
+          "hint": "Think about orientations.",
+          "explanation": "Level and plumb are the basic horizontal and vertical alignments."
+        }
+      ]
+    }
+  ]
+}

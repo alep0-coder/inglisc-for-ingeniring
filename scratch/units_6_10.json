@@ -1,0 +1,141 @@
+[
+  {
+    "id": "unit_6",
+    "title": "Unit 6: Dimensions of circles",
+    "lessons": [
+      {
+        "id": "u6_l1",
+        "title": "Key dimensions of circles",
+        "theory": "When discussing circles (like tyres or pipes), engineers use these terms:\n\n* **Diameter**: The distance across a circle passing through the centre. \n* **Radius**: The distance from the centre to the edge (half the diameter).\n* **Centre**: The exact middle point of the circle.\n* **Concentric circles**: Two or more circles with the same centre point.\n* **Circumference**: The distance all the way around the outside of the circle.",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "The distance from the centre of a circle to its edge is the ____.",
+            "blanks": [{ "position": 1, "answer": "radius" }],
+            "accepted_answers": [["radius"]],
+            "hint": "It's half the diameter.",
+            "explanation": "The radius is the distance from the centre point to any point on the circumference."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What are circles that share the same centre point called?",
+            "options": [
+              { "text": "Concentric circles", "is_correct": true },
+              { "text": "Parallel circles", "is_correct": false },
+              { "text": "Circumferences", "is_correct": false },
+              { "text": "Diameters", "is_correct": false }
+            ],
+            "hint": "They have a common centre.",
+            "explanation": "Concentric circles have the same centre but different diameters."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_7",
+    "title": "Unit 7: Dimensional accuracy",
+    "lessons": [
+      {
+        "id": "u7_l1",
+        "title": "Precision and tolerance",
+        "theory": "No part can be manufactured to an absolutely perfect dimension. Engineers use:\n\n* **Precision**: The level of accuracy required.\n* **Tolerance**: The permissible variation in a dimension (e.g., +/- 0.05 mm).\n* **Tolerance range**: The total difference between the maximum and minimum permitted sizes.\n* **Fit**: How two parts go together.\n    * **Clearance fit**: The hole is slightly larger than the shaft (it can rotate).\n    * **Interference fit**: The shaft is slightly larger than the hole (it must be forced in).",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "What is the permissible variation in a dimension called?",
+            "options": [
+              { "text": "Tolerance", "is_correct": true },
+              { "text": "Precision", "is_correct": false },
+              { "text": "Clearance", "is_correct": false },
+              { "text": "Deviation", "is_correct": false }
+            ],
+            "hint": "It's how much error is allowed.",
+            "explanation": "Tolerance is the amount a dimension is allowed to vary."
+          },
+          {
+            "type": "matching",
+            "question": "Match the types of fit to their descriptions.",
+            "pairs": [
+              { "term": "Clearance fit", "definition": "The shaft is smaller than the hole" },
+              { "term": "Interference fit", "definition": "The shaft is larger than the hole" }
+            ],
+            "hint": "Think about which one allows movement.",
+            "explanation": "Clearance fits allow movement; interference fits are for tight, fixed assemblies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_8",
+    "title": "Unit 8: Numbers and calculations",
+    "lessons": [
+      {
+        "id": "u8_l1",
+        "title": "Calculations and rounding",
+        "theory": "Engineering involves many mathematical operations:\n\n* **Decimals**: Numbers with a point (e.g., 0.05).\n* **Fractions**: Parts of a unit (e.g., 1/100).\n* **Rounding**: Simplifying a number (e.g., 0.6368 rounded to 0.64).\n* **Operations**:\n    * **Addition**: The **sum** (plus).\n    * **Subtraction**: **Subtract** (minus/less).\n    * **Multiplication**: **Multiplied by** (times).\n    * **Division**: **Divided by**.\n    * **Squared**: Multiplied by itself (x²).\n    * **Square root**: The value that, when squared, gives the number (√).",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the math operations to their terms.",
+            "pairs": [
+              { "term": "Addition", "definition": "Plus / Sum" },
+              { "term": "Subtraction", "definition": "Minus / Less" },
+              { "term": "Multiplication", "definition": "Times" },
+              { "term": "Division", "definition": "Divided by" }
+            ],
+            "hint": "Think of basic arithmetic.",
+            "explanation": "These are the four basic arithmetic operations."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_9",
+    "title": "Unit 9: Area, size and mass",
+    "lessons": [
+      {
+        "id": "u9_l1",
+        "title": "Mass, volume and density",
+        "theory": "Key physical properties in engineering:\n\n* **Cross-sectional area**: The area of a 'slice' through an object.\n* **Surface area**: The total area of the outside of an object (important for cooling).\n* **Volume**: The amount of space an object occupies (cubic metres, m³).\n* **Density**: The mass per unit of volume (kg/m³).\n* **Mass**: The amount of matter in an object (always the same).\n* **Weight**: The force exerted on a mass by **gravity** (changes in space).",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "Mass per unit of volume is called ____.",
+            "blanks": [{ "position": 1, "answer": "density" }],
+            "accepted_answers": [["density"]],
+            "hint": "It describes how 'packed' a material is.",
+            "explanation": "Density is a measure of mass per unit volume."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_10",
+    "title": "Unit 10: Measurable parameters",
+    "lessons": [
+      {
+        "id": "u1_l1",
+        "title": "Supply, demand and efficiency",
+        "theory": "Engineering systems must balance resources:\n\n* **Capacity**: The maximum amount a system can supply or hold.\n* **Demand**: The amount needed by users. This often **fluctuates** (changes).\n* **Peak demand**: The time of maximum consumption (e.g., evening for electricity).\n* **Input and Output**: Energy put in vs. energy delivered.\n* **Efficiency**: The ratio of output to input. Inefficient systems waste energy as heat.",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "What is the term for the time when consumption is at its highest?",
+            "options": [
+              { "text": "Peak demand", "is_correct": true },
+              { "text": "Off-peak", "is_correct": false },
+              { "text": "Capacity", "is_correct": false },
+              { "text": "Efficiency", "is_correct": false }
+            ],
+            "hint": "Like the top of a mountain.",
+            "explanation": "Peak demand is the period of highest usage in a system."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "unit_23",
+    "title": "Unit 23: Machining 1",
+    "lessons": [
+      {
+        "id": "u23_l1",
+        "title": "Basic machining techniques",
+        "theory": "Machining involves cutting material (workpieces) into components using machine tools.\n\n* **Swarf/Chips**: Waste metal produced during cutting.\n* **Cutting fluid/Coolant**: Liquid pumped onto the workpiece to keep it cool.\n* **CNC**: Computer Numerical Control, often used with CAD/CAM software.\n\n### Common Techniques\n* **Milling**: Rotating cutting tools move over a fixed workpiece.\n* **Turning**: The workpiece rotates on a **lathe** while a fixed tool cuts it.\n* **Sawing**: Uses a blade to create a **kerf** (gap). Includes bandsaws and hacksaws.\n* **Drilling**: Uses a **drill bit** to make holes. **Boring** is enlarging an existing hole.\n* **Grinding**: Using abrasive wheels to remove material.",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the machining terms.",
+            "pairs": [
+              { "term": "Swarf", "definition": "Waste metal produced during machining" },
+              { "term": "Kerf", "definition": "The gap left by a saw blade" },
+              { "term": "Lathe", "definition": "Machine used for turning workpieces" },
+              { "term": "Boring", "definition": "Enlarging an existing hole" }
+            ],
+            "hint": "Think about waste and specific machines.",
+            "explanation": "These are fundamental terms used in machine shops."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_24",
+    "title": "Unit 24: Machining 2",
+    "lessons": [
+      {
+        "id": "u24_l1",
+        "title": "Advanced cutting techniques",
+        "theory": "### Shearing\n* **Guillotine**: Long blade for straight cuts.\n* **Punching**: Pushing a die through a sheet. **Blanking** makes a workpiece; **piercing** makes holes.\n\n### Thermal and High-Tech Cutting\n* **Flame-cutting**: Uses oxyacetylene (Oxygen + Acetylene) to melt steel.\n* **EDM (Spark erosion)**: An electric arc 'jumps' from a wire to melt metal.\n* **Plasma cutting**: Uses ionized gas (plasma) at extremely high temperatures.\n* **Laser cutting**: Concentrated light melts material accurately.\n* **UHP Waterjets**: High-pressure water cuts without heat, leaving no **HAZ** (Heat-Affected Zone).",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "Which technique uses an electric arc and a wire to melt metal without touching it?",
+            "options": [
+              { "text": "EDM (Spark erosion)", "is_correct": true },
+              { "text": "Laser cutting", "is_correct": false },
+              { "text": "Flame-cutting", "is_correct": false },
+              { "text": "Waterjet cutting", "is_correct": false }
+            ],
+            "hint": "It involves 'sparks'.",
+            "explanation": "Electrical Discharge Machining (EDM) uses electrical sparks to erode metal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_25",
+    "title": "Unit 25: Interconnection",
+    "lessons": [
+      {
+        "id": "u25_l1",
+        "title": "Fitting and supporting",
+        "theory": "Components in assemblies are connected in various ways.\n\n* **Supporting/Anchoring**: A foundation supports a load and anchors it to prevent sliding.\n* **Embedded**: When one part is surrounded and held by another (e.g., bolts in concrete).\n* **Play**: The amount of free movement allowed between parts.\n* **Packers/Shims**: Small wedges used to fill gaps or adjust levels.\n* **Plumbing**: Making a component exactly vertical.\n* **Grout**: Cement used to fill gaps and seal joints.",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "Making a column or wall exactly vertical is called ____ it.",
+            "blanks": [{ "position": 1, "answer": "plumbing" }],
+            "accepted_answers": [["plumbing"]],
+            "hint": "Think of a 'plumb' line.",
+            "explanation": "In engineering, 'plumb' means perfectly vertical."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_26",
+    "title": "Unit 26: Mechanical fasteners 1",
+    "lessons": [
+      {
+        "id": "u26_l1",
+        "title": "Bolts and washers",
+        "theory": "### Bolts\n* **Threads**: Helical grooves on the shaft.\n* **Nut**: Screwed onto the bolt. Usually clockwise (right-hand thread).\n* **Torque**: The turning force applied to tighten a bolt.\n* **Preload (Clamp load)**: The pressing force that holds components together.\n* **HSFG bolts**: High Strength Friction Grip bolts prevent sliding using high preload.\n\n### Washers\n* **Plain/Flat washers**: Spread the load over a wider area.\n* **Spring washers**: (Helical or Conical) maintain preload or absorb shocks.",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the bolting terms to their definitions.",
+            "pairs": [
+              { "term": "Torque", "definition": "The turning force applied to a bolt" },
+              { "term": "Preload", "definition": "The pressing force holding parts together" },
+              { "term": "Clockwise", "definition": "The direction used to tighten most nuts" },
+              { "term": "Washer", "definition": "Used to spread the load of a fastener" }
+            ],
+            "hint": "Think about forces and directions.",
+            "explanation": "These are the standard terms for mechanical fastening with bolts."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_27",
+    "title": "Unit 27: Mechanical fasteners 2",
+    "lessons": [
+      {
+        "id": "u27_l1",
+        "title": "Screws, anchors and rivets",
+        "theory": "### Screws and Anchors\n* **Self-tapping screws**: Cut their own holes.\n* **Set screws (Grub screws)**: Hold parts in place by pressing against them.\n* **Wall plug**: A plastic tube that expands in a hole to resist **pullout forces**.\n* **Chemical anchors**: Threaded studs held in place by **epoxy resin**.\n\n### Rivets\n* **Permanent fasteners**: Cannot be unscrewed.\n* **Solid rivets**: Have a **factory head**; a **shop head** is formed after insertion.\n* **Blind rivets (Pop rivets)**: Can be installed from one side using a rivet gun.",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "Which of these is a permanent fastener that cannot be unscrewed?",
+            "options": [
+              { "text": "Rivet", "is_correct": true },
+              { "text": "Bolt", "is_correct": false },
+              { "text": "Screw", "is_correct": false },
+              { "text": "Anchor", "is_correct": false }
+            ],
+            "hint": "It's used extensively in aircraft skins.",
+            "explanation": "Rivets must be drilled out to be removed, making them permanent."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_28",
+    "title": "Unit 28: Non-mechanical joints 1",
+    "lessons": [
+      {
+        "id": "u28_l1",
+        "title": "Welding techniques",
+        "theory": "Welding uses heat to fuse materials together.\n\n* **Fusion**: Melting and mixing the base metal of two components.\n* **Weld pool**: The molten metal at the joint.\n* **HAZ**: Heat-Affected Zone near the weld.\n\n### Common Techniques\n* **SMAW (Stick)**: Uses a consumable electrode coated in **flux** (produces shielding gas).\n* **GMAW (MIG)**: Uses a consumable wire and an external shielding gas (e.g., Argon).\n* **GTAW (TIG)**: Uses a **non-consumable** tungsten electrode and separate filler rod.",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the welding acronyms.",
+            "pairs": [
+              { "term": "MIG", "definition": "Metal Inert Gas welding" },
+              { "term": "TIG", "definition": "Tungsten Inert Gas welding" },
+              { "term": "Flux", "definition": "Coating that produces shielding gas" },
+              { "term": "Tungsten", "definition": "A non-consumable electrode material" }
+            ],
+            "hint": "Think about the type of electrode and gas.",
+            "explanation": "MIG and TIG are the most common industrial welding processes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_29",
+    "title": "Unit 29: Non-mechanical joints 2",
+    "lessons": [
+      {
+        "id": "u29_l1",
+        "title": "Brazing, soldering and adhesives",
+        "theory": "### Brazing and Soldering\n* **Brazing**: Uses a brass filler (Copper + Zinc). Does not melt the base metal.\n* **Soldering**: Uses a low-temperature filler (Solder). **Soft soldering** uses a soldering iron.\n\n### Adhesives (Glue)\n* **Adhere/Bond**: Joining surfaces. \n* **Mechanical bond**: Adhesive is absorbed into the **substrate**.\n* **Curing**: Hardening due to a chemical reaction (e.g., **two-part** epoxy resins).\n* **Solvent**: Liquid in the adhesive that evaporates during drying.",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "Joining metal with a brass filler without melting the base metal is called ____.",
+            "blanks": [{ "position": 1, "answer": "brazing" }],
+            "accepted_answers": [["brazing"]],
+            "hint": "It sounds like 'brass'.",
+            "explanation": "Brazing is stronger than soldering but weaker than welding."
+          }
+        ]
+      }
+    ]
+  }
+]

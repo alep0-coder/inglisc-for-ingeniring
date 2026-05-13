@@ -1,0 +1,106 @@
+[
+  {
+    "id": "unit_12",
+    "title": "Unit 12: Steel",
+    "lessons": [
+      {
+        "id": "u12_l1",
+        "title": "Carbon and alloy steels",
+        "theory": "Steel is the most widely used engineering material. It is an alloy of iron (Fe) and carbon (C).\n\n### Carbon Steels\n* **Mild steel**: Low carbon (up to 0.3%). Most widely used.\n* **Medium carbon steel**: 0.3% - 0.6% carbon.\n* **High carbon steel**: 0.6% - 1.4% carbon. Very hard.\n\n### Alloy Steels\n* **Stainless steel**: Contains chromium (Cr) and nickel (Ni). Does not rust.\n* **Tool steel**: Extremely hard, contains tungsten (W) or cobalt (Co).\n* **High-speed steel**: Used for cutting tools that get hot (e.g., drill bits).",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "Steel that contains chromium and does not rust is called ____ steel.",
+            "blanks": [{ "position": 1, "answer": "stainless" }],
+            "accepted_answers": [["stainless"]],
+            "hint": "It 'stays' clean.",
+            "explanation": "Stainless steel is resistant to corrosion due to its chromium content."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Which grade of carbon steel is most commonly used in engineering?",
+            "options": [
+              { "text": "Mild steel", "is_correct": true },
+              { "text": "High carbon steel", "is_correct": false },
+              { "text": "Tool steel", "is_correct": false },
+              { "text": "Medium carbon steel", "is_correct": false }
+            ],
+            "hint": "It has low carbon content.",
+            "explanation": "Mild steel is the most common grade due to its balance of properties and cost."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_13",
+    "title": "Unit 13: Non-ferrous metals",
+    "lessons": [
+      {
+        "id": "u13_l1",
+        "title": "Common non-ferrous metals and plating",
+        "theory": "Non-ferrous metals do not contain iron.\n\n* **Aluminium (Al)**: Lightweight. **Duralumin** is a common alloy for aircraft.\n* **Copper (Cu)**: Excellent conductor. Alloys include **brass** (Cu + Zinc) and **bronze** (Cu + Tin).\n* **Precious metals**: Gold (Au) and Silver (Ag). Highly conductive and corrosion-resistant.\n\n### Plating and Protection\n* **Galvanizing**: Coating steel with **zinc** (molten or electro-galvanized).\n* **Anodizing**: Protecting aluminium by depositing a hard oxide layer.\n* **Electroplating**: Using an electrolyte and electric current (Anode is +, Cathode is -).",
+        "exercises": [
+          {
+            "type": "matching",
+            "question": "Match the plating process to the metal used or protected.",
+            "pairs": [
+              { "term": "Galvanizing", "definition": "Coating steel with zinc" },
+              { "term": "Anodizing", "definition": "Protecting aluminium with an oxide layer" },
+              { "term": "Brass", "definition": "An alloy of copper and zinc" },
+              { "term": "Bronze", "definition": "An alloy of copper and tin" }
+            ],
+            "hint": "Think about the chemical compositions.",
+            "explanation": "These are common terms for metal alloys and protection methods."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_14",
+    "title": "Unit 14: Polymers",
+    "lessons": [
+      {
+        "id": "u14_l1",
+        "title": "Thermoplastics and thermosets",
+        "theory": "Polymers are usually called **plastics**. They consist of long chains of atoms.\n\n* **Thermoplastics**: Can be melted and reshaped multiple times (e.g., ABS, PVC, Polycarbonate).\n* **Thermosetting plastics (Thermosets)**: Set permanently after heating or mixing. They cannot be remelted (e.g., Epoxy resins).\n* **Elastomers**: Very elastic polymers (like rubber) that return to their original length after being stretched.\n* **Natural polymers**: Like rubber from **latex**.",
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "Which type of plastic can be heated and moulded numerous times?",
+            "options": [
+              { "text": "Thermoplastics", "is_correct": true },
+              { "text": "Thermosetting plastics", "is_correct": false },
+              { "text": "Epoxy resins", "is_correct": false },
+              { "text": "Polyimides", "is_correct": false }
+            ],
+            "hint": "Think of 'thermo' + 'plastic' (formable).",
+            "explanation": "Thermoplastics soften when heated and can be reshaped."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unit_15",
+    "title": "Unit 15: Minerals and ceramics",
+    "lessons": [
+      {
+        "id": "u15_l1",
+        "title": "Ceramics and Glass",
+        "theory": "### Minerals and Ceramics\n* **Minerals**: Inorganic materials found in the ground (e.g., diamond, silicon).\n* **Ceramics**: Inorganic materials formed by heating (firing in a **kiln**).\n* **Vitrified**: Materials with a glass-like structure.\n\n### Types of Glass\n* **Float glass**: Flat sheets of glass.\n* **Annealed glass**: Cooled slowly, but breaks into sharp pieces.\n* **Safety glass**:\n    * **Toughened/Tempered glass**: Shatters into tiny pieces.\n    * **Laminated glass**: A 'sandwich' of glass and polymer. Broken pieces are held together.",
+        "exercises": [
+          {
+            "type": "fill_in_the_blank",
+            "question": "Safety glass made of a glass and polymer 'sandwich' is called ____ glass.",
+            "blanks": [{ "position": 1, "answer": "laminated" }],
+            "accepted_answers": [["laminated"]],
+            "hint": "It has layers.",
+            "explanation": "Laminated glass holds together when shattered, making it ideal for windscreens."
+          }
+        ]
+      }
+    ]
+  }
+]

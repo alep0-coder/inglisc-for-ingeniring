@@ -1,0 +1,63 @@
+{
+  "id": "unit_2",
+  "title": "Unit 2: Design development",
+  "lessons": [
+    {
+      "id": "u2_l1",
+      "title": "Initial design phase",
+      "theory": "The design process begins with a **design brief** – a list of essential requirements from the client. \n\nFrom this brief, designers create a **concept** (an overall design idea) and produce **rough sketches** (hand-drawn illustrations). As the design develops, these sketches are refined into **preliminary drawings** which can be assessed in more detail.",
+      "exercises": [
+        {
+          "type": "fill_in_the_blank",
+          "question": "An overall design idea is called a ____.",
+          "blanks": [{ "position": 1, "answer": "concept" }],
+          "accepted_answers": [["concept"]],
+          "hint": "It's the big idea at the start.",
+          "explanation": "A concept is the initial overall design idea."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What are the first rough, hand-drawn illustrations called?",
+          "options": [
+            { "text": "Sketches", "is_correct": true },
+            { "text": "CAD drawings", "is_correct": false },
+            { "text": "Working drawings", "is_correct": false },
+            { "text": "Specifications", "is_correct": false }
+          ],
+          "hint": "They are usually drawn by hand.",
+          "explanation": "Sketches are rough, hand-drawn illustrations used in the early stages."
+        }
+      ]
+    },
+    {
+      "id": "u2_l2",
+      "title": "Collaborative development",
+      "theory": "In large projects, drawings are **circulated** (distributed) to the team. They are often **revised** or **amended** (changed) following comments. \n\nEach revision is numbered. For example, drawing 110A becomes 110B. Revision B is then the **current** drawing, and A is **superseded** (replaced). \n\nOnce a preliminary drawing is approved, a senior engineer will **sign off** (authorize) it, turning it into a **working drawing** that the production or construction team can use.",
+      "exercises": [
+        {
+          "type": "matching",
+          "question": "Match the engineering verbs to their meanings.",
+          "pairs": [
+            { "term": "Revise", "definition": "Change or amend" },
+            { "term": "Supersede", "definition": "Replace with a newer version" },
+            { "term": "Sign off", "definition": "Authorize or approve" }
+          ],
+          "hint": "Think about the lifecycle of a drawing.",
+          "explanation": "Drawings are revised, old versions are superseded, and final ones are signed off."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is a drawing called when it is ready for the construction team to use?",
+          "options": [
+            { "text": "Working drawing", "is_correct": true },
+            { "text": "Preliminary drawing", "is_correct": false },
+            { "text": "Rough sketch", "is_correct": false },
+            { "text": "Concept drawing", "is_correct": false }
+          ],
+          "hint": "It's the one they 'work' to.",
+          "explanation": "A working drawing is the authorized version used for actual production or construction."
+        }
+      ]
+    }
+  ]
+}
