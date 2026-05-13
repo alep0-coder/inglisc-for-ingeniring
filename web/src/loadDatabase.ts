@@ -1,8 +1,7 @@
 import type { UnitDatabase } from './types'
 
 export async function loadDatabase(): Promise<UnitDatabase> {
-  const dbUrl = new URL('./unit_database.json', import.meta.url).href;
-  const res = await fetch(dbUrl, { cache: 'no-store' })
+  const res = await fetch('./unit_database.json', { cache: 'no-store' })
   if (!res.ok) {
     throw new Error(`Failed to load unit_database.json (${res.status})`)
   }

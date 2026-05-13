@@ -726,6 +726,14 @@ export default function App() {
             </div>
           )
         })}
+        {showAuth && (
+          <AuthOverlay 
+            onClose={() => setShowAuth(false)} 
+            onSuccess={(uid) => {
+              console.log('User authenticated:', uid)
+            }} 
+          />
+        )}
       </div>
     )
   }
@@ -783,6 +791,14 @@ export default function App() {
         <button className="back-btn" onClick={goHome} style={{ alignSelf: 'flex-start' }}>
           ← Back to units
         </button>
+        {showAuth && (
+          <AuthOverlay 
+            onClose={() => setShowAuth(false)} 
+            onSuccess={(uid) => {
+              console.log('User authenticated:', uid)
+            }} 
+          />
+        )}
       </div>
     )
   }
@@ -831,6 +847,14 @@ export default function App() {
             ← More lessons
           </button>
         </div>
+        {showAuth && (
+          <AuthOverlay 
+            onClose={() => setShowAuth(false)} 
+            onSuccess={(uid) => {
+              console.log('User authenticated:', uid)
+            }} 
+          />
+        )}
       </div>
     )
   }
