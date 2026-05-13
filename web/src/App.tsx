@@ -173,7 +173,6 @@ export default function App() {
   // Auth & Sync state
   const [user, setUser] = useState<User | null>(null)
   const [showAuth, setShowAuth] = useState(false)
-  const [isSyncing, setIsSyncing] = useState(false)
 
   const inputRefs = useRef<(HTMLInputElement | null)[]>([])
   const optionsRef = useRef<HTMLDivElement>(null)
@@ -246,6 +245,9 @@ export default function App() {
     return () => unsubscribe()
   }, [])
 
+  const [isSyncing, setIsSyncing] = useState(false)
+  const syncTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+
   const handleManualSync = async () => {
     if (!user || !auth) return
     setIsSyncing(true)
@@ -257,6 +259,21 @@ export default function App() {
     } finally {
       setIsSyncing(false)
     }
+  }
+
+  const debouncedSync = (data: any) => {
+    if (!user) return
+    if (syncTimeoutRef.current) clearTimeout(syncTimeoutRef.current)
+    
+    setIsSyncing(true)
+    syncTimeoutRef.current = setTimeout(async () => {
+      try {
+        await uploadProgress(user.uid, data)
+      } finally {
+        setIsSyncing(false)
+        syncTimeoutRef.current = null
+      }
+    }, 2000) // Wait 2 seconds of inactivity before syncing
   }
 
   // Ref to hold latest state for back gesture
@@ -393,9 +410,9 @@ export default function App() {
 
     // Sync to cloud if logged in
 
-    // Sync to cloud if logged in
+    // Sync to cloud silently if logged in
     if (user) {
-      uploadProgress(user.uid, updated)
+      debouncedSync(updated)
     }
   }
 
@@ -685,7 +702,7 @@ export default function App() {
               <div className="user-details">
                 <span className="user-name">{user.displayName || user.email?.split('@')[0]}</span>
                 <span className={`sync-status ${isSyncing ? 'syncing' : ''}`}>
-                  {isSyncing ? 'Synchronizing...' : 'Progress saved'}
+                  {isSyncing ? 'Saving to cloud...' : 'Up to date'}
                 </span>
               </div>
               <div className="user-actions">
