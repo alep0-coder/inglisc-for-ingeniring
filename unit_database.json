@@ -1,0 +1,1680 @@
+{
+  "units": [
+    {
+      "id": "unit_1",
+      "title": "Unit 1: Drawings",
+      "lessons": [
+        {
+          "id": "u1_l1",
+          "title": "Drawing types and scales",
+          "theory": "In engineering, most design information is shown on **drawings**. Today, drawings are generally produced on computer using **CAD (computer-aided design)** systems. \n\nA key factor on a drawing is the **scale** - the size of items on the drawing in relation to their real size. When all items are shown relative to their real size, the drawing is a **scale drawing**. \n\n### Types of Drawings\n* **General arrangement (GA)**: Show whole devices or structures using a small scale (e.g., 1:100).\n* **Detail drawings**: Show parts in detail using a large scale (e.g., 1:5 or 1:2).\n* **Schematic drawings (schematics)**: Simplified forms used for electrical circuits and pipe networks.\n\nNote: 'Drawing' is often abbreviated to **dwg**.",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "Enlarged drawings show components larger than their ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "actual size"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "actual size"
+                ]
+              ],
+              "hint": "Their real size.",
+              "explanation": "Drawings can be actual size, enlarged, or reduced scale."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "For engineering drawings, 1:5 is a commonly used ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "scale"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "scale"
+                ]
+              ],
+              "hint": "The ratio between drawing and real size.",
+              "explanation": "Scale determines how much an object is reduced or enlarged on paper."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Whole machines or structures are shown on ____ drawings.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "general arrangement"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "general arrangement"
+                ],
+                [
+                  "GA"
+                ]
+              ],
+              "hint": "They show the overall layout.",
+              "explanation": "General arrangement (GA) drawings show the whole assembly."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Electrical drawings don't usually show sizes. They're shown as ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "schematics"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "schematics"
+                ],
+                [
+                  "schematic drawings"
+                ]
+              ],
+              "hint": "Simplified diagrams.",
+              "explanation": "Schematics are simplified forms of networks or circuits."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does CAD stand for?",
+              "options": [
+                {
+                  "text": "Computer-Aided Design",
+                  "is_correct": true
+                },
+                {
+                  "text": "Computer-Aided Drawing",
+                  "is_correct": false
+                },
+                {
+                  "text": "Calculation and Design",
+                  "is_correct": false
+                },
+                {
+                  "text": "Controlled Automated Design",
+                  "is_correct": false
+                }
+              ],
+              "hint": "C-A-D",
+              "explanation": "CAD is Computer-Aided Design."
+            }
+          ]
+        },
+        {
+          "id": "u1_l2",
+          "title": "Types of views used on drawings",
+          "theory": "Engineers use different **views** to visualize components from various angles:\n\n* **Plan**: A view from above (looking down).\n* **Elevation**: A view from the side (e.g., front elevation).\n* **Section (cross-section)**: A view inside an object, as if it were cut through.\n* **Exploded view**: A 3D view showing components spaced out (taken to pieces).\n* **3D views**: Often shown as **oblique projections** or **isometric projections**.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the description of the view with its name.",
+              "pairs": [
+                {
+                  "term": "Plan",
+                  "definition": "2D view looking down on top of an object"
+                },
+                {
+                  "term": "Section",
+                  "definition": "2D view inside an object, as if cut through"
+                },
+                {
+                  "term": "Elevation",
+                  "definition": "2D view of the side of an object"
+                },
+                {
+                  "term": "Exploded view",
+                  "definition": "3D view showing an assembly taken to pieces"
+                },
+                {
+                  "term": "Isometric",
+                  "definition": "3D view with a corner of the object at the front"
+                },
+                {
+                  "term": "Oblique",
+                  "definition": "3D view with the 2D face of the object at the front"
+                }
+              ],
+              "hint": "Think about the angle and perspective.",
+              "explanation": "Each view provides a specific perspective for understanding the geometry."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "A view showing components spaced out is an ____ view.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "exploded"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "exploded"
+                ]
+              ],
+              "hint": "Like it has 'exploded'.",
+              "explanation": "An exploded view helps visualize how parts fit together."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_2",
+      "title": "Unit 2: Design development",
+      "lessons": [
+        {
+          "id": "u2_l1",
+          "title": "Initial design phase",
+          "theory": "The design process begins with a **design brief** – a list of essential requirements from the client. \n\nFrom this brief, designers create a **concept** (an overall design idea) and produce **rough sketches** (hand-drawn illustrations). As the design develops, these sketches are refined into **preliminary drawings** which can be assessed in more detail.",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "An overall design idea is called a ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "concept"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "concept"
+                ]
+              ],
+              "hint": "It's the big idea at the start.",
+              "explanation": "A concept is the initial overall design idea."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the first rough, hand-drawn illustrations called?",
+              "options": [
+                {
+                  "text": "Sketches",
+                  "is_correct": true
+                },
+                {
+                  "text": "CAD drawings",
+                  "is_correct": false
+                },
+                {
+                  "text": "Working drawings",
+                  "is_correct": false
+                },
+                {
+                  "text": "Specifications",
+                  "is_correct": false
+                }
+              ],
+              "hint": "They are usually drawn by hand.",
+              "explanation": "Sketches are rough, hand-drawn illustrations used in the early stages."
+            }
+          ]
+        },
+        {
+          "id": "u2_l2",
+          "title": "Collaborative development",
+          "theory": "In large projects, drawings are **circulated** (distributed) to the team. They are often **revised** or **amended** (changed) following comments. \n\nEach revision is numbered. For example, drawing 110A becomes 110B. Revision B is then the **current** drawing, and A is **superseded** (replaced). \n\nOnce a preliminary drawing is approved, a senior engineer will **sign off** (authorize) it, turning it into a **working drawing** that the production or construction team can use.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the engineering verbs to their meanings.",
+              "pairs": [
+                {
+                  "term": "Revise",
+                  "definition": "Change or amend"
+                },
+                {
+                  "term": "Supersede",
+                  "definition": "Replace with a newer version"
+                },
+                {
+                  "term": "Sign off",
+                  "definition": "Authorize or approve"
+                }
+              ],
+              "hint": "Think about the lifecycle of a drawing.",
+              "explanation": "Drawings are revised, old versions are superseded, and final ones are signed off."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a drawing called when it is ready for the construction team to use?",
+              "options": [
+                {
+                  "text": "Working drawing",
+                  "is_correct": true
+                },
+                {
+                  "text": "Preliminary drawing",
+                  "is_correct": false
+                },
+                {
+                  "text": "Rough sketch",
+                  "is_correct": false
+                },
+                {
+                  "text": "Concept drawing",
+                  "is_correct": false
+                }
+              ],
+              "hint": "It's the one they 'work' to.",
+              "explanation": "A working drawing is the authorized version used for actual production or construction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_3",
+      "title": "Unit 3: Design solutions",
+      "lessons": [
+        {
+          "id": "u3_l1",
+          "title": "Design objectives",
+          "theory": "A **design brief** consists of several key elements:\n\n* **Function**: The product's intended use (what it is designed to do).\n* **Constraints**: Limits on the design (e.g., maximum size or weight).\n* **Comparative targets**: How well it performs compared with existing models.\n* **Design features**: Specific things the design must have (e.g., a lock).\n* **Budget**: The cost limits that must not be exceeded.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the term for limits on a design, such as maximum weight?",
+              "options": [
+                {
+                  "text": "Constraints",
+                  "is_correct": true
+                },
+                {
+                  "text": "Functions",
+                  "is_correct": false
+                },
+                {
+                  "text": "Budgets",
+                  "is_correct": false
+                },
+                {
+                  "text": "Features",
+                  "is_correct": false
+                }
+              ],
+              "hint": "They 'constrain' the design.",
+              "explanation": "Constraints are the limits or restrictions placed on a design."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "The product's intended use is called its ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "function"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "function"
+                ]
+              ],
+              "hint": "What it 'does'.",
+              "explanation": "Function describes the purpose or intended use of a product."
+            }
+          ]
+        },
+        {
+          "id": "u3_l2",
+          "title": "Design calculations",
+          "theory": "Engineers provide technical requirements in **specifications**. They must **determine** (identify) and **quantify** (calculate) the **loads** (forces) that components will carry. \n\nCalculations are usually based on a **worst-case scenario** (the maximum possible load). After quantifying these loads, engineers apply a **factor of safety** – an extra margin to ensure the component is strong enough.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the engineering verbs to their definitions.",
+              "pairs": [
+                {
+                  "term": "Determine",
+                  "definition": "Identify"
+                },
+                {
+                  "term": "Quantify",
+                  "definition": "Calculate in number form"
+                },
+                {
+                  "term": "Size",
+                  "definition": "Calculate required dimensions"
+                }
+              ],
+              "hint": "Think about the calculation process.",
+              "explanation": "Engineers determine loads, quantify them, and then size the components."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the extra margin added to ensure a component doesn't fail?",
+              "options": [
+                {
+                  "text": "Factor of safety",
+                  "is_correct": true
+                },
+                {
+                  "text": "Worst-case scenario",
+                  "is_correct": false
+                },
+                {
+                  "text": "Specification",
+                  "is_correct": false
+                },
+                {
+                  "text": "Budget",
+                  "is_correct": false
+                }
+              ],
+              "hint": "It's a 'factor' for 'safety'.",
+              "explanation": "A factor of safety provides an extra margin of strength beyond the predicted loads."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_4",
+      "title": "Unit 4: Horizontal and vertical measurements",
+      "lessons": [
+        {
+          "id": "u4_l1",
+          "title": "Linear dimensions",
+          "theory": "Engineers use specific terms for linear dimensions:\n\n* **Overall length**: Total measurement from front to rear.\n* **Wingspan**: Total distance spanned by both wings.\n* **Overall height**: How tall an object is from the ground to the top.\n* **Width**: Measurement from side to side.\n* **Thickness**: The external or internal dimension of a wall or component.\n* **Span**: The distance between supports (e.g., in a bridge).\n\nPlanes are imaginary surfaces shown as lines on drawings. They strike (touch) the faces of components.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the total distance between the wingtips of an aircraft?",
+              "options": [
+                {
+                  "text": "Wingspan",
+                  "is_correct": true
+                },
+                {
+                  "text": "Overall length",
+                  "is_correct": false
+                },
+                {
+                  "text": "Overall height",
+                  "is_correct": false
+                },
+                {
+                  "text": "Thickness",
+                  "is_correct": false
+                }
+              ],
+              "hint": "It 'spans' the wings.",
+              "explanation": "Wingspan is the standard term for the total distance from wingtip to wingtip."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "The distance between the supports of a bridge is called the ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "span"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "span"
+                ]
+              ],
+              "hint": "It spans across the gap.",
+              "explanation": "A span is the distance crossed by a bridge between its supports."
+            }
+          ]
+        },
+        {
+          "id": "u4_l2",
+          "title": "Level and plumb",
+          "theory": "Measurements are taken along horizontal or vertical planes.\n\n* **Level**: A surface that is both horizontal and flat (smooth).\n* **Flat**: A surface that is smooth, but not necessarily horizontal (it could be vertical or **inclined**).\n* **Plumb**: Faces that are perfectly vertical (like the walls of a building).\n* **Out of plumb**: Structures that are slightly inclined from the vertical.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the terms to their engineering meanings.",
+              "pairs": [
+                {
+                  "term": "Level",
+                  "definition": "Horizontal and flat"
+                },
+                {
+                  "term": "Plumb",
+                  "definition": "Perfectly vertical"
+                },
+                {
+                  "term": "Inclined",
+                  "definition": "Sloping at an angle"
+                },
+                {
+                  "term": "Out of plumb",
+                  "definition": "Not perfectly vertical"
+                }
+              ],
+              "hint": "Think about orientations.",
+              "explanation": "Level and plumb are the basic horizontal and vertical alignments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_5",
+      "title": "Unit 5: Locating and setting out",
+      "lessons": [
+        {
+          "id": "u5_l1",
+          "title": "Centrelines and offsets",
+          "theory": "To locate positions, engineers use reference lines:\n\n* **Centreline (CL)**: A line through the centre of a hole or component.\n* **Centre-to-centre (c/c)**: The distance between the centrelines of two components.\n* **Offset**: A measurement taken at a **right-angle** (90 degrees) to a centreline.\n\nDistances can be shown as **running dimensions** (measured from a single point) or **chain dimensions** (measured from one centre to the next).",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "Distances between centrelines are called ____ dimensions.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "centre-to-centre"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "centre-to-centre"
+                ],
+                [
+                  "c/c"
+                ]
+              ],
+              "hint": "C-to-C",
+              "explanation": "Centre-to-centre dimensions are standard for spacing holes or columns."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a measurement taken at 90 degrees to a centreline called?",
+              "options": [
+                {
+                  "text": "Offset",
+                  "is_correct": true
+                },
+                {
+                  "text": "Running dimension",
+                  "is_correct": false
+                },
+                {
+                  "text": "Chain dimension",
+                  "is_correct": false
+                },
+                {
+                  "text": "Gridline",
+                  "is_correct": false
+                }
+              ],
+              "hint": "It is 'set off' from the line.",
+              "explanation": "An offset is a perpendicular measurement from a reference line."
+            }
+          ]
+        },
+        {
+          "id": "u5_l2",
+          "title": "Grids",
+          "theory": "In large designs, **grids** are used for horizontal positioning. \n\n* **Gridlines**: Numbered and lettered lines that run **parallel** to one another. \n* **Perpendicular**: Gridlines run at right-angles to each other.\n* **Intersect**: Where gridlines cross (usually at the centres of columns).\n* **Set out**: To mark the position of components on site by **squaring off** the gridlines.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the grid-related terms to their definitions.",
+              "pairs": [
+                {
+                  "term": "Parallel",
+                  "definition": "Straight lines that are regular distances apart"
+                },
+                {
+                  "term": "Perpendicular",
+                  "definition": "Lines at a right-angle (90 degrees)"
+                },
+                {
+                  "term": "Intersect",
+                  "definition": "To cross at a specific point"
+                },
+                {
+                  "term": "Set out",
+                  "definition": "To mark positions on a site"
+                }
+              ],
+              "hint": "Think about geometry.",
+              "explanation": "Grids rely on parallel and perpendicular lines to locate points accurately."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_6",
+      "title": "Unit 6: Dimensions of circles",
+      "lessons": [
+        {
+          "id": "u6_l1",
+          "title": "Key dimensions of circles",
+          "theory": "When discussing circles (like tyres or pipes), engineers use these terms:\n\n* **Diameter**: The distance across a circle passing through the centre. \n* **Radius**: The distance from the centre to the edge (half the diameter).\n* **Centre**: The exact middle point of the circle.\n* **Concentric circles**: Two or more circles with the same centre point.\n* **Circumference**: The distance all the way around the outside of the circle.",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "The distance from the centre of a circle to its edge is the ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "radius"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "radius"
+                ]
+              ],
+              "hint": "It's half the diameter.",
+              "explanation": "The radius is the distance from the centre point to any point on the circumference."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are circles that share the same centre point called?",
+              "options": [
+                {
+                  "text": "Concentric circles",
+                  "is_correct": true
+                },
+                {
+                  "text": "Parallel circles",
+                  "is_correct": false
+                },
+                {
+                  "text": "Circumferences",
+                  "is_correct": false
+                },
+                {
+                  "text": "Diameters",
+                  "is_correct": false
+                }
+              ],
+              "hint": "They have a common centre.",
+              "explanation": "Concentric circles have the same centre but different diameters."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_7",
+      "title": "Unit 7: Dimensional accuracy",
+      "lessons": [
+        {
+          "id": "u7_l1",
+          "title": "Precision and tolerance",
+          "theory": "No part can be manufactured to an absolutely perfect dimension. Engineers use:\n\n* **Precision**: The level of accuracy required.\n* **Tolerance**: The permissible variation in a dimension (e.g., +/- 0.05 mm).\n* **Tolerance range**: The total difference between the maximum and minimum permitted sizes.\n* **Fit**: How two parts go together.\n    * **Clearance fit**: The hole is slightly larger than the shaft (it can rotate).\n    * **Interference fit**: The shaft is slightly larger than the hole (it must be forced in).",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the permissible variation in a dimension called?",
+              "options": [
+                {
+                  "text": "Tolerance",
+                  "is_correct": true
+                },
+                {
+                  "text": "Precision",
+                  "is_correct": false
+                },
+                {
+                  "text": "Clearance",
+                  "is_correct": false
+                },
+                {
+                  "text": "Deviation",
+                  "is_correct": false
+                }
+              ],
+              "hint": "It's how much error is allowed.",
+              "explanation": "Tolerance is the amount a dimension is allowed to vary."
+            },
+            {
+              "type": "matching",
+              "question": "Match the types of fit to their descriptions.",
+              "pairs": [
+                {
+                  "term": "Clearance fit",
+                  "definition": "The shaft is smaller than the hole"
+                },
+                {
+                  "term": "Interference fit",
+                  "definition": "The shaft is larger than the hole"
+                }
+              ],
+              "hint": "Think about which one allows movement.",
+              "explanation": "Clearance fits allow movement; interference fits are for tight, fixed assemblies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_8",
+      "title": "Unit 8: Numbers and calculations",
+      "lessons": [
+        {
+          "id": "u8_l1",
+          "title": "Calculations and rounding",
+          "theory": "Engineering involves many mathematical operations:\n\n* **Decimals**: Numbers with a point (e.g., 0.05).\n* **Fractions**: Parts of a unit (e.g., 1/100).\n* **Rounding**: Simplifying a number (e.g., 0.6368 rounded to 0.64).\n* **Operations**:\n    * **Addition**: The **sum** (plus).\n    * **Subtraction**: **Subtract** (minus/less).\n    * **Multiplication**: **Multiplied by** (times).\n    * **Division**: **Divided by**.\n    * **Squared**: Multiplied by itself (x²).\n    * **Square root**: The value that, when squared, gives the number (√).",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the math operations to their terms.",
+              "pairs": [
+                {
+                  "term": "Addition",
+                  "definition": "Plus / Sum"
+                },
+                {
+                  "term": "Subtraction",
+                  "definition": "Minus / Less"
+                },
+                {
+                  "term": "Multiplication",
+                  "definition": "Times"
+                },
+                {
+                  "term": "Division",
+                  "definition": "Divided by"
+                }
+              ],
+              "hint": "Think of basic arithmetic.",
+              "explanation": "These are the four basic arithmetic operations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_9",
+      "title": "Unit 9: Area, size and mass",
+      "lessons": [
+        {
+          "id": "u9_l1",
+          "title": "Mass, volume and density",
+          "theory": "Key physical properties in engineering:\n\n* **Cross-sectional area**: The area of a 'slice' through an object.\n* **Surface area**: The total area of the outside of an object (important for cooling).\n* **Volume**: The amount of space an object occupies (cubic metres, m³).\n* **Density**: The mass per unit of volume (kg/m³).\n* **Mass**: The amount of matter in an object (always the same).\n* **Weight**: The force exerted on a mass by **gravity** (changes in space).",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "Mass per unit of volume is called ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "density"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "density"
+                ]
+              ],
+              "hint": "It describes how 'packed' a material is.",
+              "explanation": "Density is a measure of mass per unit volume."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_10",
+      "title": "Unit 10: Measurable parameters",
+      "lessons": [
+        {
+          "id": "u1_l1",
+          "title": "Supply, demand and efficiency",
+          "theory": "Engineering systems must balance resources:\n\n* **Capacity**: The maximum amount a system can supply or hold.\n* **Demand**: The amount needed by users. This often **fluctuates** (changes).\n* **Peak demand**: The time of maximum consumption (e.g., evening for electricity).\n* **Input and Output**: Energy put in vs. energy delivered.\n* **Efficiency**: The ratio of output to input. Inefficient systems waste energy as heat.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the term for the time when consumption is at its highest?",
+              "options": [
+                {
+                  "text": "Peak demand",
+                  "is_correct": true
+                },
+                {
+                  "text": "Off-peak",
+                  "is_correct": false
+                },
+                {
+                  "text": "Capacity",
+                  "is_correct": false
+                },
+                {
+                  "text": "Efficiency",
+                  "is_correct": false
+                }
+              ],
+              "hint": "Like the top of a mountain.",
+              "explanation": "Peak demand is the period of highest usage in a system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_11",
+      "title": "Unit 11: Material types",
+      "lessons": [
+        {
+          "id": "u11_l1",
+          "title": "Metals, elements and composites",
+          "theory": "Materials in engineering are categorized into several types:\n\n* **Metals**: Divided into **ferrous** (contain iron) and **non-ferrous** (do not contain iron).\n* **Elements**: Pure materials (e.g., iron, carbon, aluminium).\n* **Compounds**: Elements that are **chemically bound** (e.g., water).\n* **Mixtures / Alloys**: Metals mixed with other elements (e.g., **steel** is an iron-carbon alloy).\n* **Composite materials**: Consist of a **matrix** (surrounding material) and a **reinforcement** (structural network). Example: Glass-reinforced plastic (GRP).",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a metal that contains iron called?",
+              "options": [
+                {
+                  "text": "Ferrous metal",
+                  "is_correct": true
+                },
+                {
+                  "text": "Non-ferrous metal",
+                  "is_correct": false
+                },
+                {
+                  "text": "Composite",
+                  "is_correct": false
+                },
+                {
+                  "text": "Alloy",
+                  "is_correct": false
+                }
+              ],
+              "hint": "Think of 'ferrum'.",
+              "explanation": "Ferrous metals contain iron as their main constituent."
+            },
+            {
+              "type": "matching",
+              "question": "Match the composite material terms.",
+              "pairs": [
+                {
+                  "term": "Matrix",
+                  "definition": "The material surrounding the reinforcement"
+                },
+                {
+                  "term": "Reinforcement",
+                  "definition": "The structural network inside"
+                }
+              ],
+              "hint": "Think about what 'surrounds' what.",
+              "explanation": "In a composite, the matrix holds the reinforcement in place."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_12",
+      "title": "Unit 12: Steel",
+      "lessons": [
+        {
+          "id": "u12_l1",
+          "title": "Carbon and alloy steels",
+          "theory": "Steel is the most widely used engineering material. It is an alloy of iron (Fe) and carbon (C).\n\n### Carbon Steels\n* **Mild steel**: Low carbon (up to 0.3%). Most widely used.\n* **Medium carbon steel**: 0.3% - 0.6% carbon.\n* **High carbon steel**: 0.6% - 1.4% carbon. Very hard.\n\n### Alloy Steels\n* **Stainless steel**: Contains chromium (Cr) and nickel (Ni). Does not rust.\n* **Tool steel**: Extremely hard, contains tungsten (W) or cobalt (Co).\n* **High-speed steel**: Used for cutting tools that get hot (e.g., drill bits).",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "Steel that contains chromium and does not rust is called ____ steel.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "stainless"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "stainless"
+                ]
+              ],
+              "hint": "It 'stays' clean.",
+              "explanation": "Stainless steel is resistant to corrosion due to its chromium content."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which grade of carbon steel is most commonly used in engineering?",
+              "options": [
+                {
+                  "text": "Mild steel",
+                  "is_correct": true
+                },
+                {
+                  "text": "High carbon steel",
+                  "is_correct": false
+                },
+                {
+                  "text": "Tool steel",
+                  "is_correct": false
+                },
+                {
+                  "text": "Medium carbon steel",
+                  "is_correct": false
+                }
+              ],
+              "hint": "It has low carbon content.",
+              "explanation": "Mild steel is the most common grade due to its balance of properties and cost."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_13",
+      "title": "Unit 13: Non-ferrous metals",
+      "lessons": [
+        {
+          "id": "u13_l1",
+          "title": "Common non-ferrous metals and plating",
+          "theory": "Non-ferrous metals do not contain iron.\n\n* **Aluminium (Al)**: Lightweight. **Duralumin** is a common alloy for aircraft.\n* **Copper (Cu)**: Excellent conductor. Alloys include **brass** (Cu + Zinc) and **bronze** (Cu + Tin).\n* **Precious metals**: Gold (Au) and Silver (Ag). Highly conductive and corrosion-resistant.\n\n### Plating and Protection\n* **Galvanizing**: Coating steel with **zinc** (molten or electro-galvanized).\n* **Anodizing**: Protecting aluminium by depositing a hard oxide layer.\n* **Electroplating**: Using an electrolyte and electric current (Anode is +, Cathode is -).",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the plating process to the metal used or protected.",
+              "pairs": [
+                {
+                  "term": "Galvanizing",
+                  "definition": "Coating steel with zinc"
+                },
+                {
+                  "term": "Anodizing",
+                  "definition": "Protecting aluminium with an oxide layer"
+                },
+                {
+                  "term": "Brass",
+                  "definition": "An alloy of copper and zinc"
+                },
+                {
+                  "term": "Bronze",
+                  "definition": "An alloy of copper and tin"
+                }
+              ],
+              "hint": "Think about the chemical compositions.",
+              "explanation": "These are common terms for metal alloys and protection methods."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_14",
+      "title": "Unit 14: Polymers",
+      "lessons": [
+        {
+          "id": "u14_l1",
+          "title": "Thermoplastics and thermosets",
+          "theory": "Polymers are usually called **plastics**. They consist of long chains of atoms.\n\n* **Thermoplastics**: Can be melted and reshaped multiple times (e.g., ABS, PVC, Polycarbonate).\n* **Thermosetting plastics (Thermosets)**: Set permanently after heating or mixing. They cannot be remelted (e.g., Epoxy resins).\n* **Elastomers**: Very elastic polymers (like rubber) that return to their original length after being stretched.\n* **Natural polymers**: Like rubber from **latex**.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "Which type of plastic can be heated and moulded numerous times?",
+              "options": [
+                {
+                  "text": "Thermoplastics",
+                  "is_correct": true
+                },
+                {
+                  "text": "Thermosetting plastics",
+                  "is_correct": false
+                },
+                {
+                  "text": "Epoxy resins",
+                  "is_correct": false
+                },
+                {
+                  "text": "Polyimides",
+                  "is_correct": false
+                }
+              ],
+              "hint": "Think of 'thermo' + 'plastic' (formable).",
+              "explanation": "Thermoplastics soften when heated and can be reshaped."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_15",
+      "title": "Unit 15: Minerals and ceramics",
+      "lessons": [
+        {
+          "id": "u15_l1",
+          "title": "Ceramics and Glass",
+          "theory": "### Minerals and Ceramics\n* **Minerals**: Inorganic materials found in the ground (e.g., diamond, silicon).\n* **Ceramics**: Inorganic materials formed by heating (firing in a **kiln**).\n* **Vitrified**: Materials with a glass-like structure.\n\n### Types of Glass\n* **Float glass**: Flat sheets of glass.\n* **Annealed glass**: Cooled slowly, but breaks into sharp pieces.\n* **Safety glass**:\n    * **Toughened/Tempered glass**: Shatters into tiny pieces.\n    * **Laminated glass**: A 'sandwich' of glass and polymer. Broken pieces are held together.",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "Safety glass made of a glass and polymer 'sandwich' is called ____ glass.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "laminated"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "laminated"
+                ]
+              ],
+              "hint": "It has layers.",
+              "explanation": "Laminated glass holds together when shattered, making it ideal for windscreens."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_16",
+      "title": "Unit 16: Concrete",
+      "lessons": [
+        {
+          "id": "u16_l1",
+          "title": "Concrete mix and reinforcement",
+          "theory": "Concrete is made from **cement**, **fine aggregate** (sand), **coarse aggregate** (gravel) and water.\n\n* **Batching**: Measuring proportions by weight.\n* **Additives**: **Plasticizers** (improve flow) or **retarders** (delay setting).\n* **Reinforced concrete (RC)**: Uses steel bars because concrete is weak in **tension**.\n* **In-situ**: Cast in its final position on site.\n* **Precast**: Cast at a factory.\n* **Prestressed**: Reinforcement is put in tension before or after pouring to resist bending.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the concrete terms to their meanings.",
+              "pairs": [
+                {
+                  "term": "In-situ",
+                  "definition": "Cast in its final position on site"
+                },
+                {
+                  "term": "Precast",
+                  "definition": "Cast at a factory and delivered"
+                },
+                {
+                  "term": "Plasticizer",
+                  "definition": "Makes concrete flow more easily"
+                },
+                {
+                  "term": "Retarder",
+                  "definition": "Delays the setting of concrete"
+                }
+              ],
+              "hint": "Think about where and how the concrete is placed.",
+              "explanation": "These terms describe the placement and chemical modification of concrete."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_17",
+      "title": "Unit 17: Wood",
+      "lessons": [
+        {
+          "id": "u17_l1",
+          "title": "Solid and engineered wood",
+          "theory": "### Categories of Wood\n* **Hardwood**: From deciduous trees (lose leaves).\n* **Softwood**: From coniferous trees (evergreen).\n* **Solid wood**: Sawn timber with grain and **knots**.\n* **Engineered wood**: Bonded layers or particles (e.g., **Plywood**, **MDF**, **OSB**, **Glulams**).\n\n### Processing\n* **Rough-sawn**: Surface texture from a circular saw.\n* **Planed**: Smoothed surface.\n* **Stress-graded**: Tested for strength (mechanically or visually).",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "Which category of wood comes from coniferous trees?",
+              "options": [
+                {
+                  "text": "Softwood",
+                  "is_correct": true
+                },
+                {
+                  "text": "Hardwood",
+                  "is_correct": false
+                },
+                {
+                  "text": "Engineered wood",
+                  "is_correct": false
+                },
+                {
+                  "text": "Plywood",
+                  "is_correct": false
+                }
+              ],
+              "hint": "Evergreen trees usually provide this.",
+              "explanation": "Softwood is the term for timber from coniferous (evergreen) trees."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_18",
+      "title": "Unit 18: Material properties 1",
+      "lessons": [
+        {
+          "id": "u18_l1",
+          "title": "Strength and deformation",
+          "theory": "### Forces and Deformation\n* **Tension**: Stretching forces.\n* **Compression**: Crushing forces.\n* **Elasticity**: Ability to return to original shape.\n* **Plasticity**: Permanent change in shape.\n    * **Malleable**: Can be hammered or rolled.\n    * **Ductile**: Can be drawn out into a wire.\n* **Stiff**: High strength but low elasticity.\n* **Brittle**: Low elasticity and weak (fractures easily, e.g., glass).",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the material properties.",
+              "pairs": [
+                {
+                  "term": "Elasticity",
+                  "definition": "Returns to original shape"
+                },
+                {
+                  "term": "Plasticity",
+                  "definition": "Permanent change in shape"
+                },
+                {
+                  "term": "Malleable",
+                  "definition": "Can be hammered or rolled"
+                },
+                {
+                  "term": "Ductile",
+                  "definition": "Can be drawn into a wire"
+                }
+              ],
+              "hint": "Think about how the material reacts to force.",
+              "explanation": "These properties define how materials deform under stress."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_19",
+      "title": "Unit 19: Material properties 2",
+      "lessons": [
+        {
+          "id": "u19_l1",
+          "title": "Hardness, fatigue and thermal properties",
+          "theory": "### Hardness and Damage\n* **Scratch hardness**: Resistance to being scratched (**abrasion resistance**).\n* **Indentation hardness**: Resistance to impacts.\n* **Fatigue**: Micro-cracking due to **cyclic loads**.\n* **Creep**: Permanent deformation over time due to loads.\n\n### Thermal Properties\n* **Thermal conductivity**: Ability to conduct heat (conductor vs insulator).\n* **Thermal expansion**: Increase in size when heated (measured by a **coefficient**).",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "The problem caused by cyclic loads and micro-cracking is called ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "fatigue"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "fatigue"
+                ],
+                [
+                  "metal fatigue"
+                ]
+              ],
+              "hint": "It's like getting tired.",
+              "explanation": "Fatigue is a major cause of failure in structures like aircraft wings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_20",
+      "title": "Unit 20: Forming, working and heat-treating",
+      "lessons": [
+        {
+          "id": "u20_l1",
+          "title": "Forging and heat treatment",
+          "theory": "### Forming Metal\n* **Casting**: Pouring molten metal into a mould.\n* **Sintering**: Compressing metal powder.\n* **Extrusion**: Forcing molten metal through a die (long lengths).\n* **Forging**: Shaping metal by hammering (**Drop forging**).\n\n### Heat Treatment\n* **Quenching**: Rapid cooling in water/oil (makes it harder but brittle).\n* **Annealing**: Slow cooling (makes it softer/more elastic).\n* **Tempering**: Heating for a period to balance hardness and elasticity.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the heat treatment to its effect.",
+              "pairs": [
+                {
+                  "term": "Quenching",
+                  "definition": "Rapid cooling to increase hardness"
+                },
+                {
+                  "term": "Annealing",
+                  "definition": "Slow cooling to make metal softer"
+                },
+                {
+                  "term": "Tempering",
+                  "definition": "Balance between hardness and elasticity"
+                }
+              ],
+              "hint": "Think about the cooling speed.",
+              "explanation": "Heat treatment processes are used to tune the properties of metals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_21",
+      "title": "Unit 21: Material formats",
+      "lessons": [
+        {
+          "id": "u21_l1",
+          "title": "Raw and processed formats",
+          "theory": "### Raw Materials\n* **Powder**, **Pellets**, **Fibres**.\n* **Ingots**, **Blooms**, **Billets** (metal blocks).\n\n### Processed Formats\n* **Bars** (Round/Rod, Square, Flat).\n* **Sheets** (Thin, < 3mm) and **Plates** (Thick, > 3mm).\n* **Structural sections** (e.g., I-sections).\n* **Tubes** (Hollow) and **Pipes** (for liquids/gas).\n* **Wires** (Single strand) and **Cables** (Multiple wires).",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a hollow format specifically used for carrying liquid or gas?",
+              "options": [
+                {
+                  "text": "Pipe",
+                  "is_correct": true
+                },
+                {
+                  "text": "Bar",
+                  "is_correct": false
+                },
+                {
+                  "text": "Rod",
+                  "is_correct": false
+                },
+                {
+                  "text": "Wire",
+                  "is_correct": false
+                }
+              ],
+              "hint": "Think of plumbing.",
+              "explanation": "A pipe is a type of tube specifically designed for fluid transport."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_23",
+      "title": "Unit 23: Machining 1",
+      "lessons": [
+        {
+          "id": "u23_l1",
+          "title": "Basic machining techniques",
+          "theory": "Machining involves cutting material (workpieces) into components using machine tools.\n\n* **Swarf/Chips**: Waste metal produced during cutting.\n* **Cutting fluid/Coolant**: Liquid pumped onto the workpiece to keep it cool.\n* **CNC**: Computer Numerical Control, often used with CAD/CAM software.\n\n### Common Techniques\n* **Milling**: Rotating cutting tools move over a fixed workpiece.\n* **Turning**: The workpiece rotates on a **lathe** while a fixed tool cuts it.\n* **Sawing**: Uses a blade to create a **kerf** (gap). Includes bandsaws and hacksaws.\n* **Drilling**: Uses a **drill bit** to make holes. **Boring** is enlarging an existing hole.\n* **Grinding**: Using abrasive wheels to remove material.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the machining terms.",
+              "pairs": [
+                {
+                  "term": "Swarf",
+                  "definition": "Waste metal produced during machining"
+                },
+                {
+                  "term": "Kerf",
+                  "definition": "The gap left by a saw blade"
+                },
+                {
+                  "term": "Lathe",
+                  "definition": "Machine used for turning workpieces"
+                },
+                {
+                  "term": "Boring",
+                  "definition": "Enlarging an existing hole"
+                }
+              ],
+              "hint": "Think about waste and specific machines.",
+              "explanation": "These are fundamental terms used in machine shops."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_24",
+      "title": "Unit 24: Machining 2",
+      "lessons": [
+        {
+          "id": "u24_l1",
+          "title": "Advanced cutting techniques",
+          "theory": "### Shearing\n* **Guillotine**: Long blade for straight cuts.\n* **Punching**: Pushing a die through a sheet. **Blanking** makes a workpiece; **piercing** makes holes.\n\n### Thermal and High-Tech Cutting\n* **Flame-cutting**: Uses oxyacetylene (Oxygen + Acetylene) to melt steel.\n* **EDM (Spark erosion)**: An electric arc 'jumps' from a wire to melt metal.\n* **Plasma cutting**: Uses ionized gas (plasma) at extremely high temperatures.\n* **Laser cutting**: Concentrated light melts material accurately.\n* **UHP Waterjets**: High-pressure water cuts without heat, leaving no **HAZ** (Heat-Affected Zone).",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "Which technique uses an electric arc and a wire to melt metal without touching it?",
+              "options": [
+                {
+                  "text": "EDM (Spark erosion)",
+                  "is_correct": true
+                },
+                {
+                  "text": "Laser cutting",
+                  "is_correct": false
+                },
+                {
+                  "text": "Flame-cutting",
+                  "is_correct": false
+                },
+                {
+                  "text": "Waterjet cutting",
+                  "is_correct": false
+                }
+              ],
+              "hint": "It involves 'sparks'.",
+              "explanation": "Electrical Discharge Machining (EDM) uses electrical sparks to erode metal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_25",
+      "title": "Unit 25: Interconnection",
+      "lessons": [
+        {
+          "id": "u25_l1",
+          "title": "Fitting and supporting",
+          "theory": "Components in assemblies are connected in various ways.\n\n* **Supporting/Anchoring**: A foundation supports a load and anchors it to prevent sliding.\n* **Embedded**: When one part is surrounded and held by another (e.g., bolts in concrete).\n* **Play**: The amount of free movement allowed between parts.\n* **Packers/Shims**: Small wedges used to fill gaps or adjust levels.\n* **Plumbing**: Making a component exactly vertical.\n* **Grout**: Cement used to fill gaps and seal joints.",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "Making a column or wall exactly vertical is called ____ it.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "plumbing"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "plumbing"
+                ]
+              ],
+              "hint": "Think of a 'plumb' line.",
+              "explanation": "In engineering, 'plumb' means perfectly vertical."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_26",
+      "title": "Unit 26: Mechanical fasteners 1",
+      "lessons": [
+        {
+          "id": "u26_l1",
+          "title": "Bolts and washers",
+          "theory": "### Bolts\n* **Threads**: Helical grooves on the shaft.\n* **Nut**: Screwed onto the bolt. Usually clockwise (right-hand thread).\n* **Torque**: The turning force applied to tighten a bolt.\n* **Preload (Clamp load)**: The pressing force that holds components together.\n* **HSFG bolts**: High Strength Friction Grip bolts prevent sliding using high preload.\n\n### Washers\n* **Plain/Flat washers**: Spread the load over a wider area.\n* **Spring washers**: (Helical or Conical) maintain preload or absorb shocks.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the bolting terms to their definitions.",
+              "pairs": [
+                {
+                  "term": "Torque",
+                  "definition": "The turning force applied to a bolt"
+                },
+                {
+                  "term": "Preload",
+                  "definition": "The pressing force holding parts together"
+                },
+                {
+                  "term": "Clockwise",
+                  "definition": "The direction used to tighten most nuts"
+                },
+                {
+                  "term": "Washer",
+                  "definition": "Used to spread the load of a fastener"
+                }
+              ],
+              "hint": "Think about forces and directions.",
+              "explanation": "These are the standard terms for mechanical fastening with bolts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_27",
+      "title": "Unit 27: Mechanical fasteners 2",
+      "lessons": [
+        {
+          "id": "u27_l1",
+          "title": "Screws, anchors and rivets",
+          "theory": "### Screws and Anchors\n* **Self-tapping screws**: Cut their own holes.\n* **Set screws (Grub screws)**: Hold parts in place by pressing against them.\n* **Wall plug**: A plastic tube that expands in a hole to resist **pullout forces**.\n* **Chemical anchors**: Threaded studs held in place by **epoxy resin**.\n\n### Rivets\n* **Permanent fasteners**: Cannot be unscrewed.\n* **Solid rivets**: Have a **factory head**; a **shop head** is formed after insertion.\n* **Blind rivets (Pop rivets)**: Can be installed from one side using a rivet gun.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is a permanent fastener that cannot be unscrewed?",
+              "options": [
+                {
+                  "text": "Rivet",
+                  "is_correct": true
+                },
+                {
+                  "text": "Bolt",
+                  "is_correct": false
+                },
+                {
+                  "text": "Screw",
+                  "is_correct": false
+                },
+                {
+                  "text": "Anchor",
+                  "is_correct": false
+                }
+              ],
+              "hint": "It's used extensively in aircraft skins.",
+              "explanation": "Rivets must be drilled out to be removed, making them permanent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_28",
+      "title": "Unit 28: Non-mechanical joints 1",
+      "lessons": [
+        {
+          "id": "u28_l1",
+          "title": "Welding techniques",
+          "theory": "Welding uses heat to fuse materials together.\n\n* **Fusion**: Melting and mixing the base metal of two components.\n* **Weld pool**: The molten metal at the joint.\n* **HAZ**: Heat-Affected Zone near the weld.\n\n### Common Techniques\n* **SMAW (Stick)**: Uses a consumable electrode coated in **flux** (produces shielding gas).\n* **GMAW (MIG)**: Uses a consumable wire and an external shielding gas (e.g., Argon).\n* **GTAW (TIG)**: Uses a **non-consumable** tungsten electrode and separate filler rod.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the welding acronyms.",
+              "pairs": [
+                {
+                  "term": "MIG",
+                  "definition": "Metal Inert Gas welding"
+                },
+                {
+                  "term": "TIG",
+                  "definition": "Tungsten Inert Gas welding"
+                },
+                {
+                  "term": "Flux",
+                  "definition": "Coating that produces shielding gas"
+                },
+                {
+                  "term": "Tungsten",
+                  "definition": "A non-consumable electrode material"
+                }
+              ],
+              "hint": "Think about the type of electrode and gas.",
+              "explanation": "MIG and TIG are the most common industrial welding processes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_29",
+      "title": "Unit 29: Non-mechanical joints 2",
+      "lessons": [
+        {
+          "id": "u29_l1",
+          "title": "Brazing, soldering and adhesives",
+          "theory": "### Brazing and Soldering\n* **Brazing**: Uses a brass filler (Copper + Zinc). Does not melt the base metal.\n* **Soldering**: Uses a low-temperature filler (Solder). **Soft soldering** uses a soldering iron.\n\n### Adhesives (Glue)\n* **Adhere/Bond**: Joining surfaces. \n* **Mechanical bond**: Adhesive is absorbed into the **substrate**.\n* **Curing**: Hardening due to a chemical reaction (e.g., **two-part** epoxy resins).\n* **Solvent**: Liquid in the adhesive that evaporates during drying.",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "Joining metal with a brass filler without melting the base metal is called ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "brazing"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "brazing"
+                ]
+              ],
+              "hint": "It sounds like 'brass'.",
+              "explanation": "Brazing is stronger than soldering but weaker than welding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_37",
+      "title": "Unit 37: Fluid containment",
+      "lessons": [
+        {
+          "id": "u37_l1",
+          "title": "Pipes, ducts and tanks",
+          "theory": "Fluids (liquids and gases) must be contained and transported.\n\n* **Pipes**: Rigid tubes for carrying fluids.\n* **Ducts**: Large-diameter pipes, often square, used for air (ventilation).\n* **Hoses**: Flexible tubes.\n* **Tanks**: Containers for storing fluids.\n* **Pumps**: Machines that move liquids.\n* **Fans/Blowers**: Machines that move gases.\n* **Turbines**: Driven by fluid flow to generate power.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the containment terms.",
+              "pairs": [
+                {
+                  "term": "Pipe",
+                  "definition": "A rigid tube for carrying liquids or gas"
+                },
+                {
+                  "term": "Hose",
+                  "definition": "A flexible tube for fluid transport"
+                },
+                {
+                  "term": "Duct",
+                  "definition": "Used for air ventilation in buildings"
+                },
+                {
+                  "term": "Tank",
+                  "definition": "A large container for storing fluids"
+                }
+              ],
+              "hint": "Think about rigidity and purpose.",
+              "explanation": "These are common engineering terms for fluid containers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_38",
+      "title": "Unit 38: Fluid pressure",
+      "lessons": [
+        {
+          "id": "u38_l1",
+          "title": "Pressure and siphonic action",
+          "theory": "Pressure is the force exerted by a fluid per unit of area.\n\n* **Pascal (Pa)**: The SI unit of pressure (1 Pa = 1 N/m²).\n* **Bar**: Often used in industry (1 bar = 100,000 Pa).\n* **Gauge pressure**: Pressure relative to atmospheric pressure.\n* **Absolute pressure**: Pressure relative to a perfect vacuum.\n* **Hydrostatic pressure**: Pressure exerted by the weight of a fluid.\n* **Siphonic action**: Using atmospheric pressure to move liquid through a U-shaped tube.",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "Pressure measured relative to a perfect vacuum is called ____ pressure.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "absolute"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "absolute"
+                ]
+              ],
+              "hint": "It is the 'total' or 'true' pressure.",
+              "explanation": "Absolute pressure starts from zero at a vacuum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_39",
+      "title": "Unit 39: Fluid dynamics",
+      "lessons": [
+        {
+          "id": "u39_l1",
+          "title": "Flow and aerodynamics",
+          "theory": "Fluid dynamics is the study of fluids in motion. Aerodynamics is the study of airflow.\n\n* **Drag**: Resistance to movement through a fluid (air resistance).\n* **Laminar flow**: Smooth, non-turbulent airflow.\n* **Turbulent flow**: Rough, swirling airflow that increases drag.\n* **Aerofoils**: Wings or blades designed to produce **lift** as air flows over them.\n* **Streamlined**: Shapes designed to minimize drag.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What term describes a smooth, efficient flow of air or liquid?",
+              "options": [
+                {
+                  "text": "Laminar flow",
+                  "is_correct": true
+                },
+                {
+                  "text": "Turbulent flow",
+                  "is_correct": false
+                },
+                {
+                  "text": "Drag",
+                  "is_correct": false
+                },
+                {
+                  "text": "Lift",
+                  "is_correct": false
+                }
+              ],
+              "hint": "Think of layers (laminae).",
+              "explanation": "Laminar flow occurs when fluid travels in parallel layers with no disruption."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_42",
+      "title": "Unit 42: Transmission 2",
+      "lessons": [
+        {
+          "id": "u42_l1",
+          "title": "Chains, belts and cranks",
+          "theory": "### Chains and Belts\n* **Chains**: Drive **sprockets** (toothed wheels). Do not slip.\n* **Belts**: Drive **pulleys** (or sheaves). Can be smooth or toothed.\n\n### Reciprocating to Rotary\n* **Crank and Connecting rod**: Converts up-and-down motion to rotation.\n* **Crankshaft**: The shaft in an engine that turns the pistons' motion into rotation.\n* **Flywheel**: A heavy wheel that provides momentum to keep the engine turning smoothly.\n* **Camshaft**: Opens and closes engine **valves** using **cams** and **followers**.",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the transmission components.",
+              "pairs": [
+                {
+                  "term": "Sprocket",
+                  "definition": "Toothed wheel driven by a chain"
+                },
+                {
+                  "term": "Pulley",
+                  "definition": "Wheel driven by a belt"
+                },
+                {
+                  "term": "Crankshaft",
+                  "definition": "Converts reciprocating motion to rotary"
+                },
+                {
+                  "term": "Camshaft",
+                  "definition": "Opens and closes engine valves"
+                }
+              ],
+              "hint": "Think about the connection between components.",
+              "explanation": "These are key components in mechanical transmission systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_43",
+      "title": "Unit 43: Current, voltage and resistance",
+      "lessons": [
+        {
+          "id": "u43_l1",
+          "title": "Electrical basics",
+          "theory": "### Key Parameters\n* **Current (I)**: Flow of electrons, measured in **Amperes (Amps)**.\n* **Voltage (V)**: Electromotive force (EMF), measured in **Volts**.\n* **Resistance (R)**: Opposes flow, measured in **Ohms (Ω)**.\n* **Power (P)**: Rate of energy transfer, measured in **Watts (W)**.\n\n### Ohm's Law\n* **V = I × R** (Voltage = Current × Resistance).\n* **P = V × I** (Power = Voltage × Current).\n\n### Materials\n* **Conductors**: Low resistance (e.g., copper).\n* **Insulators**: Very high resistance (e.g., plastic).",
+          "exercises": [
+            {
+              "type": "matching",
+              "question": "Match the electrical units to their parameters.",
+              "pairs": [
+                {
+                  "term": "Ampere",
+                  "definition": "Unit of electric current"
+                },
+                {
+                  "term": "Volt",
+                  "definition": "Unit of voltage (EMF)"
+                },
+                {
+                  "term": "Ohm",
+                  "definition": "Unit of electrical resistance"
+                },
+                {
+                  "term": "Watt",
+                  "definition": "Unit of electrical power"
+                }
+              ],
+              "hint": "Think about the scientist names.",
+              "explanation": "These are the fundamental units of electrical measurement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_44",
+      "title": "Unit 44: Electrical supply",
+      "lessons": [
+        {
+          "id": "u44_l1",
+          "title": "AC and DC systems",
+          "theory": "### AC vs DC\n* **DC (Direct Current)**: Constant flow in one direction (e.g., batteries).\n* **AC (Alternating Current)**: Direction alternates continually (**Frequency** in Hertz).\n\n### Generation and Grid\n* **Generator**: Converts mechanical energy to electricity using **induction**.\n* **Transformer**: Changes voltage levels.\n    * **Step-up**: Increases voltage for efficient long-distance transmission.\n    * **Step-down**: Decreases voltage for home use.\n* **Inverter**: A device that converts DC (e.g., from solar cells) to AC.\n* **Power Grid**: The network of lines that distribute electricity.",
+          "exercises": [
+            {
+              "type": "fill_in_the_blank",
+              "question": "A device that converts direct current (DC) to alternating current (AC) is an ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "inverter"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "inverter"
+                ]
+              ],
+              "hint": "It 'inverts' the direction.",
+              "explanation": "Inverters are essential for using solar power in homes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_45",
+      "title": "Unit 45: Circuits and components",
+      "lessons": [
+        {
+          "id": "u45_l1",
+          "title": "Circuit types and electronics",
+          "theory": "### Circuit Connections\n* **Series circuit**: Components are in a single path.\n* **Parallel circuit**: Components are in multiple paths.\n* **Live, Neutral, and Earth (Ground)**: Conductors in a mains supply.\n\n### Safety and Electronics\n* **Circuit-breaker**: Automatically switches off if there is a **short circuit**.\n* **PCB**: Printed Circuit Board populated with components.\n* **Integrated Circuit (IC/Microchip)**: Small circuits made on silicon wafers.\n* **Sensors**: Detect light, heat, or pressure.\n* **Logic gates**: (AND, OR, NOT) Used in control systems.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "In which type of circuit are all components connected one after another in a single loop?",
+              "options": [
+                {
+                  "text": "Series circuit",
+                  "is_correct": true
+                },
+                {
+                  "text": "Parallel circuit",
+                  "is_correct": false
+                },
+                {
+                  "text": "Integrated circuit",
+                  "is_correct": false
+                },
+                {
+                  "text": "Printed circuit",
+                  "is_correct": false
+                }
+              ],
+              "hint": "Think of items in a line.",
+              "explanation": "In a series circuit, the same current flows through all components."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

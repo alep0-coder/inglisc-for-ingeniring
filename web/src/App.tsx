@@ -5,7 +5,7 @@ import type { Exercise, UnitDatabase } from './types'
 import { loadDatabase } from './loadDatabase'
 import { lessonKey, loadProgress, saveProgress, uploadProgress, downloadProgress } from './storage'
 import { auth } from './firebase'
-import { onAuthStateChanged, User, signOut } from 'firebase/auth'
+import { onAuthStateChanged, type User, signOut } from 'firebase/auth'
 import AuthOverlay from './components/AuthOverlay'
 
 // ─── Types ────────────────────────────────────────────────────────────────────
