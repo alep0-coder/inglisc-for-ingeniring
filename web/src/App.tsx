@@ -212,7 +212,7 @@ export default function App() {
     })
   }
 
-  const progress = useMemo(() => loadProgress(), [])
+  const [progress, setProgress] = useState(loadProgress())
 
   useEffect(() => {
     loadDatabase()
@@ -228,17 +228,36 @@ export default function App() {
       if (currentUser) {
         setIsSyncing(true)
         try {
-          await downloadProgress(currentUser.uid)
-          // Force re-render of progress by reloading from storage
-          // (In a real app we might use a context or global state)
-          window.location.reload() 
+          // Only download if we haven't synced in this session to avoid loops
+          if (!sessionStorage.getItem('synced')) {
+            const remote = await downloadProgress(currentUser.uid)
+            if (remote) {
+              setProgress(remote)
+              sessionStorage.setItem('synced', 'true')
+            }
+          }
         } finally {
           setIsSyncing(false)
         }
+      } else {
+        sessionStorage.removeItem('synced')
       }
     })
     return () => unsubscribe()
   }, [])
+
+  const handleManualSync = async () => {
+    if (!user || !auth) return
+    setIsSyncing(true)
+    try {
+      const current = loadProgress()
+      await uploadProgress(user.uid, current)
+      const remote = await downloadProgress(user.uid)
+      if (remote) setProgress(remote)
+    } finally {
+      setIsSyncing(false)
+    }
+  }
 
   // Ref to hold latest state for back gesture
   const stateRef = useRef({ unitIdx, lessonIdx, feedbackState, lessonComplete })
@@ -370,7 +389,9 @@ export default function App() {
     const updated = loadProgress()
     updated.lessonNextIndex[lKey] = next
     saveProgress(updated)
-    progress.lessonNextIndex[lKey] = next
+    setProgress(updated)
+
+    // Sync to cloud if logged in
 
     // Sync to cloud if logged in
     if (user) {
@@ -659,21 +680,35 @@ export default function App() {
 
         <div className="user-bar">
           {user ? (
-            <div className="user-info">
-              <span>👤 {user.displayName || user.email}</span>
-              <span className="sync-badge">{isSyncing ? 'Syncing...' : 'Synced'}</span>
-              <button className="logout-btn" onClick={() => auth && signOut(auth)}>Logout</button>
+            <div className="user-profile">
+              <div className="user-avatar">👤</div>
+              <div className="user-details">
+                <span className="user-name">{user.displayName || user.email?.split('@')[0]}</span>
+                <span className={`sync-status ${isSyncing ? 'syncing' : ''}`}>
+                  {isSyncing ? 'Synchronizing...' : 'Progress saved'}
+                </span>
+              </div>
+              <div className="user-actions">
+                <button className="icon-btn sync-btn" onClick={handleManualSync} title="Sync now" disabled={isSyncing}>
+                  {isSyncing ? '⏳' : '🔄'}
+                </button>
+                <button className="icon-btn logout-btn" onClick={() => auth && signOut(auth)} title="Logout">
+                  🚪
+                </button>
+              </div>
             </div>
           ) : (
-            <div className="user-info">
-              <span>Cloud sync disabled</span>
-              <button className="text-btn" onClick={() => {
+            <div className="auth-prompt">
+              <p>Sign in to sync your progress across devices</p>
+              <button className="cta-btn active-green mini" onClick={() => {
                 if (auth) {
                   setShowAuth(true)
                 } else {
                   alert("⚠️ Firebase non è configurato. Inserisci le chiavi API in src/firebase.ts per attivare la sincronizzazione.")
                 }
-              }}>Login to sync</button>
+              }}>
+                Login
+              </button>
             </div>
           )}
         </div>
