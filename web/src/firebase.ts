@@ -13,8 +13,12 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+// Check if keys are placeholders
+const isConfigValid = firebaseConfig.apiKey && firebaseConfig.apiKey !== "YOUR_API_KEY";
 
-export const auth = getAuth(app);
-export const db = getFirestore(app);
+// Initialize Firebase only if config is valid
+const app = isConfigValid ? initializeApp(firebaseConfig) : null;
+
+export const auth = app ? getAuth(app) : null;
+export const db = app ? getFirestore(app) : null;
+export const isFirebaseActive = isConfigValid;

@@ -34,6 +34,7 @@ export function lessonKey(unitIdx: number, lessonIdx: number) {
  * Uploads local progress to Firestore for a specific user.
  */
 export async function uploadProgress(userId: string, state: ProgressState) {
+  if (!db) return
   try {
     const userRef = doc(db, 'users', userId)
     await setDoc(userRef, { progress: state }, { merge: true })
@@ -47,6 +48,7 @@ export async function uploadProgress(userId: string, state: ProgressState) {
  * Downloads progress from Firestore and merges it with local storage.
  */
 export async function downloadProgress(userId: string): Promise<ProgressState | null> {
+  if (!db) return null
   try {
     const userRef = doc(db, 'users', userId)
     const snap = await getDoc(userRef)

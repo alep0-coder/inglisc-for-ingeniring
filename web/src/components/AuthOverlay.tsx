@@ -24,6 +24,12 @@ export default function AuthOverlay({ onClose, onSuccess }: AuthOverlayProps) {
     setError('');
     setLoading(true);
 
+    if (!auth) {
+      setError('Firebase is not configured correctly.');
+      setLoading(false);
+      return;
+    }
+
     try {
       if (isLogin) {
         const userCredential = await signInWithEmailAndPassword(auth, email, password);

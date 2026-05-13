@@ -222,6 +222,7 @@ export default function App() {
 
   // Handle Auth Changes
   useEffect(() => {
+    if (!auth) return
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       setUser(currentUser)
       if (currentUser) {
@@ -661,12 +662,18 @@ export default function App() {
             <div className="user-info">
               <span>👤 {user.displayName || user.email}</span>
               <span className="sync-badge">{isSyncing ? 'Syncing...' : 'Synced'}</span>
-              <button className="logout-btn" onClick={() => signOut(auth)}>Logout</button>
+              <button className="logout-btn" onClick={() => auth && signOut(auth)}>Logout</button>
             </div>
           ) : (
             <div className="user-info">
               <span>Cloud sync disabled</span>
-              <button className="text-btn" onClick={() => setShowAuth(true)}>Login to sync</button>
+              <button className="text-btn" onClick={() => {
+                if (auth) {
+                  setShowAuth(true)
+                } else {
+                  alert("⚠️ Firebase non è configurato. Inserisci le chiavi API in src/firebase.ts per attivare la sincronizzazione.")
+                }
+              }}>Login to sync</button>
             </div>
           )}
         </div>
