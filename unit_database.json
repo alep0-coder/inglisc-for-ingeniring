@@ -3756,131 +3756,67 @@
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "Steel is an alloy of iron and carbon.",
+              "question": "What is the main component of steel?",
               "options": [
                 {
-                  "text": "True",
+                  "text": "Iron",
                   "is_correct": true
                 },
                 {
-                  "text": "False",
+                  "text": "Aluminium",
+                  "is_correct": false
+                },
+                {
+                  "text": "Copper",
                   "is_correct": false
                 }
               ],
-              "hint": "Check the basic definition.",
-              "explanation": "True - Steel consists primarily of iron and carbon."
+              "explanation": "Steel is an alloy of iron and carbon."
             },
             {
               "type": "multiple_choice",
-              "question": "Mild steel is a high carbon steel.",
+              "question": "Which steel contains chromium and nickel?",
               "options": [
                 {
-                  "text": "True",
+                  "text": "Mild steel",
                   "is_correct": false
                 },
                 {
-                  "text": "False",
+                  "text": "Stainless steel",
                   "is_correct": true
+                },
+                {
+                  "text": "High carbon steel",
+                  "is_correct": false
                 }
               ],
-              "hint": "Mild means low carbon.",
-              "explanation": "False - Mild steel is a low carbon steel (up to 0.3%)."
+              "explanation": "Stainless steel is an alloy steel containing chromium and nickel."
             },
             {
-              "type": "multiple_choice",
-              "question": "Alloy steels contain carbon.",
-              "options": [
+              "type": "fill_in_the_blank",
+              "question": "12.1: Steel is an (1) ____ of iron and carbon. Mild steel is a (2) ____ carbon steel. High-speed steel is for tools that get (3) ____.",
+              "blanks": [
                 {
-                  "text": "True",
-                  "is_correct": true
+                  "position": 1,
+                  "answer": "alloy"
                 },
                 {
-                  "text": "False",
-                  "is_correct": false
-                }
-              ],
-              "hint": "All steels have carbon.",
-              "explanation": "True - All steels contain carbon, even those with other alloying metals."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "Chromium and nickel are used as alloying metals in steel.",
-              "options": [
-                {
-                  "text": "True",
-                  "is_correct": true
+                  "position": 2,
+                  "answer": "low"
                 },
                 {
-                  "text": "False",
-                  "is_correct": false
+                  "position": 3,
+                  "answer": "hot"
                 }
               ],
-              "hint": "Common additions.",
-              "explanation": "True - Chromium and nickel are frequent alloying elements, especially in stainless steel."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "Low alloy steels contain more chromium than iron.",
-              "options": [
-                {
-                  "text": "True",
-                  "is_correct": false
-                },
-                {
-                  "text": "False",
-                  "is_correct": true
-                }
+              "accepted_answers": [
+                [
+                  "alloy",
+                  "low",
+                  "hot"
+                ]
               ],
-              "hint": "They contain 90% or more iron.",
-              "explanation": "False - Low alloy steels are mostly iron (90%+)."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "Stainless steel is an alloy steel.",
-              "options": [
-                {
-                  "text": "True",
-                  "is_correct": true
-                },
-                {
-                  "text": "False",
-                  "is_correct": false
-                }
-              ],
-              "hint": "Is it a category or a pure element?",
-              "explanation": "True - Stainless steel is a type of alloy steel."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "Tungsten is added to steel to make it softer.",
-              "options": [
-                {
-                  "text": "True",
-                  "is_correct": false
-                },
-                {
-                  "text": "False",
-                  "is_correct": true
-                }
-              ],
-              "hint": "Used in tool steels.",
-              "explanation": "False - Tungsten is added to increase hardness."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "High-speed steel is suitable for cutting tools that get very hot.",
-              "options": [
-                {
-                  "text": "True",
-                  "is_correct": true
-                },
-                {
-                  "text": "False",
-                  "is_correct": false
-                }
-              ],
-              "hint": "Look at the high-speed definition.",
-              "explanation": "True - High-speed steel maintains hardness at high temperatures."
+              "explanation": "Textbook 12.1 verification."
             }
           ]
         },
@@ -3891,138 +3827,53 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "When steel is exposed to air and water, it (1) ____.",
+              "question": "When iron (1) ____, we say that it (2) ____. The layer of (3) ____ around aluminium prevents it from (4) ____ any further.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "rusts"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "rusts"
-                ],
-                [
-                  "corrodes"
-                ],
-                [
-                  "oxidizes"
-                ]
-              ],
-              "hint": "The verb for corrosion.",
-              "explanation": "Steel rusts when exposed to moisture and air."
-            },
-            {
-              "type": "fill_in_the_blank",
-              "question": "A brown/red material on the surface of steel is called (2) ____.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "rust"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "rust"
-                ],
-                [
-                  "iron oxide"
-                ]
-              ],
-              "hint": "The product of corrosion.",
-              "explanation": "Rust is the common name for iron oxide."
-            },
-            {
-              "type": "fill_in_the_blank",
-              "question": "The strength of steel is reduced if it is (3) ____.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "corroded"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "corroded"
-                ],
-                [
-                  "rusty"
-                ],
-                [
-                  "oxidized"
-                ]
-              ],
-              "hint": "The adjective form.",
-              "explanation": "Corroded steel loses structural integrity."
-            },
-            {
-              "type": "fill_in_the_blank",
-              "question": "The problem with mild (1) ____ is that it (2) ____. Solution is to use a (3) ____ of steel resistant to the (4) ____ process, like (5) ____ steel which contains (6) ____ and nickel.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "steel"
-                },
-                {
-                  "position": 2,
                   "answer": "corrodes"
                 },
                 {
+                  "position": 2,
+                  "answer": "rusts"
+                },
+                {
                   "position": 3,
-                  "answer": "grade"
+                  "answer": "oxide"
                 },
                 {
                   "position": 4,
-                  "answer": "corrosion"
-                },
-                {
-                  "position": 5,
-                  "answer": "stainless"
-                },
-                {
-                  "position": 6,
-                  "answer": "chromium"
+                  "answer": "oxidizing"
                 }
               ],
               "accepted_answers": [
                 [
-                  "steel",
                   "corrodes",
-                  "grade",
-                  "corrosion",
-                  "stainless",
-                  "chromium"
+                  "rusts",
+                  "oxide",
+                  "oxidizing"
                 ]
               ],
-              "hint": "The weathering steel text.",
-              "explanation": "Stainless steel is a corrosion-resistant grade containing chromium."
+              "explanation": "Corrosion in iron is rust; in aluminium, the oxide layer is protective."
             },
             {
-              "type": "fill_in_the_blank",
-              "question": "Weathering steel surface is allowed to go (7) ____. Once a layer of (8) ____ has formed, it stabilizes. It differs from ordinary (9) ____ oxide.",
-              "blanks": [
+              "type": "multiple_choice",
+              "question": "When steel is exposed to air and water, it:",
+              "options": [
                 {
-                  "position": 1,
-                  "answer": "rusty"
+                  "text": "Rusts",
+                  "is_correct": true
                 },
                 {
-                  "position": 2,
-                  "answer": "rust"
+                  "text": "Anodizes",
+                  "is_correct": false
                 },
                 {
-                  "position": 3,
-                  "answer": "iron"
+                  "text": "Vitrifys",
+                  "is_correct": false
                 }
               ],
-              "accepted_answers": [
-                [
-                  "rusty",
-                  "rust",
-                  "iron"
-                ]
-              ],
-              "hint": "Stability through oxidation.",
-              "explanation": "Weathering steel uses a stable rust layer for protection."
+              "explanation": "Iron in steel reacts with oxygen to form iron oxide (rust)."
             }
           ]
         }
@@ -4039,47 +3890,53 @@
           "exercises": [
             {
               "type": "matching",
-              "question": "Match the metal/alloy with its description:",
+              "question": "Match the non-ferrous metal with its property:",
               "pairs": [
                 {
-                  "left": "Duralumin",
-                  "right": "Aluminium alloy with copper and magnesium"
-                },
-                {
-                  "left": "Titanium",
-                  "right": "High strength-to-weight ratio"
+                  "left": "Aluminium",
+                  "right": "Lightweight and used in aircraft"
                 },
                 {
                   "left": "Copper",
-                  "right": "Mixed with tin and lead to make bronze"
-                },
-                {
-                  "left": "Zinc",
-                  "right": "Mixed with copper to make brass"
+                  "right": "Excellent electrical conductor"
                 },
                 {
                   "left": "Gold",
-                  "right": "Resists corrosion better than silver"
+                  "right": "Highly corrosion-resistant precious metal"
                 }
               ],
-              "explanation": "These are key characteristics of non-ferrous metals and their alloys."
+              "explanation": "Non-ferrous metals do not contain iron."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "Duralumin contains copper (4.4%) and (1) ____ (1.5%).",
+              "question": "13.1: Duralumin is an aluminium alloy containing (1) ____ and (2) ____. Brass is an alloy of (3) ____ and (4) ____.",
               "blanks": [
                 {
                   "position": 1,
+                  "answer": "copper"
+                },
+                {
+                  "position": 2,
                   "answer": "magnesium"
+                },
+                {
+                  "position": 3,
+                  "answer": "copper"
+                },
+                {
+                  "position": 4,
+                  "answer": "zinc"
                 }
               ],
               "accepted_answers": [
                 [
-                  "magnesium"
+                  "copper",
+                  "magnesium",
+                  "copper",
+                  "zinc"
                 ]
               ],
-              "hint": "Check the theory for duralumin.",
-              "explanation": "Magnesium is a key alloying element in duralumin."
+              "explanation": "Textbook 13.1/13.2 verification."
             }
           ]
         },
@@ -4090,79 +3947,48 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "Check that there is sufficient (1) ____ in the bath to cover the component, ensuring it is (2) ____ over its entire area.",
+              "question": "In electroplating, the component is the (1) ____ and the plating metal is the (2) ____. Zinc plating is called (3) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "electrolyte"
-                },
-                {
-                  "position": 2,
-                  "answer": "plated"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "electrolyte",
-                  "plated"
-                ]
-              ],
-              "hint": "The liquid and the process result.",
-              "explanation": "Electrolyte is the conducting liquid; plating is the process."
-            },
-            {
-              "type": "fill_in_the_blank",
-              "question": "The component is connected to the (3) ____ terminal and functions as the (5) ____ during the (4) ____ process.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "negative"
-                },
-                {
-                  "position": 2,
                   "answer": "cathode"
                 },
                 {
+                  "position": 2,
+                  "answer": "anode"
+                },
+                {
                   "position": 3,
-                  "answer": "electroplating"
+                  "answer": "galvanizing"
                 }
               ],
               "accepted_answers": [
                 [
-                  "negative",
                   "cathode",
-                  "electroplating"
+                  "anode",
+                  "galvanizing"
                 ]
               ],
-              "hint": "Electrical polarity and electrode name.",
-              "explanation": "The negative electrode in electroplating is the cathode."
+              "explanation": "Cathode is negative; anode is positive."
             },
             {
-              "type": "fill_in_the_blank",
-              "question": "Zinc for (6) ____ is connected to the (7) ____ terminal and functions as the (8) ____.",
-              "blanks": [
+              "type": "multiple_choice",
+              "question": "What is the liquid in an electroplating bath called?",
+              "options": [
                 {
-                  "position": 1,
-                  "answer": "galvanizing"
+                  "text": "Cathode",
+                  "is_correct": false
                 },
                 {
-                  "position": 2,
-                  "answer": "positive"
+                  "text": "Anode",
+                  "is_correct": false
                 },
                 {
-                  "position": 3,
-                  "answer": "anode"
+                  "text": "Electrolyte",
+                  "is_correct": true
                 }
               ],
-              "accepted_answers": [
-                [
-                  "galvanizing",
-                  "positive",
-                  "anode"
-                ]
-              ],
-              "hint": "Electrical polarity and electrode name.",
-              "explanation": "Galvanizing is zinc plating; the positive electrode is the anode."
+              "explanation": "The electrolyte is the liquid that conducts current."
             }
           ]
         }
@@ -4179,51 +4005,48 @@
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "A lot of rubber is made from latex, a (1) ____ polymer which comes from rubber trees.",
+              "question": "What is the common name for polymers?",
               "options": [
                 {
-                  "text": "natural",
+                  "text": "Metal",
+                  "is_correct": false
+                },
+                {
+                  "text": "Plastic",
                   "is_correct": true
                 },
                 {
-                  "text": "synthetic",
+                  "text": "Ceramic",
                   "is_correct": false
                 }
               ],
-              "hint": "Comes from trees.",
-              "explanation": "Latex is a biological product, hence natural."
+              "explanation": "Plastic is the common name for synthetic polymers."
             },
             {
-              "type": "multiple_choice",
-              "question": "Synthetic rubber is a (2) ____ polymer with similar properties to latex.",
-              "options": [
+              "type": "fill_in_the_blank",
+              "question": "14.1: Natural rubber comes from (1) ____ trees. Manmade polymers are (2) ____. They consist of long (3) ____ of atoms.",
+              "blanks": [
                 {
-                  "text": "manmade",
-                  "is_correct": true
+                  "position": 1,
+                  "answer": "rubber"
                 },
                 {
-                  "text": "natural",
-                  "is_correct": false
-                }
-              ],
-              "hint": "Opposite of natural.",
-              "explanation": "Synthetic means manmade."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "Like rubber, plastics consist of long chains of (3) ____ which form extremely large (4) ____.",
-              "options": [
-                {
-                  "text": "atoms",
-                  "is_correct": true
+                  "position": 2,
+                  "answer": "synthetic"
                 },
                 {
-                  "text": "molecules",
-                  "is_correct": false
+                  "position": 3,
+                  "answer": "chains"
                 }
               ],
-              "hint": "Which is smaller?",
-              "explanation": "Atoms join to form molecules; in polymers, these molecules are huge."
+              "accepted_answers": [
+                [
+                  "rubber",
+                  "synthetic",
+                  "chains"
+                ]
+              ],
+              "explanation": "Textbook 14.1 verification."
             }
           ]
         },
@@ -4233,117 +4056,44 @@
           "theory": "Synthetic polymers are divided into:\n\n* **Thermoplastics**: Can be melted and remoulded multiple times (e.g., ABS, PVC, polycarbonate).\n* **Thermosetting plastics (Thermosets)**: Set permanently after heating or mixing (**cure**) and cannot be remoulded. If heated again, they burn (e.g., epoxy resins).\n* **Elastomers**: Very elastic polymers that can stretch and return to their original length.",
           "exercises": [
             {
-              "type": "multiple_choice",
-              "question": "The plastic has now fully cooled and set. Any products that fail the tests are melted down and reused.",
-              "options": [
+              "type": "matching",
+              "question": "Match the polymer type with its behavior:",
+              "pairs": [
                 {
-                  "text": "The plastic was heated earlier in the process.",
-                  "is_correct": true
+                  "left": "Thermoplastic",
+                  "right": "Can be melted and remoulded many times"
                 },
                 {
-                  "text": "The plastic is now liquid.",
-                  "is_correct": false
+                  "left": "Thermoset",
+                  "right": "Sets permanently and cannot be remoulded"
                 },
                 {
-                  "text": "The material is a thermosetting plastic.",
-                  "is_correct": false
-                },
-                {
-                  "text": "The material is a thermoplastic.",
-                  "is_correct": true
+                  "left": "Elastomer",
+                  "right": "Can be stretched and returns to original length"
                 }
               ],
-              "hint": "Think about meltability.",
-              "explanation": "Reusing material by melting it down confirms it is a thermoplastic."
+              "explanation": "Thermoplastics and thermosets have different reaction to heat."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "1. Shorter name for polyvinylchloride: (1) ____\n2. Used for forming melted plastic: (2) ____\n3. A group of atoms: (3) ____\n4. A long chain of atoms: (4) ____\n5. To set permanently: (5) ____\n6. A very elastic polymer: (6) ____",
+              "question": "14.2: If a plastic can be melted down and reused, it is a (1) ____. Thermosets will (2) ____ if heated after curing.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "PVC"
+                  "answer": "thermoplastic"
                 },
                 {
                   "position": 2,
-                  "answer": "moulds"
-                },
-                {
-                  "position": 3,
-                  "answer": "molecule"
-                },
-                {
-                  "position": 4,
-                  "answer": "polymer"
-                },
-                {
-                  "position": 5,
-                  "answer": "cure"
-                },
-                {
-                  "position": 6,
-                  "answer": "elastomer"
+                  "answer": "burn"
                 }
               ],
               "accepted_answers": [
                 [
-                  "PVC",
-                  "moulds",
-                  "molecule",
-                  "polymer",
-                  "cure",
-                  "elastomer"
+                  "thermoplastic",
+                  "burn"
                 ]
               ],
-              "hint": "Check the polymer vocabulary.",
-              "explanation": "These terms cover the basic properties and processing of polymers."
-            },
-            {
-              "type": "fill_in_the_blank",
-              "question": "7. A plastic that sets permanently: (7) ____\n8. A natural polymer: (8) ____\n9. A very strong thermoset resin: (9) ____\n10. Not natural: (10) ____\n11. Particles that form molecules: (11) ____\n12. Another word for 'not natural': (12) ____\n13. Material used to make rubber: (13) ____",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "thermoset"
-                },
-                {
-                  "position": 2,
-                  "answer": "rubber"
-                },
-                {
-                  "position": 3,
-                  "answer": "epoxy"
-                },
-                {
-                  "position": 4,
-                  "answer": "synthetic"
-                },
-                {
-                  "position": 5,
-                  "answer": "atoms"
-                },
-                {
-                  "position": 6,
-                  "answer": "manmade"
-                },
-                {
-                  "position": 7,
-                  "answer": "latex"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "thermoset",
-                  "rubber",
-                  "epoxy",
-                  "synthetic",
-                  "atoms",
-                  "manmade",
-                  "latex"
-                ]
-              ],
-              "hint": "More polymer terminology.",
-              "explanation": "Synthetic, manmade, and thermoset are key industrial terms."
+              "explanation": "Textbook 14.2 verification."
             }
           ]
         }
@@ -4359,53 +4109,54 @@
           "theory": "Materials from the ground:\n\n* **Minerals**: Natural, inorganic materials found in rocks (e.g., iron ore, diamond, silicon).\n* **Ceramics**: Inorganic, non-metallic materials formed by heating (e.g., glass, bricks).\n* **Vitrified**: Ceramics that have been heated to form a glass-like structure.\n* **Firing**: Heating clay in a **kiln** (industrial oven) to make bricks.",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the mineral/ceramic term with its definition:",
-              "pairs": [
-                {
-                  "left": "Mineral",
-                  "right": "Natural inorganic material found in rocks"
-                },
-                {
-                  "left": "Inorganic",
-                  "right": "Not coming from living things"
-                },
-                {
-                  "left": "Abrasive",
-                  "right": "Very hard material used for cutting/grinding"
-                },
-                {
-                  "left": "Kiln",
-                  "right": "Industrial oven for firing ceramics"
-                },
-                {
-                  "left": "Vitrified",
-                  "right": "Having a glass-like structure"
-                }
-              ],
-              "explanation": "These terms are essential for understanding mineral and ceramic properties."
-            },
-            {
               "type": "fill_in_the_blank",
-              "question": "The clay bricks were (1) ____ in a (2) ____.",
+              "question": "Glass is a (1) ____. When ceramics have a glass-like structure, we say they are (2) ____. Bricks are made from (3) ____ and fired in a (4) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "fired"
+                  "answer": "ceramic"
                 },
                 {
                   "position": 2,
+                  "answer": "vitrified"
+                },
+                {
+                  "position": 3,
+                  "answer": "clay"
+                },
+                {
+                  "position": 4,
                   "answer": "kiln"
                 }
               ],
               "accepted_answers": [
                 [
-                  "fired",
+                  "ceramic",
+                  "vitrified",
+                  "clay",
                   "kiln"
                 ]
               ],
-              "hint": "Process and equipment.",
-              "explanation": "Firing in a kiln is the standard production method for bricks."
+              "explanation": "Ceramics are inorganic, non-metallic materials formed by heating."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Industrial diamond is often used as an:",
+              "options": [
+                {
+                  "text": "Abrasive",
+                  "is_correct": true
+                },
+                {
+                  "text": "Insulator",
+                  "is_correct": false
+                },
+                {
+                  "text": "Adhesive",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Diamond is extremely hard and useful for cutting."
             }
           ]
         },
@@ -4415,73 +4166,49 @@
           "theory": "Glass manufacturing and types:\n\n* **Float glass**: Flat sheets made by floating molten glass on molten tin.\n* **Annealed glass**: Glass cooled slowly; breaks into dangerous shards.\n* **Tempered / Toughened glass**: Heated and then cooled to change its structure; shatters into tiny pieces when broken.\n* **Laminated glass**: A 'sandwich' of glass and polymer layers; stays **intact** on breaking as pieces are **bonded** to the polymer.",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "Most flat glass is (1) ____ glass, produced on a bed of molten (2) ____.",
-              "blanks": [
+              "type": "matching",
+              "question": "Match the safety glass type:",
+              "pairs": [
                 {
-                  "position": 1,
-                  "answer": "float"
+                  "left": "Annealed glass",
+                  "right": "Breaks into dangerous, sharp pieces"
                 },
                 {
-                  "position": 2,
-                  "answer": "tin"
+                  "left": "Toughened glass",
+                  "right": "Shatters into tiny, safer pieces"
+                },
+                {
+                  "left": "Laminated glass",
+                  "right": "Sandwich of glass and polymer"
                 }
               ],
-              "accepted_answers": [
-                [
-                  "float",
-                  "tin"
-                ]
-              ],
-              "hint": "Process and metal bed.",
-              "explanation": "The float process produces high-quality flat glass."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "Which type of glass shatters into tiny pieces?",
-              "options": [
-                {
-                  "text": "Annealed glass",
-                  "is_correct": false
-                },
-                {
-                  "text": "Toughened glass",
-                  "is_correct": true
-                },
-                {
-                  "text": "Float glass",
-                  "is_correct": false
-                }
-              ],
-              "hint": "Safety glass that breaks safely.",
-              "explanation": "Toughened (tempered) glass is designed to shatter into harmless granules."
+              "explanation": "Safety glass is designed to minimize injury upon breaking."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "Laminated glass stays (3) ____ because the shards are (4) ____ to a thin (5) ____ layer.",
+              "question": "15.3: Bullet-resistant glass is made by (1) ____ several layers of glass with a (2) ____ like (3) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "intact"
+                  "answer": "laminating"
                 },
                 {
                   "position": 2,
-                  "answer": "bonded"
+                  "answer": "polymer"
                 },
                 {
                   "position": 3,
-                  "answer": "polymer"
+                  "answer": "polycarbonate"
                 }
               ],
               "accepted_answers": [
                 [
-                  "intact",
-                  "bonded",
-                  "polymer"
+                  "laminating",
+                  "polymer",
+                  "polycarbonate"
                 ]
               ],
-              "hint": "Safety mechanism of laminates.",
-              "explanation": "The polymer interlayer holds the glass pieces together upon impact."
+              "explanation": "Textbook 15.3 verification."
             }
           ]
         }
@@ -4498,77 +4225,55 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "1. Gravel used in concrete: (1) ____\n2. Sand used in concrete: (2) ____\n3. Powder that enables concrete to set: (3) ____\n4. Mixing concrete accurately: (4) ____\n5. Specification of concrete ingredients: (5) ____",
+              "question": "Concrete is made from (1) ____, fine (2) ____ (sand), coarse aggregate ((3) ____) and (4) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "coarse aggregate"
-                },
-                {
-                  "position": 2,
-                  "answer": "fine aggregate"
-                },
-                {
-                  "position": 3,
                   "answer": "cement"
                 },
                 {
-                  "position": 4,
-                  "answer": "batching"
-                },
-                {
-                  "position": 5,
-                  "answer": "mix design"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "coarse aggregate",
-                  "fine aggregate",
-                  "cement",
-                  "batching",
-                  "mix design"
-                ]
-              ],
-              "hint": "Basic concrete components and processes.",
-              "explanation": "These terms are fundamental to concrete technology."
-            },
-            {
-              "type": "fill_in_the_blank",
-              "question": "6. Effective structural capability: (6) ____\n7. Affects wetness and strength: (7) ____\n8. Chemicals put in concrete: (8) ____\n9. Allows concrete to stay wet longer: (9) ____\n10. Makes drier concrete easier to work with: (10) ____",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "structural strength"
-                },
-                {
                   "position": 2,
-                  "answer": "water-cement ratio"
+                  "answer": "aggregate"
                 },
                 {
                   "position": 3,
-                  "answer": "additives"
+                  "answer": "gravel"
                 },
                 {
                   "position": 4,
-                  "answer": "retarder"
-                },
-                {
-                  "position": 5,
-                  "answer": "plasticizer"
+                  "answer": "water"
                 }
               ],
               "accepted_answers": [
                 [
-                  "structural strength",
-                  "water-cement ratio",
-                  "additives",
-                  "retarder",
-                  "plasticizer"
+                  "cement",
+                  "aggregate",
+                  "gravel",
+                  "water"
                 ]
               ],
-              "hint": "Structural and chemical terms.",
-              "explanation": "Strength and workability are controlled by ratios and additives."
+              "explanation": "Concrete ingredients must be carefully proportioned."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "16.1: An additive to help concrete flow is a (1) ____. To delay setting, workers use a (2) ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "plasticizer"
+                },
+                {
+                  "position": 2,
+                  "answer": "retarder"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "plasticizer",
+                  "retarder"
+                ]
+              ],
+              "explanation": "Textbook 16.1 verification."
             }
           ]
         },
@@ -4578,61 +4283,49 @@
           "theory": "Concrete is weak in **tension** (stretching), so steel **reinforcement** bars are added.\n\n* **Formwork** / **Shuttering**: Moulds used to contain wet concrete until it sets.\n* **In-situ**: Concrete cast in its final position.\n* **Precast**: Concrete elements cast at a factory and then delivered.\n* **Prestressing**: Applying tension to reinforcing bars before (**pre-tensioning**) or after (**post-tensioning**) pouring to increase resistance to bending.",
           "exercises": [
             {
+              "type": "multiple_choice",
+              "question": "Why is steel used in reinforced concrete?",
+              "options": [
+                {
+                  "text": "Concrete is weak in tension",
+                  "is_correct": true
+                },
+                {
+                  "text": "Concrete is too expensive",
+                  "is_correct": false
+                },
+                {
+                  "text": "Steel makes it lighter",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Reinforcing bars overcome concrete weakness in tension."
+            },
+            {
               "type": "fill_in_the_blank",
-              "question": "Post-tensioning is a type of (1) ____. The bars are (2) ____ inside a plastic tube. They are not (3) ____ at first. After the concrete has (4) ____, the bars are (5) ____.",
+              "question": "Concrete cast in its final position is (1) ____. Cast at a factory is (2) ____. Moulds are called (3) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "prestressing"
+                  "answer": "in-situ"
                 },
                 {
                   "position": 2,
-                  "answer": "placed"
+                  "answer": "precast"
                 },
                 {
                   "position": 3,
-                  "answer": "tensioned"
-                },
-                {
-                  "position": 4,
-                  "answer": "set"
-                },
-                {
-                  "position": 5,
-                  "answer": "stretched"
+                  "answer": "formwork"
                 }
               ],
               "accepted_answers": [
                 [
-                  "prestressing",
-                  "placed",
-                  "tensioned",
-                  "set",
-                  "stretched"
+                  "in-situ",
+                  "precast",
+                  "formwork"
                 ]
               ],
-              "hint": "Look at the prestressing process.",
-              "explanation": "Post-tensioning involves tensioning bars after the concrete sets."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "Concrete is weak in which type of force?",
-              "options": [
-                {
-                  "text": "Compression",
-                  "is_correct": false
-                },
-                {
-                  "text": "Tension",
-                  "is_correct": true
-                },
-                {
-                  "text": "Shear",
-                  "is_correct": false
-                }
-              ],
-              "hint": "The reason for reinforcement.",
-              "explanation": "Concrete has high compressive strength but very low tensile strength."
+              "explanation": "Textbook 16.2 verification."
             }
           ]
         }
@@ -4648,45 +4341,44 @@
           "theory": "Wood is divided into two biological categories:\n\n* **Hardwood**: From deciduous trees (e.g., oak).\n* **Softwood**: From coniferous trees (e.g., pine).\n\nEngineering formats:\n\n* **Solid wood**: Sawn timber with natural grain and knots.\n* **Engineered wood**: Made by bonding layers or particles with resin (e.g., plywood, OSB, glulam).",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the wood category with its property:",
-              "pairs": [
+              "type": "multiple_choice",
+              "question": "Softwood comes from which type of tree?",
+              "options": [
                 {
-                  "left": "Engineered wood",
-                  "right": "Always made from multiple pieces or particles bonded together"
+                  "text": "Deciduous",
+                  "is_correct": false
                 },
                 {
-                  "left": "Softwood",
-                  "right": "Comes specifically from coniferous trees"
+                  "text": "Coniferous",
+                  "is_correct": true
                 },
                 {
-                  "left": "Solid wood",
-                  "right": "Single pieces of timber that may have knots"
+                  "text": "Tropical",
+                  "is_correct": false
                 }
               ],
-              "explanation": "These distinctions are vital for structural design and material selection."
+              "explanation": "Softwood is from evergreen coniferous trees."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "Coniferous trees provide a source of (1) ____. Hardwood comes from (2) ____ trees.",
+              "question": "17.2: Timber cut with a circular saw is (1) ____ sections. Visibility requires it to be (2) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "softwood"
+                  "answer": "rough-sawn"
                 },
                 {
                   "position": 2,
-                  "answer": "deciduous"
+                  "answer": "planed"
                 }
               ],
               "accepted_answers": [
                 [
-                  "softwood",
-                  "deciduous"
+                  "rough-sawn",
+                  "planed"
                 ]
               ],
-              "hint": "Biological tree types.",
-              "explanation": "Softwood and hardwood are biological classifications, not necessarily indicators of density."
+              "explanation": "Textbook 17.2 verification."
             }
           ]
         },
@@ -4696,78 +4388,42 @@
           "theory": "Structural timber is tested to determine its **stress grade**:\n\n* **Rough-sawn**: Surface texture from circular saws.\n* **Planed**: Smoothed surface for visibility.\n* **Stress-grading**: Mechanical (by machine) or visual (by inspector).\n* **Glulams**: Glue-laminated sections used for large structural beams.\n* **Plywood**: Layers (**plies**) bonded with grain at 90 degrees.",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "Timber has a smooth finish after it has been (1) ____. Saw-cut timber is called (2) ____. After testing, it is given a (3) ____.",
-              "blanks": [
+              "type": "matching",
+              "question": "Match the engineered wood type:",
+              "pairs": [
                 {
-                  "position": 1,
-                  "answer": "planed"
+                  "left": "Plywood",
+                  "right": "Layers of wood with grain at 90 degrees"
                 },
                 {
-                  "position": 2,
-                  "answer": "rough-sawn"
+                  "left": "OSB",
+                  "right": "Strands of wood bonded with resin"
                 },
                 {
-                  "position": 3,
-                  "answer": "stress grade"
+                  "left": "MDF",
+                  "right": "Medium-density fibreboard"
                 }
               ],
-              "accepted_answers": [
-                [
-                  "planed",
-                  "rough-sawn",
-                  "stress grade"
-                ]
-              ],
-              "hint": "Finishing and grading terms.",
-              "explanation": "Planing removes the rough surface; grading ensures structural safety."
+              "explanation": "Engineered wood uses bonding to improve strength."
             },
             {
-              "type": "fill_in_the_blank",
-              "question": "Sustainable (1) ____ trees provide wood for solid, (2) ____ sections, (3) ____ beams, and (4) ____ plies. Smaller strands make (5) ____, while particles make (6) ____ board and (7) ____.",
-              "blanks": [
+              "type": "multiple_choice",
+              "question": "Which engineered wood uses layers with grain at 90 degrees?",
+              "options": [
                 {
-                  "position": 1,
-                  "answer": "coniferous"
+                  "text": "OSB",
+                  "is_correct": false
                 },
                 {
-                  "position": 2,
-                  "answer": "stress-graded"
+                  "text": "Plywood",
+                  "is_correct": true
                 },
                 {
-                  "position": 3,
-                  "answer": "glulam"
-                },
-                {
-                  "position": 4,
-                  "answer": "plywood"
-                },
-                {
-                  "position": 5,
-                  "answer": "OSB"
-                },
-                {
-                  "position": 6,
-                  "answer": "particle"
-                },
-                {
-                  "position": 7,
-                  "answer": "MDF"
+                  "text": "MDF",
+                  "is_correct": false
                 }
               ],
-              "accepted_answers": [
-                [
-                  "coniferous",
-                  "stress-graded",
-                  "glulam",
-                  "plywood",
-                  "OSB",
-                  "particle",
-                  "MDF"
-                ]
-              ],
-              "hint": "Environmental usage of wood products.",
-              "explanation": "Wood utilization ranges from high-grade structural beams to recycled particle boards."
+              "explanation": "Plywood grain orientation provides increased strength."
             }
           ]
         }
@@ -4784,45 +4440,50 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "1. Increase in length: (1) ____\n2. Ability to resist stretching: (2) ____\n3. Ability to resist crushing: (3) ____\n4. Ability to return to shape: (4) ____\n5. Easy to fracture: (5) ____\n6. Can be drawn into wires: (6) ____",
+              "question": "Tensile strength is the ability to resist (1) ____. Extension is also called (2) ____. Materials that change shape under force (3) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "elongation"
+                  "answer": "tension"
                 },
                 {
                   "position": 2,
-                  "answer": "tensile strength"
+                  "answer": "elongation"
                 },
                 {
                   "position": 3,
-                  "answer": "compressive strength"
-                },
-                {
-                  "position": 4,
-                  "answer": "elasticity"
-                },
-                {
-                  "position": 5,
-                  "answer": "brittleness"
-                },
-                {
-                  "position": 6,
-                  "answer": "ductility"
+                  "answer": "deform"
                 }
               ],
               "accepted_answers": [
                 [
+                  "tension",
                   "elongation",
-                  "tensile strength",
-                  "compressive strength",
-                  "elasticity",
-                  "brittleness",
-                  "ductility"
+                  "deform"
                 ]
               ],
-              "hint": "Core material properties.",
-              "explanation": "These properties define how materials behave under mechanical stress."
+              "explanation": "Materials react to forces by changing shape."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "18.1: A crushing force is (1) ____. Stretched into long lengths means it is (2) ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "compression"
+                },
+                {
+                  "position": 2,
+                  "answer": "ductile"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "compression",
+                  "ductile"
+                ]
+              ],
+              "explanation": "Textbook 18.1/18.2 verification."
             }
           ]
         },
@@ -4832,61 +4493,42 @@
           "theory": "Materials go through stages of deformation:\n\n* **Proportional extension**: Length increases linearly with tension.\n* **Elastic limit**: The point beyond which a material will not return to its original shape.\n* **Yield point**: The point where the material begins to flow and extend significantly without added force.\n* **UTS (Ultimate Tensile Strength)**: The maximum tension a material can withstand before breaking.",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "1. Length increases linearly with tension: (1) ____\n2. Point of no return for shape: (2) ____\n3. Permanent deformation: (3) ____\n4. Material gives way and flows: (4) ____\n5. Maximum tensile capability: (5) ____",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "proportional"
-                },
-                {
-                  "position": 2,
-                  "answer": "elastic limit"
-                },
-                {
-                  "position": 3,
-                  "answer": "plasticity"
-                },
-                {
-                  "position": 4,
-                  "answer": "yield point"
-                },
-                {
-                  "position": 5,
-                  "answer": "UTS"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "proportional",
-                  "elastic limit",
-                  "plasticity",
-                  "yield point",
-                  "UTS"
-                ]
-              ],
-              "hint": "Stages on a stress-strain curve.",
-              "explanation": "The transition from elastic to plastic behavior is critical in engineering design."
-            },
-            {
               "type": "multiple_choice",
-              "question": "What happens when a ductile material reaches its UTS?",
+              "question": "What is the point beyond which a material will NOT return to its original length?",
               "options": [
                 {
-                  "text": "It returns to original shape",
+                  "text": "Limit of proportionality",
                   "is_correct": false
                 },
                 {
-                  "text": "It begins to neck and then fractures",
+                  "text": "Elastic limit",
                   "is_correct": true
                 },
                 {
-                  "text": "It becomes stiffer",
+                  "text": "Yield point",
                   "is_correct": false
                 }
               ],
-              "hint": "The final stage before failure.",
-              "explanation": "After UTS, a material necks (gets thinner) and eventually fractures."
+              "explanation": "The elastic limit marks the transition from elastic to plastic deformation."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A material that can be hammered into shape is:",
+              "options": [
+                {
+                  "text": "Ductile",
+                  "is_correct": false
+                },
+                {
+                  "text": "Malleable",
+                  "is_correct": true
+                },
+                {
+                  "text": "Brittle",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Malleability is the ability to be deformed by compression."
             }
           ]
         }
@@ -4902,73 +4544,49 @@
           "theory": "Durability depends on several factors:\n\n* **Indentation hardness**: Resistance to impacts (preventing dents).\n* **Scratch hardness**: Resistance to surface scratches; related to **abrasion resistance**.\n* **Fatigue**: Caused by **cyclic loads** (varying forces). Results in **micro-cracking**.\n* **Fracture toughness**: Measure of how easily existing cracks open up.\n* **Creep**: Permanent deformation due to sustained loads over time, worsened by heat.",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "The guards must have high (1) ____ hardness to protect from impacts. Wiping away metal fragments causes (2) ____, so they need (3) ____ hardness for (4) ____.",
-              "blanks": [
+              "type": "matching",
+              "question": "Match the hardness type:",
+              "pairs": [
                 {
-                  "position": 1,
-                  "answer": "indentation"
+                  "left": "Scratch hardness",
+                  "right": "Resisting being scratched (abrasion)"
                 },
                 {
-                  "position": 2,
-                  "answer": "abrasion"
+                  "left": "Indentation hardness",
+                  "right": "Resisting compressions from impacts"
                 },
                 {
-                  "position": 3,
-                  "answer": "scratch"
-                },
-                {
-                  "position": 4,
-                  "answer": "durability"
+                  "left": "Durability",
+                  "right": "How long a material will last"
                 }
               ],
-              "accepted_answers": [
-                [
-                  "indentation",
-                  "abrasion",
-                  "scratch",
-                  "durability"
-                ]
-              ],
-              "hint": "Types of hardness and resistance.",
-              "explanation": "Indentation resists impact; scratch/abrasion resists surface wear."
+              "explanation": "Hardness affects the durability of a material."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "1. Forces that continually vary: (1) ____\n2. Problem caused by cyclic loads: (2) ____\n3. Formation of tiny cracks: (3) ____\n4. Measure of how easily cracks open: (4) ____\n5. Permanent deformation due to sustained loads: (5) ____",
+              "question": "19.2: Wing flex causes (1) ____ loads. Small cracks are (2) ____. Resistance to opening cracks is (3) ____ toughness.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "cyclic loads"
+                  "answer": "cyclic"
                 },
                 {
                   "position": 2,
-                  "answer": "fatigue"
-                },
-                {
-                  "position": 3,
                   "answer": "micro-cracking"
                 },
                 {
-                  "position": 4,
-                  "answer": "fracture toughness"
-                },
-                {
-                  "position": 5,
-                  "answer": "creep"
+                  "position": 3,
+                  "answer": "fracture"
                 }
               ],
               "accepted_answers": [
                 [
-                  "cyclic loads",
-                  "fatigue",
+                  "cyclic",
                   "micro-cracking",
-                  "fracture toughness",
-                  "creep"
+                  "fracture"
                 ]
               ],
-              "hint": "Mechanical failure terms.",
-              "explanation": "Fatigue and creep are common causes of structural failure over time."
+              "explanation": "Textbook 19.2 verification."
             }
           ]
         },
@@ -4979,39 +4597,53 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "1. Ability to transmit heat: (1) ____\n2. Material that transmits heat well: (2) ____\n3. Material that is a poor conductor: (3) ____\n4. Increase in size due to heat: (4) ____\n5. Decrease in size due to cooling: (5) ____",
+              "question": "(1) ____ conductivity is the ability to carry heat. Materials (2) ____ when heated and (3) ____ when cooled. This is measured by the coefficient of (4) ____ expansion.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "thermal conductivity"
+                  "answer": "Thermal"
                 },
                 {
                   "position": 2,
-                  "answer": "thermal conductor"
-                },
-                {
-                  "position": 3,
-                  "answer": "thermal insulator"
-                },
-                {
-                  "position": 4,
                   "answer": "expand"
                 },
                 {
-                  "position": 5,
+                  "position": 3,
                   "answer": "contract"
+                },
+                {
+                  "position": 4,
+                  "answer": "thermal"
                 }
               ],
               "accepted_answers": [
                 [
-                  "thermal conductivity",
-                  "thermal conductor",
-                  "thermal insulator",
+                  "Thermal",
                   "expand",
-                  "contract"
+                  "contract",
+                  "thermal"
                 ]
               ],
-              "explanation": "Thermal management is crucial in engineering to prevent overheating or structural failure due to expansion."
+              "explanation": "Thermal properties are critical in engine and wiring design."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Copper is an excellent thermal:",
+              "options": [
+                {
+                  "text": "Conductor",
+                  "is_correct": true
+                },
+                {
+                  "text": "Insulator",
+                  "is_correct": false
+                },
+                {
+                  "text": "Resistor",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Copper carries heat very efficiently."
             }
           ]
         }
@@ -5028,7 +4660,7 @@
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "Which process uses metal powder instead of molten metal?",
+              "question": "What process uses metal powder instead of molten metal?",
               "options": [
                 {
                   "text": "Casting",
@@ -5039,34 +4671,30 @@
                   "is_correct": true
                 },
                 {
-                  "text": "Extrusion",
+                  "text": "Extruding",
                   "is_correct": false
                 }
               ],
-              "hint": "Powder metallurgy.",
-              "explanation": "Sintering joins powder particles through heat and pressure without melting."
+              "explanation": "Sintering joins metal powder particles due to heat."
             },
             {
-              "type": "fill_in_the_blank",
-              "question": "In casting and extrusion, the metal must be (1) ____. All three processes use a (2) ____ to shape the metal.",
-              "blanks": [
+              "type": "multiple_choice",
+              "question": "What process involves forcing molten metal through a shaping tool?",
+              "options": [
                 {
-                  "position": 1,
-                  "answer": "molten"
+                  "text": "Casting",
+                  "is_correct": false
                 },
                 {
-                  "position": 2,
-                  "answer": "die"
+                  "text": "Extruding",
+                  "is_correct": true
+                },
+                {
+                  "text": "Forging",
+                  "is_correct": false
                 }
               ],
-              "accepted_answers": [
-                [
-                  "molten",
-                  "die"
-                ]
-              ],
-              "hint": "Liquid state and shaping tool.",
-              "explanation": "Molten metal is required for flow; a die provides the shape."
+              "explanation": "Extrusion produces long lengths with a constant section."
             }
           ]
         },
@@ -5076,55 +4704,44 @@
           "theory": "Shaping and improving metal properties:\n\n* **Forging** / **Working**: Shaping metal by hammering or rolling (**hot** or **cold**).\n* **Work hardening**: Increased hardness due to cold working.\n* **Shot-peening**: Firing metal balls at a surface to harden it.\n* **Heat treatments**:\n    * **Annealing**: Heating and slow cooling (softens, increases elasticity).\n    * **Quencing**: Rapid cooling (hardens, increases brittleness).\n    * **Tempering**: Heating and holding (balances hardness and elasticity).\n    * **Precipitation hardening** (**age hardening**): Extended tempering for maximum hardness.\n    * **Case hardening**: Hardening only the surface using specific gases.",
           "exercises": [
             {
-              "type": "multiple_choice",
-              "question": "Decide if these sentences are true or false:",
-              "options": [
-                {
-                  "text": "Metal must always be heated before it can be forged.",
-                  "is_correct": false
-                },
-                {
-                  "text": "Forging increases the hardness of metal (work hardening).",
-                  "is_correct": true
-                },
-                {
-                  "text": "Shot-peening is a hot forging technique.",
-                  "is_correct": false
-                },
-                {
-                  "text": "Metal can be rolled cold or hot.",
-                  "is_correct": true
-                }
-              ],
-              "hint": "Think about temperature and processes.",
-              "explanation": "Cold working is common; shot-peening is always cold."
-            },
-            {
               "type": "matching",
-              "question": "Match the heat treatment with its result:",
+              "question": "Match the heat treatment:",
               "pairs": [
                 {
-                  "left": "Annealing",
-                  "right": "Makes metal softer and more elastic"
+                  "left": "Quencing",
+                  "right": "Rapid cooling in water or oil"
                 },
                 {
-                  "left": "Quenching",
-                  "right": "Makes metal harder but more brittle"
+                  "left": "Annealing",
+                  "right": "Slow cooling to make it softer"
                 },
                 {
                   "left": "Tempering",
-                  "right": "Balances hardness and elasticity"
-                },
-                {
-                  "left": "Precipitation hardening",
-                  "right": "Also called age hardening; very hard"
-                },
-                {
-                  "left": "Case hardening",
-                  "right": "Hardens only the outer surface"
+                  "right": "Balance between hardness and elasticity"
                 }
               ],
-              "explanation": "Different cooling rates and chemical environments produce different metallic properties."
+              "explanation": "Heat treatment changes the atomic structure and properties of metals."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "20.2: Forging increases hardness via (1) ____ hardening. Bombarding with balls is (2) ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "work"
+                },
+                {
+                  "position": 2,
+                  "answer": "shot-peening"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "work",
+                  "shot-peening"
+                ]
+              ],
+              "explanation": "Textbook 20.2 verification."
             }
           ]
         }
@@ -5140,28 +4757,49 @@
           "theory": "Raw materials often require processing before use (e.g., melting/casting). Common formats:\n\n* **Powder**: Very fine particles (e.g., cement).\n* **Pellets**: Standard pea-to-egg sized pieces (e.g., plastic).\n* **Fibres**: Hair-like lengths (e.g., glass fibres).\n* **Ingots**: Large blocks of metal produced at foundries.\n* **Blooms**: Very large steel ingots.\n* **Billets**: Smaller blocks of steel.",
           "exercises": [
             {
+              "type": "fill_in_the_blank",
+              "question": "Standard-sized plastic pieces are called (1) ____. Fine hair-like lengths are (2) ____. Large steel blocks are (3) ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "pellets"
+                },
+                {
+                  "position": 2,
+                  "answer": "fibres"
+                },
+                {
+                  "position": 3,
+                  "answer": "blooms"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "pellets",
+                  "fibres",
+                  "blooms"
+                ]
+              ],
+              "explanation": "Raw materials come in various formats for processing."
+            },
+            {
               "type": "multiple_choice",
-              "question": "Decide if these sentences are true or false:",
+              "question": "What are large steel blocks called?",
               "options": [
                 {
-                  "text": "Raw materials are often intended to be melted or mixed.",
+                  "text": "Blooms",
                   "is_correct": true
                 },
                 {
-                  "text": "Powder particles are larger than pellets.",
+                  "text": "Billets",
                   "is_correct": false
                 },
                 {
-                  "text": "A steel bloom is a type of ingot.",
-                  "is_correct": true
-                },
-                {
-                  "text": "Steel blooms can be cut into smaller pieces called billets.",
-                  "is_correct": true
+                  "text": "Ingots",
+                  "is_correct": false
                 }
               ],
-              "hint": "Size and scale of raw blocks.",
-              "explanation": "Blooms are large; billets are small; powder is the finest."
+              "explanation": "Blooms are very large steel blocks; ingots are standard size."
             }
           ]
         },
@@ -5171,68 +4809,49 @@
           "theory": "Materials are supplied in ready-to-use formats:\n\n* **Bars**: Solid long lengths (round/rod, square, flat).\n* **Sheets**: Flat, wide, thin (<3mm for steel). Wood sheets are **boards**; metal sheets come in **coils**.\n* **Plates**: Flat, wide, thick (>3mm for steel).\n* **Sections**: Structural shapes (e.g., I-sections).\n* **Tubes**: Hollow lengths. **Pipes** carry liquid/gas.\n* **Wires**: Single strands of metal. Combined wires form a **cable**.",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "1. A long, thin circular section of any material: (1) ____\n2. Thin metal supplied in a roll: (2) ____\n3. Thick, flat piece of metal: (3) ____\n4. Hollow length for carrying liquid: (4) ____\n5. Group of insulated conductors: (5) ____",
-              "blanks": [
+              "type": "matching",
+              "question": "Match the metal format:",
+              "pairs": [
                 {
-                  "position": 1,
-                  "answer": "rod"
+                  "left": "Bar",
+                  "right": "Long length with small cross-section"
                 },
                 {
-                  "position": 2,
-                  "answer": "coil"
+                  "left": "Sheet",
+                  "right": "Flat and thin (thinner than 3mm)"
                 },
                 {
-                  "position": 3,
-                  "answer": "plate"
-                },
-                {
-                  "position": 4,
-                  "answer": "pipe"
-                },
-                {
-                  "position": 5,
-                  "answer": "cable"
+                  "left": "Plate",
+                  "right": "Flat and thick (thicker than 3mm)"
                 }
               ],
-              "accepted_answers": [
-                [
-                  "rod",
-                  "coil",
-                  "plate",
-                  "pipe",
-                  "cable"
-                ]
-              ],
-              "hint": "Terminology for supplied materials.",
-              "explanation": "Precise names for formats are essential for procurement and design specifications."
+              "explanation": "Processed materials are supplied in standard shapes."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "Metal sheets of wood are called (1) ____. Single strands of metal are (2) ____, while grouped strands are (3) ____ wires.",
+              "question": "Steel thinner than 3mm is (1) ____. Thicker is (2) ____. Sheets of wood are (3) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "boards"
+                  "answer": "sheet"
                 },
                 {
                   "position": 2,
-                  "answer": "wires"
+                  "answer": "plate"
                 },
                 {
                   "position": 3,
-                  "answer": "stranded"
+                  "answer": "boards"
                 }
               ],
               "accepted_answers": [
                 [
-                  "boards",
-                  "wires",
-                  "stranded"
+                  "sheet",
+                  "plate",
+                  "boards"
                 ]
               ],
-              "hint": "Specific format names.",
-              "explanation": "Terminological nuances distinguish between wood boards and metal sheets/wires."
+              "explanation": "Textbook 21.2 verification."
             }
           ]
         }
@@ -5249,30 +4868,41 @@
           "exercises": [
             {
               "type": "matching",
-              "question": "Match the machining term with its role:",
+              "question": "Match the machining waste and coolant:",
               "pairs": [
                 {
-                  "left": "Material being machined",
-                  "right": "Workpiece"
+                  "left": "Swarf / Chips",
+                  "right": "Waste metal produced"
                 },
                 {
-                  "left": "Waste metal produced",
-                  "right": "Swarf or chips"
+                  "left": "Cutting fluid",
+                  "right": "Coolant pumped onto workpiece"
                 },
                 {
-                  "left": "Liquid used as a coolant",
-                  "right": "Cutting fluid"
-                },
-                {
-                  "left": "Computer-guided system",
-                  "right": "CNC"
-                },
-                {
-                  "left": "Design and manufacturing software",
-                  "right": "CAD/CAM"
+                  "left": "Workpiece",
+                  "right": "Material being shaped"
                 }
               ],
-              "explanation": "These terms are standard in industrial manufacturing environments."
+              "explanation": "Machining terms describe the process and its by-products."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is CAD/CAM software used for?",
+              "options": [
+                {
+                  "text": "Cooking",
+                  "is_correct": false
+                },
+                {
+                  "text": "Design and manufacturing",
+                  "is_correct": true
+                },
+                {
+                  "text": "Emailing",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "CAD/CAM automates the design and production process."
             }
           ]
         },
@@ -5283,11 +4913,42 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "1. A tool for making holes: (1) ____ bit\n2. A hollow saw for cutting out cores: (2) ____\n3. A tool for cutting metal by hand: (3) ____\n4. A rotating wheel with a rough surface: (4) ____ wheel\n5. The gap left by a saw blade: (5) ____",
+              "question": "1. Rotating cutters: (1) ____. 2. Rotating workpiece: (2) ____. 3. Enlarging holes: (3) ____. 4. Gap left by saw: (4) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "drill"
+                  "answer": "milling"
+                },
+                {
+                  "position": 2,
+                  "answer": "turning"
+                },
+                {
+                  "position": 3,
+                  "answer": "boring"
+                },
+                {
+                  "position": 4,
+                  "answer": "kerf"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "milling",
+                  "turning",
+                  "boring",
+                  "kerf"
+                ]
+              ],
+              "explanation": "Different machining techniques are used for different geometries."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Hand cutting tool: (1) ____. Hollow saw: (2) ____. Lathes are for (3) ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "hacksaw"
                 },
                 {
                   "position": 2,
@@ -5295,60 +4956,17 @@
                 },
                 {
                   "position": 3,
-                  "answer": "hacksaw"
-                },
-                {
-                  "position": 4,
-                  "answer": "abrasive"
-                },
-                {
-                  "position": 5,
-                  "answer": "kerf"
+                  "answer": "turning"
                 }
               ],
               "accepted_answers": [
                 [
-                  "drill",
-                  "holesaw",
                   "hacksaw",
-                  "abrasive",
-                  "kerf"
+                  "holesaw",
+                  "turning"
                 ]
               ],
-              "hint": "Specific cutting tool names.",
-              "explanation": "Each tool is specialized for a particular material and desired finish."
-            },
-            {
-              "type": "fill_in_the_blank",
-              "question": "1. Lathes are used to (1) ____ workpieces. \n2. (2) ____ involves removing material across a surface. \n3. Toothed cutting wheels are used to (3) ____ workpieces. \n4. Sawing blades remove material to form a (4) ____.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "turn"
-                },
-                {
-                  "position": 2,
-                  "answer": "grinding"
-                },
-                {
-                  "position": 3,
-                  "answer": "mill"
-                },
-                {
-                  "position": 4,
-                  "answer": "kerf"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "turn",
-                  "grinding",
-                  "mill",
-                  "kerf"
-                ]
-              ],
-              "hint": "Verbs of machining.",
-              "explanation": "The choice of process depends on the geometry of the required part."
+              "explanation": "Textbook 23.2 verification."
             }
           ]
         }
@@ -5364,27 +4982,42 @@
           "theory": "Cutting thin materials using pressure (**shear force**):\n\n* **Guillotining**: Making long, straight cuts with a blade.\n* **Punching**: Using a **die** to make small, shaped cuts.\n* **Blanking**: Producing small, shaped workpieces (**blanks**) from a sheet.\n* **Piercing**: Making holes in a sheet where the sheet is the final product.",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the shearing process with its description:",
-              "pairs": [
+              "type": "multiple_choice",
+              "question": "What is producing small shaped workpieces from a sheet called?",
+              "options": [
                 {
-                  "left": "Long, straight cuts",
-                  "right": "Guillotining"
+                  "text": "Punching",
+                  "is_correct": false
                 },
                 {
-                  "left": "Cutting shaped workpieces from sheets",
-                  "right": "Blanking"
+                  "text": "Blanking",
+                  "is_correct": true
                 },
                 {
-                  "left": "Making holes in a finished sheet",
-                  "right": "Piercing"
-                },
-                {
-                  "left": "Using a shaped die to shear metal",
-                  "right": "Punching"
+                  "text": "Piercing",
+                  "is_correct": false
                 }
               ],
-              "explanation": "Shearing is a non-chip-forming process used primarily for sheet metal."
+              "explanation": "Blanking produces workpieces; piercing makes holes in a product."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Making long straight cuts with a blade is:",
+              "options": [
+                {
+                  "text": "Guilloting",
+                  "is_correct": true
+                },
+                {
+                  "text": "Punching",
+                  "is_correct": false
+                },
+                {
+                  "text": "Blanking",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Guilloting uses shear force for straight cuts."
             }
           ]
         },
@@ -5394,50 +5027,27 @@
           "theory": "Advanced cutting technologies:\n\n* **Flame-cutting**: Using **oxyacetylene** (oxygen + acetylene) to melt steel.\n* **EDM (Electrical Discharge Machining)**: Also called **spark erosion**; using an **electric arc** to melt metal ahead of a wire.\n* **Plasma cutting**: Using **ionized** gas (plasma) at extremely high temperatures.\n* **Laser cutting**: Using concentrated light to melt material.\n* **UHP Waterjet**: Using extremely high-pressure water. Advantage: no **HAZ** (heat-affected zone) and no **secondary operations** needed.",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "Flame-cutting uses a mixture of (1) ____ and (2) ____ called (3) ____. UHP (4) ____ cutting has high (5) ____, so no (6) ____ operations are needed to smooth edges.",
-              "blanks": [
+              "type": "matching",
+              "question": "Match the cutting technology:",
+              "pairs": [
                 {
-                  "position": 1,
-                  "answer": "acetylene"
+                  "left": "Flame-cutting",
+                  "right": "Uses oxyacetylene"
                 },
                 {
-                  "position": 2,
-                  "answer": "oxygen"
+                  "left": "EDM",
+                  "right": "Spark erosion using electric arc"
                 },
                 {
-                  "position": 3,
-                  "answer": "oxyacetylene"
-                },
-                {
-                  "position": 4,
-                  "answer": "waterjet"
-                },
-                {
-                  "position": 5,
-                  "answer": "edge quality"
-                },
-                {
-                  "position": 6,
-                  "answer": "secondary"
+                  "left": "Waterjet",
+                  "right": "No heat-affected zone (HAZ)"
                 }
               ],
-              "accepted_answers": [
-                [
-                  "acetylene",
-                  "oxygen",
-                  "oxyacetylene",
-                  "waterjet",
-                  "edge quality",
-                  "secondary"
-                ]
-              ],
-              "hint": "High-tech cutting terms.",
-              "explanation": "Waterjets are ideal for materials sensitive to heat, as they avoid creating a HAZ."
+              "explanation": "Advanced cutting methods offer high precision and handle different materials."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "1. What EDM stands for: (1) ____\n2. Alternative name for EDM: (2) ____ erosion\n3. Tool used in flame and plasma cutting: (3) ____\n4. Heat source in EDM: (4) ____\n5. Gas that has been ionized: (5) ____\n6. Concentrated light beam: (6) ____\n7. Area changed by heat: (7) ____",
+              "question": "EDM stands for (1) ____. Ionized gas is (2) ____. Area changed by heat is (3) ____.",
               "blanks": [
                 {
                   "position": 1,
@@ -5445,42 +5055,21 @@
                 },
                 {
                   "position": 2,
-                  "answer": "spark"
-                },
-                {
-                  "position": 3,
-                  "answer": "torch"
-                },
-                {
-                  "position": 4,
-                  "answer": "electric arc"
-                },
-                {
-                  "position": 5,
                   "answer": "plasma"
                 },
                 {
-                  "position": 6,
-                  "answer": "laser"
-                },
-                {
-                  "position": 7,
+                  "position": 3,
                   "answer": "HAZ"
                 }
               ],
               "accepted_answers": [
                 [
                   "Electrical Discharge Machining",
-                  "spark",
-                  "torch",
-                  "electric arc",
                   "plasma",
-                  "laser",
                   "HAZ"
                 ]
               ],
-              "hint": "Abbreviations and advanced terms.",
-              "explanation": "These advanced techniques allow for precise cutting of hard or complex materials."
+              "explanation": "Textbook 24.2 verification."
             }
           ]
         }
@@ -5497,7 +5086,7 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "A bridge's cables are (1) ____ by towers and (2) ____ at each end by concrete blocks deeply (3) ____ in the ground. The smaller cables are (4) ____ to the main cable by a saddle, which is fixed (5) ____ by bolts.",
+              "question": "Components can be (1) ____ (preventing downward movement), (2) ____ (stopping sliding), or (3) ____ (surrounded and held).",
               "blanks": [
                 {
                   "position": 1,
@@ -5510,27 +5099,35 @@
                 {
                   "position": 3,
                   "answer": "embedded"
-                },
-                {
-                  "position": 4,
-                  "answer": "attached"
-                },
-                {
-                  "position": 5,
-                  "answer": "together"
                 }
               ],
               "accepted_answers": [
                 [
                   "supported",
                   "anchored",
-                  "embedded",
-                  "attached",
-                  "together"
+                  "embedded"
                 ]
               ],
-              "hint": "Structural connection terms.",
-              "explanation": "Proper support and anchoring are essential for large-scale engineering structures like bridges."
+              "explanation": "Proper interconnection is vital for structural integrity."
+            },
+            {
+              "type": "matching",
+              "question": "Match the structural connection:",
+              "pairs": [
+                {
+                  "left": "Supported",
+                  "right": "Preventing downward movement"
+                },
+                {
+                  "left": "Anchored",
+                  "right": "Holding in position"
+                },
+                {
+                  "left": "Embedded",
+                  "right": "Surrounded and held"
+                }
+              ],
+              "explanation": "Structural connection terms."
             }
           ]
         },
@@ -5540,27 +5137,44 @@
           "theory": "Ensuring components fit properly:\n\n* **Play**: The amount of free movement allowed in a joint.\n* **Adjusted**: Moved as required for alignment.\n* **Slot through**: Passing a component through a hole.\n* **Fit together**: Correct matching of parts.\n* **Sealed**: Protected against environmental factors (e.g., rainwater).",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the technical issue with its consequence:",
-              "pairs": [
+              "type": "multiple_choice",
+              "question": "What is the amount of free movement allowed in a joint?",
+              "options": [
                 {
-                  "left": "Bolts are slightly too thick",
-                  "right": "They won't slot through the holes"
+                  "text": "Play",
+                  "is_correct": true
                 },
                 {
-                  "left": "Saddles don't fit tightly enough",
-                  "right": "There is too much play even when tightened"
+                  "text": "Seal",
+                  "is_correct": false
                 },
                 {
-                  "left": "Holes do not line up exactly",
-                  "right": "The parts won't fit together properly"
-                },
-                {
-                  "left": "Joint is not sealed properly",
-                  "right": "The assembly is not protected against corrosion"
+                  "text": "Adjustment",
+                  "is_correct": false
                 }
               ],
-              "explanation": "Precision in manufacturing and assembly prevents structural failure and environmental damage."
+              "explanation": "Play allows for tolerances and movement but must be controlled."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Parts that don't line up won't (1) ____ properly. Joints must be (2) ____ against rainwater.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "fit together"
+                },
+                {
+                  "position": 2,
+                  "answer": "sealed"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "fit together",
+                  "sealed"
+                ]
+              ],
+              "explanation": "Textbook 25.2 verification."
             }
           ]
         }
@@ -5576,28 +5190,49 @@
           "theory": "Common fasteners include bolts and nuts:\n\n* **Threaded shaft** (**shank**): The part of the bolt with grooves.\n* **Nut**: Screwed onto the bolt by a turning motion (usually clockwise).\n* **Socket head**: A hexagonal hole in the bolt head for a **hex key** (**Allen key**).\n* **Spanner** / **Wrench**: Tools used to turn hexagonal heads.",
           "exercises": [
             {
-              "type": "multiple_choice",
-              "question": "Which of these sentences is correct?",
-              "options": [
+              "type": "matching",
+              "question": "Match the fastener with its tool:",
+              "pairs": [
                 {
-                  "text": "Wrenches are a type of fastener.",
-                  "is_correct": false
+                  "left": "Hexagonal bolt head",
+                  "right": "Spanner or Wrench"
                 },
                 {
-                  "text": "Nuts are usually screwed on by turning them clockwise.",
-                  "is_correct": true
+                  "left": "Socket head",
+                  "right": "Allen key"
                 },
                 {
-                  "text": "The threaded part of a bolt is the head.",
-                  "is_correct": false
-                },
-                {
-                  "text": "Allen keys fit around the outside of a bolt head.",
-                  "is_correct": false
+                  "left": "Nut",
+                  "right": "Screwed onto threaded shaft"
                 }
               ],
-              "hint": "Tools vs. Fasteners.",
-              "explanation": "Nuts and bolts are fasteners; wrenches and Allen keys are tools used to tighten them."
+              "explanation": "Specific tools are required for different fastener heads."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Threaded shaft is the (1) ____. Turning tool is a (2) ____ or (3) ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "shank"
+                },
+                {
+                  "position": 2,
+                  "answer": "spanner"
+                },
+                {
+                  "position": 3,
+                  "answer": "wrench"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "shank",
+                  "spanner",
+                  "wrench"
+                ]
+              ],
+              "explanation": "Technical terms for bolts and tools."
             }
           ]
         },
@@ -5608,64 +5243,55 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "It is essential to (1) ____ bolts correctly to ensure the right amount of (2) ____. If you (3) ____ a bolt, the (4) ____ in the shank might cause it to fail. Excess (5) ____ can damage the threads, causing the nut to slip and the joint to (6) ____ over time.",
+              "question": "(1) ____ washers spread the load; (2) ____ washers absorb shocks. The turning force is (3) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "tighten"
+                  "answer": "Plain"
                 },
                 {
                   "position": 2,
-                  "answer": "preload"
+                  "answer": "Spring"
                 },
                 {
                   "position": 3,
-                  "answer": "over-tighten"
-                },
-                {
-                  "position": 4,
-                  "answer": "tension"
-                },
-                {
-                  "position": 5,
-                  "answer": "shear force"
-                },
-                {
-                  "position": 6,
-                  "answer": "work loose"
+                  "answer": "torque"
                 }
               ],
               "accepted_answers": [
                 [
-                  "tighten",
-                  "preload",
-                  "over-tighten",
-                  "tension",
-                  "shear force",
-                  "work loose"
+                  "Plain",
+                  "Spring",
+                  "torque"
                 ]
               ],
-              "hint": "Bolted joint mechanics.",
-              "explanation": "Correct torque prevents both loosening and structural damage to the fastener."
+              "explanation": "Washers protect surfaces and maintain joint tension."
             },
             {
-              "type": "matching",
-              "question": "Match the washer type to its purpose:",
-              "pairs": [
+              "type": "fill_in_the_blank",
+              "question": "Pressing force is (1) ____. If it becomes loose due to vibration, it (2) ____ loose. Excess force causes (3) ____.",
+              "blanks": [
                 {
-                  "left": "Plain washer",
-                  "right": "Spread the load across the surface"
+                  "position": 1,
+                  "answer": "preload"
                 },
                 {
-                  "left": "Spring washer",
-                  "right": "Absorb shocks and allow movement"
+                  "position": 2,
+                  "answer": "works"
                 },
                 {
-                  "left": "Helical spring washer",
-                  "right": "Apply a specific preload"
+                  "position": 3,
+                  "answer": "tension"
                 }
               ],
-              "explanation": "Washers protect the surface and maintain the integrity of the bolted joint."
+              "accepted_answers": [
+                [
+                  "preload",
+                  "works",
+                  "tension"
+                ]
+              ],
+              "explanation": "Textbook 26.2 verification."
             }
           ]
         }
@@ -5682,68 +5308,48 @@
           "exercises": [
             {
               "type": "matching",
-              "question": "Match the screw type with its feature:",
+              "question": "Match the screw/anchor type:",
               "pairs": [
                 {
                   "left": "Self-tapping screw",
-                  "right": "Does not require a predrilled hole"
-                },
-                {
-                  "left": "Machine screw",
-                  "right": "A small-diameter bolt"
+                  "right": "Cuts its own hole"
                 },
                 {
                   "left": "Set screw",
-                  "right": "Applies pressure at its end to hold a part"
+                  "right": "Grub screw; holds parts by pressure"
                 },
                 {
-                  "left": "Slot head screw",
-                  "right": "Has a straight groove for the screwdriver"
+                  "left": "Chemical anchor",
+                  "right": "Uses epoxy resin"
                 }
               ],
-              "explanation": "The type of screw chosen depends on the material and the force it must withstand."
+              "explanation": "Screws and anchors are chosen based on the base material."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "To fix an object to a wall, you insert a (1) ____ into a hole. As you drive in the (2) ____, the plug (3) ____, increasing friction to resist (4) ____ force. For very high loads, a (5) ____ can be (6) ____ using epoxy resin.",
+              "question": "Wall plugs (1) ____ to resist (2) ____ force. (3) ____ screws cut their own holes.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "wall plug"
+                  "answer": "expand"
                 },
                 {
                   "position": 2,
-                  "answer": "screw"
-                },
-                {
-                  "position": 3,
-                  "answer": "expands"
-                },
-                {
-                  "position": 4,
                   "answer": "pullout"
                 },
                 {
-                  "position": 5,
-                  "answer": "chemical anchor"
-                },
-                {
-                  "position": 6,
-                  "answer": "set in"
+                  "position": 3,
+                  "answer": "Self-tapping"
                 }
               ],
               "accepted_answers": [
                 [
-                  "wall plug",
-                  "screw",
-                  "expands",
+                  "expand",
                   "pullout",
-                  "chemical anchor",
-                  "set in"
+                  "Self-tapping"
                 ]
               ],
-              "hint": "Wall fixing terminology.",
-              "explanation": "Anchors rely on friction or chemical bonding to stay secure in masonry."
+              "explanation": "Textbook 27.1 verification."
             }
           ]
         },
@@ -5754,27 +5360,43 @@
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "Which statement about rivets is TRUE?",
+              "question": "Which rivet type is installed from one side only?",
               "options": [
                 {
-                  "text": "Rivets can be easily unscrewed.",
+                  "text": "Solid rivet",
                   "is_correct": false
                 },
                 {
-                  "text": "Solid rivets have a shop head and a factory head.",
+                  "text": "Blind (pop) rivet",
                   "is_correct": true
                 },
                 {
-                  "text": "Blind rivets are stronger than solid rivets.",
-                  "is_correct": false
-                },
-                {
-                  "text": "A rivet gun is used for solid rivets.",
+                  "text": "Factory rivet",
                   "is_correct": false
                 }
               ],
-              "hint": "Permanent vs. temporary fixings.",
-              "explanation": "Rivets are permanent fasteners; solid ones are standard in aircraft construction."
+              "explanation": "Blind rivets are ideal for hollow sections."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Solid rivets have a (1) ____ head and a (2) ____ head.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "factory"
+                },
+                {
+                  "position": 2,
+                  "answer": "shop"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "factory",
+                  "shop"
+                ]
+              ],
+              "explanation": "Textbook 27.2 verification."
             }
           ]
         }
@@ -5791,45 +5413,67 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "In welding, the edges of the components become (1) ____ and (2) ____ occurs. One problem is (3) ____, where the joint is not solid. Another is (4) ____ stress, which can cause (5) ____ such as cracks in the (6) ____.",
+              "question": "The metal being joined is the (1) ____ metal. The joint is called the (2) ____ pool. Tension trapped after cooling is (3) ____ stress.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "molten"
+                  "answer": "base"
                 },
                 {
                   "position": 2,
-                  "answer": "fusion"
+                  "answer": "weld"
                 },
                 {
                   "position": 3,
-                  "answer": "discontinuity"
-                },
-                {
-                  "position": 4,
                   "answer": "residual"
-                },
-                {
-                  "position": 5,
-                  "answer": "discontinuities"
-                },
-                {
-                  "position": 6,
-                  "answer": "weld zone"
                 }
               ],
               "accepted_answers": [
                 [
-                  "molten",
-                  "fusion",
-                  "discontinuity",
-                  "residual",
-                  "discontinuities",
-                  "weld zone"
+                  "base",
+                  "weld",
+                  "residual"
                 ]
               ],
-              "hint": "Welding defects and terms.",
-              "explanation": "Controlling the cooling rate and heat input is critical to avoid weld defects."
+              "explanation": "Welding involves complex physical changes in the material."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Joining by melting and fusion creates a:",
+              "options": [
+                {
+                  "text": "Weld pool",
+                  "is_correct": true
+                },
+                {
+                  "text": "Screw joint",
+                  "is_correct": false
+                },
+                {
+                  "text": "Adhesive bond",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Welding fuses metals in a molten pool."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Material close to the weld modified by heat is the:",
+              "options": [
+                {
+                  "text": "Weld pool",
+                  "is_correct": false
+                },
+                {
+                  "text": "HAZ",
+                  "is_correct": true
+                },
+                {
+                  "text": "Base metal",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "HAZ stands for Heat-Affected Zone."
             }
           ]
         },
@@ -5840,26 +5484,43 @@
           "exercises": [
             {
               "type": "matching",
-              "question": "Match the welding type with the electrode/gas used:",
+              "question": "Match the welding technique:",
               "pairs": [
                 {
-                  "left": "SMAW (Stick)",
-                  "right": "Consumable electrode coated with flux"
+                  "left": "SMAW",
+                  "right": "Stick welding with flux-coated electrode"
                 },
                 {
-                  "left": "Gas welding",
-                  "right": "Oxyacetylene torch"
+                  "left": "MIG",
+                  "right": "Wire electrode + Argon gas"
                 },
                 {
-                  "left": "MIG welding",
-                  "right": "Consumable wire electrode + Argon"
-                },
-                {
-                  "left": "TIG welding",
+                  "left": "TIG",
                   "right": "Non-consumable tungsten electrode"
                 }
               ],
-              "explanation": "Different techniques provide varying levels of precision and speed for different metals."
+              "explanation": "Different arc welding methods offer different control and speed."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "SMAW uses (1) ____-coated electrodes. TIG uses (2) ____-consumable electrodes.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "flux"
+                },
+                {
+                  "position": 2,
+                  "answer": "non"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "flux",
+                  "non"
+                ]
+              ],
+              "explanation": "Textbook 28.2 verification."
             }
           ]
         }
@@ -5876,14 +5537,29 @@
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "Which technique uses high-frequency sound vibrations?",
+              "question": "Which process uses a soldering iron?",
               "options": [
                 {
-                  "text": "Resistance welding",
+                  "text": "Brazing",
                   "is_correct": false
                 },
                 {
-                  "text": "Brazing",
+                  "text": "Soft soldering",
+                  "is_correct": true
+                },
+                {
+                  "text": "Ultrasonic welding",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Soft soldering uses low temperatures and a soldering iron."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What uses high-frequency sound vibrations?",
+              "options": [
+                {
+                  "text": "Resistance welding",
                   "is_correct": false
                 },
                 {
@@ -5891,35 +5567,11 @@
                   "is_correct": true
                 },
                 {
-                  "text": "Soft soldering",
+                  "text": "Brazing",
                   "is_correct": false
                 }
               ],
-              "hint": "Acoustic fusion.",
-              "explanation": "Ultrasonic welding is efficient for joining delicate parts or plastics."
-            },
-            {
-              "type": "matching",
-              "question": "Match the process with the filler or tool:",
-              "pairs": [
-                {
-                  "left": "Brazing",
-                  "right": "Brass alloy (Copper + Zinc)"
-                },
-                {
-                  "left": "Soft soldering",
-                  "right": "Soldering iron (Tin + Lead/Copper)"
-                },
-                {
-                  "left": "Hard soldering",
-                  "right": "Silver-based solder + Torch"
-                },
-                {
-                  "left": "Spot welding",
-                  "right": "Resistance welding of small points"
-                }
-              ],
-              "explanation": "Brazing and soldering are ideal when the base metal must not be melted."
+              "explanation": "Ultrasonic welding is common for plastics."
             }
           ]
         },
@@ -5930,7 +5582,7 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "Surfaces (1) ____ to each other to form a (2) ____. A (3) ____ bond occurs when the adhesive is absorbed into the (4) ____. (5) ____ adhesives must be mixed and then (6) ____ via a chemical reaction. (7) ____ adhesives are applied to both sides and allowed to dry before joining.",
+              "question": "Adhesives must (1) ____ to a (2) ____ to form a (3) ____. (4) ____ adhesives must be mixed and then (5) ____.",
               "blanks": [
                 {
                   "position": 1,
@@ -5938,42 +5590,76 @@
                 },
                 {
                   "position": 2,
-                  "answer": "bond"
-                },
-                {
-                  "position": 3,
-                  "answer": "mechanical"
-                },
-                {
-                  "position": 4,
                   "answer": "substrate"
                 },
                 {
-                  "position": 5,
+                  "position": 3,
+                  "answer": "bond"
+                },
+                {
+                  "position": 4,
                   "answer": "Two-part"
                 },
                 {
-                  "position": 6,
+                  "position": 5,
                   "answer": "cure"
-                },
-                {
-                  "position": 7,
-                  "answer": "Contact"
                 }
               ],
               "accepted_answers": [
                 [
                   "adhere",
-                  "bond",
-                  "mechanical",
                   "substrate",
+                  "bond",
                   "Two-part",
-                  "cure",
-                  "Contact"
+                  "cure"
                 ]
               ],
-              "hint": "Adhesive bonding terms.",
-              "explanation": "Adhesives offer a lightweight joining alternative for many materials."
+              "explanation": "Adhesives rely on surface adherence and curing."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Evaporating liquid is a (1) ____. Two-part adhesives (2) ____ via reaction. Both sides dry before (3) ____ adhesives.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "solvent"
+                },
+                {
+                  "position": 2,
+                  "answer": "cure"
+                },
+                {
+                  "position": 3,
+                  "answer": "contact"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "solvent",
+                  "cure",
+                  "contact"
+                ]
+              ],
+              "explanation": "Textbook 29.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which adhesive is applied to both surfaces and left to dry?",
+              "options": [
+                {
+                  "text": "Epoxy",
+                  "is_correct": false
+                },
+                {
+                  "text": "Contact adhesive",
+                  "is_correct": true
+                },
+                {
+                  "text": "Solvent",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Contact adhesives bond on contact after drying."
             }
           ]
         }
@@ -5989,97 +5675,61 @@
           "theory": "Transporting liquids and gases:\n\n* **Pipes**: Rigid tubes for fluids; a network is called **pipework**.\n* **Ducts**: Tubes for air not under pressure (HVAC).\n* **Hoses**: Flexible tubes (**fuel lines**, **air lines**).\n* **Mains**: Underground pipes for water or gas supply.\n* **Pipeline**: Long-distance transport (e.g., for oil).",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the pipe or duct type to its description:",
-              "pairs": [
-                {
-                  "left": "Mains",
-                  "right": "Underground pipes for water or gas supply to buildings"
-                },
-                {
-                  "left": "Pipelines",
-                  "right": "Long-distance pipes for crude oil or natural gas"
-                },
-                {
-                  "left": "Drains",
-                  "right": "Underground pipes carrying waste water"
-                },
-                {
-                  "left": "Sewers",
-                  "right": "Large waste water pipes below streets"
-                },
-                {
-                  "left": "Ducts",
-                  "right": "Pipes for moving air not under pressure"
-                }
-              ],
-              "explanation": "Drains and sewers rely on gravity and must have a downward slope called a fall."
-            },
-            {
               "type": "fill_in_the_blank",
-              "question": "Air temperature will be high due to (1) ____ steel steam (2) ____. For machines that vibrate, use a flexible (3) ____ rather than a rigid (4) ____. Waste water exits via a (5) ____ into the (6) ____ under the street.",
+              "question": "Long distance transport: (1) ____. Water/gas supply: (2) ____. Waste water: (3) ____. Underground street waste: (4) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "large-diameter"
+                  "answer": "pipelines"
                 },
                 {
                   "position": 2,
-                  "answer": "pipes"
+                  "answer": "mains"
                 },
                 {
                   "position": 3,
-                  "answer": "hose"
+                  "answer": "drains"
                 },
                 {
                   "position": 4,
-                  "answer": "pipe"
-                },
-                {
-                  "position": 5,
-                  "answer": "drain"
-                },
-                {
-                  "position": 6,
-                  "answer": "sewer"
+                  "answer": "sewers"
                 }
               ],
               "accepted_answers": [
                 [
-                  "large-diameter",
-                  "pipes",
-                  "hose",
-                  "pipe",
-                  "drain",
-                  "sewer"
+                  "pipelines",
+                  "mains",
+                  "drains",
+                  "sewers"
                 ]
               ],
-              "hint": "Industrial plant layout.",
-              "explanation": "Flexible hoses are used where vibration or movement occurs to prevent pipe failure."
+              "explanation": "Specific terms distinguish between different fluid transport systems."
             },
             {
-              "type": "multiple_choice",
-              "question": "Which of these is a pressure vessel?",
-              "options": [
+              "type": "fill_in_the_blank",
+              "question": "Long distance oil: (1) ____. Building supply: (2) ____. Waste to street: (3) ____.",
+              "blanks": [
                 {
-                  "text": "An open water tank",
-                  "is_correct": false
+                  "position": 1,
+                  "answer": "pipelines"
                 },
                 {
-                  "text": "A propane gas cylinder",
-                  "is_correct": true
+                  "position": 2,
+                  "answer": "mains"
                 },
                 {
-                  "text": "A standard air duct",
-                  "is_correct": false
-                },
-                {
-                  "text": "A gravity-fed sewer",
-                  "is_correct": false
+                  "position": 3,
+                  "answer": "drain"
                 }
               ],
-              "hint": "Storage of gas under pressure.",
-              "explanation": "Pressure vessels must be sealed and strong enough to withstand internal pressure."
+              "accepted_answers": [
+                [
+                  "pipelines",
+                  "mains",
+                  "drain"
+                ]
+              ],
+              "explanation": "Textbook 37.1 verification."
             }
           ]
         },
@@ -6089,9 +5739,32 @@
           "theory": "Storage and movement:\n\n* **Pressure vessel**: A sealed tank for pressurized gas.\n* **Pump**: Forces liquids to flow.\n* **Compressor**: Increases the pressure of a gas.\n* **Fan**: Rotates to move gas; **Turbine**: Rotates when moved by a gas flow.",
           "exercises": [
             {
+              "type": "matching",
+              "question": "Match the fluid control device:",
+              "pairs": [
+                {
+                  "left": "Pump",
+                  "right": "Forces liquids to flow"
+                },
+                {
+                  "left": "Compressor",
+                  "right": "Increases gas pressure"
+                },
+                {
+                  "left": "Turbine",
+                  "right": "Rotates when moved by gas flow"
+                }
+              ],
+              "explanation": "Different devices are used to move or pressurize fluids."
+            },
+            {
               "type": "multiple_choice",
-              "question": "What is a pump for gas called?",
+              "question": "Which device is a pump for gas?",
               "options": [
+                {
+                  "text": "Compressor",
+                  "is_correct": true
+                },
                 {
                   "text": "Fan",
                   "is_correct": false
@@ -6099,18 +5772,9 @@
                 {
                   "text": "Turbine",
                   "is_correct": false
-                },
-                {
-                  "text": "Compressor",
-                  "is_correct": true
-                },
-                {
-                  "text": "Radiator",
-                  "is_correct": false
                 }
               ],
-              "hint": "Increases gas pressure.",
-              "explanation": "Compressors are used to provide high-pressure air for tools and machinery."
+              "explanation": "Compressors increase the pressure of a gas."
             }
           ]
         }
@@ -6126,64 +5790,70 @@
           "theory": "Measuring pressure:\n\n* **Pascal (Pa)**: SI unit (1 N/m²).\n* **Bar**: Roughly equal to atmospheric pressure.\n* **Gauge pressure**: Pressure relative to the atmosphere (differential).\n* **Absolute pressure**: Pressure relative to a perfect vacuum.\n* **Positive pressure**: Higher than atmosphere; **Negative pressure**: Lower than atmosphere (vacuum).",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the pressure terms to their state:",
-              "pairs": [
+              "type": "multiple_choice",
+              "question": "What is pressure relative to the atmosphere?",
+              "options": [
                 {
-                  "left": "Perfect vacuum",
-                  "right": "Zero absolute pressure"
+                  "text": "Absolute pressure",
+                  "is_correct": false
                 },
                 {
-                  "left": "Atmospheric pressure",
-                  "right": "Zero gauge pressure"
+                  "text": "Gauge pressure",
+                  "is_correct": true
                 },
                 {
-                  "left": "Partial vacuum",
-                  "right": "Negative gauge pressure"
-                },
-                {
-                  "left": "Compressed air",
-                  "right": "Positive gauge pressure"
+                  "text": "Vacuum",
+                  "is_correct": false
                 }
               ],
-              "explanation": "Gauge pressure is the difference between internal pressure and atmospheric pressure."
+              "explanation": "Gauge pressure is the differential relative to atmospheric pressure."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "Commercial aircraft cabins are (1) ____ because at high altitude the air is (2) ____ than at ground level. At takeoff, (3) ____ is zero. During flight, air is replaced with (4) ____ pressurized by the engines. Maintaining pressure prevents (5) ____ and passenger health problems.",
+              "question": "Takeoff (1) ____ pressure is zero. Flight uses (2) ____ air. Vacuum is (3) ____ gauge pressure.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "pressurized"
+                  "answer": "gauge"
                 },
                 {
                   "position": 2,
-                  "answer": "at a lower pressure"
+                  "answer": "compressed"
                 },
                 {
                   "position": 3,
-                  "answer": "gauge pressure"
-                },
-                {
-                  "position": 4,
-                  "answer": "compressed air"
-                },
-                {
-                  "position": 5,
-                  "answer": "metal fatigue"
+                  "answer": "negative"
                 }
               ],
               "accepted_answers": [
                 [
-                  "pressurized",
-                  "at a lower pressure",
-                  "gauge pressure",
-                  "compressed air",
-                  "metal fatigue"
+                  "gauge",
+                  "compressed",
+                  "negative"
                 ]
               ],
-              "hint": "Aircraft systems.",
-              "explanation": "Controlled release and supply of compressed air maintains a safe environment inside the fuselage."
+              "explanation": "Textbook 38.1 verification."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Pressure relative to vacuum is (1) ____. Pressure higher than atmosphere is (2) ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "absolute"
+                },
+                {
+                  "position": 2,
+                  "answer": "positive"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "absolute",
+                  "positive"
+                ]
+              ],
+              "explanation": "Textbook 38.1 verification."
             }
           ]
         },
@@ -6193,27 +5863,44 @@
           "theory": "Pressure from height:\n\n* **Hydrostatic pressure**: Generated by the weight of a liquid column.\n* **Head of water**: The height of water above a point.\n* **Header tank**: A tank at a high level to provide pressure.",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the hydrostatic system parts:",
-              "pairs": [
+              "type": "fill_in_the_blank",
+              "question": "The height of water providing pressure is the (1) ____. Pressure generated by liquid weight is (2) ____.",
+              "blanks": [
                 {
-                  "left": "Header tank",
-                  "right": "Generate pressure in a building"
+                  "position": 1,
+                  "answer": "head"
                 },
                 {
-                  "left": "Water tower",
-                  "right": "Supply water to many buildings via a main"
-                },
-                {
-                  "left": "Head of water",
-                  "right": "The vertical height providing pressure"
-                },
-                {
-                  "left": "Prime",
-                  "right": "Fill a pipe to remove air"
+                  "position": 2,
+                  "answer": "hydrostatic"
                 }
               ],
-              "explanation": "The higher the head of water, the greater the hydrostatic pressure at the bottom."
+              "accepted_answers": [
+                [
+                  "head",
+                  "hydrostatic"
+                ]
+              ],
+              "explanation": "Hydrostatic pressure is determined by the head of water."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A tank at high level is a:",
+              "options": [
+                {
+                  "text": "Pressure vessel",
+                  "is_correct": false
+                },
+                {
+                  "text": "Header tank",
+                  "is_correct": true
+                },
+                {
+                  "text": "Sewer",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Header tanks provide pressure via gravity."
             }
           ]
         }
@@ -6230,54 +5917,41 @@
           "exercises": [
             {
               "type": "matching",
-              "question": "Match the aerodynamic category to its examples:",
+              "question": "Match the aerodynamic force/zone:",
               "pairs": [
                 {
-                  "left": "Resistance types",
-                  "right": "Form drag and skin friction"
+                  "left": "Drag",
+                  "right": "Resistance to airflow"
                 },
                 {
-                  "left": "Forces",
-                  "right": "Lift, thrust, and downforce"
+                  "left": "Slipstream",
+                  "right": "Low-pressure zone behind object"
                 },
                 {
-                  "left": "Downstream effects",
-                  "right": "Wake and slipstream"
-                },
-                {
-                  "left": "Aerofoil types",
-                  "right": "Wing and rotor"
-                },
-                {
-                  "left": "Analysis tools",
-                  "right": "CFD and wind tunnel"
+                  "left": "Wake",
+                  "right": "Turbulent zone with vortices"
                 }
               ],
-              "explanation": "Engineers categorize aerodynamic factors to better understand and optimize performance."
+              "explanation": "Aerodynamic design focuses on managing these forces."
             },
             {
               "type": "multiple_choice",
-              "question": "What is the low-pressure zone close behind a moving object called?",
+              "question": "Smooth airflow is called:",
               "options": [
                 {
-                  "text": "Wake",
+                  "text": "Turbulent flow",
                   "is_correct": false
                 },
                 {
-                  "text": "Slipstream",
+                  "text": "Laminar flow",
                   "is_correct": true
                 },
                 {
                   "text": "Boundary layer",
                   "is_correct": false
-                },
-                {
-                  "text": "Vortex",
-                  "is_correct": false
                 }
               ],
-              "hint": "Zone behind an object.",
-              "explanation": "The slipstream is a lower-pressure zone that follows a moving body."
+              "explanation": "Laminar flow follows a smooth, direct path."
             }
           ]
         },
@@ -6287,65 +5961,8 @@
           "theory": "Controlling air movement:\n\n* **Laminar flow**: Smooth, direct path.\n* **Turbulent flow**: Disturbed, messy path.\n* **Aerofoil**: Component shaped to generate force (e.g., **wing**, **propeller blade**).\n* **Forces**: **Lift** (upward), **Thrust** (forward), **Downforce** (downward).\n* **Pitch** (**Angle of attack**): Angle relative to the airflow.",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "A road car (1) ____ is a wing-like (2) ____. Its purpose is to disrupt (3) ____ within the (4) ____ layer. By turning (5) ____ flow into (6) ____ flow, the drag coefficient can be reduced. On landing aircraft, (7) ____ are deployed to increase (8) ____ and (9) ____.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "spoiler"
-                },
-                {
-                  "position": 2,
-                  "answer": "aerofoil"
-                },
-                {
-                  "position": 3,
-                  "answer": "airflow"
-                },
-                {
-                  "position": 4,
-                  "answer": "boundary"
-                },
-                {
-                  "position": 5,
-                  "answer": "laminar"
-                },
-                {
-                  "position": 6,
-                  "answer": "turbulent"
-                },
-                {
-                  "position": 7,
-                  "answer": "spoilers"
-                },
-                {
-                  "position": 8,
-                  "answer": "downforce"
-                },
-                {
-                  "position": 9,
-                  "answer": "drag"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "spoiler",
-                  "aerofoil",
-                  "airflow",
-                  "boundary",
-                  "laminar",
-                  "turbulent",
-                  "spoilers",
-                  "downforce",
-                  "drag"
-                ]
-              ],
-              "hint": "Spoilers and flow types.",
-              "explanation": "Spoilers on cars reduce drag, while on aircraft they help slow down and provide stability."
-            },
-            {
               "type": "multiple_choice",
-              "question": "Which edge of an aerofoil is the front edge?",
+              "question": "Which edge of an aerofoil meets the air first?",
               "options": [
                 {
                   "text": "Trailing edge",
@@ -6356,16 +5973,42 @@
                   "is_correct": true
                 },
                 {
-                  "text": "Pitch edge",
-                  "is_correct": false
-                },
-                {
-                  "text": "Laminar edge",
+                  "text": "Chord line",
                   "is_correct": false
                 }
               ],
-              "hint": "Relative to airflow.",
-              "explanation": "The leading edge is the front edge, relative to the direction of airflow."
+              "explanation": "The leading edge is the front part of an aerofoil."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Wing-like car part is a (1) ____. It turns (2) ____ flow into (3) ____ flow. Smooth path is (4) ____.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "spoiler"
+                },
+                {
+                  "position": 2,
+                  "answer": "laminar"
+                },
+                {
+                  "position": 3,
+                  "answer": "turbulent"
+                },
+                {
+                  "position": 4,
+                  "answer": "laminar"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "spoiler",
+                  "laminar",
+                  "turbulent",
+                  "laminar"
+                ]
+              ],
+              "explanation": "Textbook 39.2 verification."
             }
           ]
         }
@@ -6381,45 +6024,27 @@
           "theory": "Flexible transmission:\n\n* **Roller chain**: Transmits drive across a distance to **sprockets**.\n* **Belt drive**: Uses a belt and **pulley wheels** (**sheaves**).\n* **Slip**: When a belt slides around a pulley; **toothed belts** prevent this.\n* **Mechanical advantage**: Achieved using combinations of pulleys (e.g., in cranes).",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "On a bicycle, the pedals are fitted to a (1) ____. These are fixed by a (2) ____, which runs through (3) ____. A (4) ____ fitted to the shaft drives a (5) ____, which turns the rear wheel.",
-              "blanks": [
+              "type": "matching",
+              "question": "Match the transmission part:",
+              "pairs": [
                 {
-                  "position": 1,
-                  "answer": "crank"
+                  "left": "Roller chain",
+                  "right": "Drives sprockets"
                 },
                 {
-                  "position": 2,
-                  "answer": "spindle"
+                  "left": "Belt drive",
+                  "right": "Runs on pulley wheels (sheaves)"
                 },
                 {
-                  "position": 3,
-                  "answer": "bearings"
-                },
-                {
-                  "position": 4,
-                  "answer": "sprocket"
-                },
-                {
-                  "position": 5,
-                  "answer": "chain"
+                  "left": "Slip",
+                  "right": "When a belt slides around a pulley"
                 }
               ],
-              "accepted_answers": [
-                [
-                  "crank",
-                  "spindle",
-                  "bearings",
-                  "sprocket",
-                  "chain"
-                ]
-              ],
-              "hint": "Bicycle mechanics.",
-              "explanation": "Bicycle transmission uses sprockets and chains to move power from the pedals to the wheel."
+              "explanation": "Flexible transmission uses chains or belts."
             },
             {
               "type": "fill_in_the_blank",
-              "question": "Chain drive advantages: It transmits drive over a (1) ____. A (2) ____ will not (3) ____ around a sprocket, unlike a (4) ____ on a (5) ____. Teeth on a sprocket force (6) ____ out of the holes in a chain.",
+              "question": "Chain drive transmits over a (1) ____. Chain will not (2) ____. Pulley wheels are (3) ____.",
               "blanks": [
                 {
                   "position": 1,
@@ -6427,37 +6052,21 @@
                 },
                 {
                   "position": 2,
-                  "answer": "chain"
-                },
-                {
-                  "position": 3,
                   "answer": "slip"
                 },
                 {
-                  "position": 4,
-                  "answer": "belt"
-                },
-                {
-                  "position": 5,
-                  "answer": "pulley"
-                },
-                {
-                  "position": 6,
-                  "answer": "dirt"
+                  "position": 3,
+                  "answer": "sheaves"
                 }
               ],
               "accepted_answers": [
                 [
                   "distance",
-                  "chain",
                   "slip",
-                  "belt",
-                  "pulley",
-                  "dirt"
+                  "sheaves"
                 ]
               ],
-              "hint": "Transmission benefits.",
-              "explanation": "Chains are more reliable than belts in dirty or high-torque environments because they cannot slip."
+              "explanation": "Textbook 42.1 verification."
             }
           ]
         },
@@ -6468,45 +6077,48 @@
           "exercises": [
             {
               "type": "fill_in_the_blank",
-              "question": "The linear motion of a piston is converted to (1) ____ motion by a (2) ____. A (3) ____ is fitted to the end of the shaft to provide (4) ____. The valves are opened by (5) ____ on a (6) ____ at the top of the engine.",
+              "question": "The (1) ____ converts reciprocating motion to (2) ____. The (3) ____ provides momentum.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "rotary"
+                  "answer": "crankshaft"
                 },
                 {
                   "position": 2,
-                  "answer": "crankshaft"
+                  "answer": "rotary"
                 },
                 {
                   "position": 3,
                   "answer": "flywheel"
-                },
-                {
-                  "position": 4,
-                  "answer": "momentum"
-                },
-                {
-                  "position": 5,
-                  "answer": "cams"
-                },
-                {
-                  "position": 6,
-                  "answer": "camshaft"
                 }
               ],
               "accepted_answers": [
                 [
-                  "rotary",
                   "crankshaft",
-                  "flywheel",
-                  "momentum",
-                  "cams",
-                  "camshaft"
+                  "rotary",
+                  "flywheel"
                 ]
               ],
-              "hint": "Engine mechanics.",
-              "explanation": "The crankshaft and camshaft must be precisely synchronized to ensure the engine runs correctly."
+              "explanation": "Conversion of motion is central to engine design."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What converts linear motion to rotary?",
+              "options": [
+                {
+                  "text": "Camshaft",
+                  "is_correct": false
+                },
+                {
+                  "text": "Crankshaft",
+                  "is_correct": true
+                },
+                {
+                  "text": "Flywheel",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "The crankshaft is the heart of engine motion conversion."
             }
           ]
         }
@@ -6522,39 +6134,44 @@
           "theory": "The basics of electricity:\n\n* **Circuit**: An electrical path including a supply, conductors, and components.\n* **Current** (**Amperage**): Rate of flow of electric charge (**Amps**).\n* **Electrons**: Particles with a negative charge that carry current.\n* **Conductor**: A material that allows current to flow (e.g., copper).",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the electrical term to its description:",
-              "pairs": [
+              "type": "multiple_choice",
+              "question": "What particles carry electric current?",
+              "options": [
                 {
-                  "left": "Amperage",
-                  "right": "Another term for current"
+                  "text": "Protons",
+                  "is_correct": false
                 },
                 {
-                  "left": "Cell",
-                  "right": "Provides current (battery)"
+                  "text": "Electrons",
+                  "is_correct": true
                 },
                 {
-                  "left": "Wattage",
-                  "right": "Measured as electrical power"
-                },
-                {
-                  "left": "Conductor",
-                  "right": "Allows current to flow through it"
-                },
-                {
-                  "left": "Insulator",
-                  "right": "Has very high electrical resistance"
-                },
-                {
-                  "left": "Electric charge",
-                  "right": "Carried by moving electrons"
-                },
-                {
-                  "left": "Electric shock",
-                  "right": "Consequence of touching a live conductor"
+                  "text": "Neutrons",
+                  "is_correct": false
                 }
               ],
-              "explanation": "Understanding these basic terms is essential for any electrical engineering task."
+              "explanation": "Current is the flow of negatively charged electrons."
+            },
+            {
+              "type": "fill_in_the_blank",
+              "question": "Current rate of flow is (1) ____. Conductors like (2) ____ allow flow.",
+              "blanks": [
+                {
+                  "position": 1,
+                  "answer": "amperage"
+                },
+                {
+                  "position": 2,
+                  "answer": "copper"
+                }
+              ],
+              "accepted_answers": [
+                [
+                  "amperage",
+                  "copper"
+                ]
+              ],
+              "explanation": "Textbook 43.1 verification."
             }
           ]
         },
@@ -6564,61 +6181,48 @@
           "theory": "Managing electricity:\n\n* **Voltage**: Electromotive force (EMF) measured in **Volts**.\n* **Resistance**: How easily current flows, measured in **Ohms** (Ω).\n* **Insulator**: Material with high resistance (e.g., plastic).\n* **Ohm's Law**: Current (I) = Voltage (E) / Resistance (R).\n* **Power**: Measured in **Watts** (W). Power (P) = Voltage x Current.",
           "exercises": [
             {
+              "type": "matching",
+              "question": "Match the unit to its property:",
+              "pairs": [
+                {
+                  "left": "Amps",
+                  "right": "Current (Amperage)"
+                },
+                {
+                  "left": "Volts",
+                  "right": "Voltage (EMF)"
+                },
+                {
+                  "left": "Ohms",
+                  "right": "Resistance"
+                },
+                {
+                  "left": "Watts",
+                  "right": "Power"
+                }
+              ],
+              "explanation": "Electrical properties follow Ohm's Law and Power Law."
+            },
+            {
               "type": "fill_in_the_blank",
-              "question": "According to Ohm's Law (I=E/R), the (1) ____ flowing through a (2) ____, measured in (3) ____, equals the (4) ____ of the supply, measured in (5) ____, divided by the total (6) ____, measured in (7) ____. Power, measured in (8) ____, equals voltage multiplied by (9) ____.",
+              "question": "I = E / (1) ____. Power (P) = Voltage x (2) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "current"
+                  "answer": "R"
                 },
                 {
                   "position": 2,
-                  "answer": "circuit"
-                },
-                {
-                  "position": 3,
-                  "answer": "amps"
-                },
-                {
-                  "position": 4,
-                  "answer": "voltage"
-                },
-                {
-                  "position": 5,
-                  "answer": "volts"
-                },
-                {
-                  "position": 6,
-                  "answer": "resistance"
-                },
-                {
-                  "position": 7,
-                  "answer": "ohms"
-                },
-                {
-                  "position": 8,
-                  "answer": "watts"
-                },
-                {
-                  "position": 9,
-                  "answer": "amperage"
+                  "answer": "Current"
                 }
               ],
               "accepted_answers": [
                 [
-                  "current",
-                  "circuit",
-                  "amps",
-                  "voltage",
-                  "volts",
-                  "resistance",
-                  "ohms",
-                  "watts",
-                  "amperage"
+                  "R",
+                  "Current"
                 ]
               ],
-              "hint": "Electrical calculations.",
-              "explanation": "Ohm's Law (I=E/R) and the Power Law (P=EI) are the foundation of electrical engineering."
+              "explanation": "Textbook 43.2 laws."
             }
           ]
         }
@@ -6634,8 +6238,27 @@
           "theory": "Types of current:\n\n* **Direct Current (DC)**: Flows in one direction (e.g., from batteries).\n* **Alternating Current (AC)**: Flows backwards and forwards (mains supply).\n* **Frequency**: Rate of alternation, measured in **Hertz** (Hz).\n* **Sine wave**: The shape of an AC supply on a graph.",
           "exercises": [
             {
+              "type": "matching",
+              "question": "Match the current type:",
+              "pairs": [
+                {
+                  "left": "DC",
+                  "right": "Flows in one direction (batteries)"
+                },
+                {
+                  "left": "AC",
+                  "right": "Flows backwards and forwards (mains)"
+                },
+                {
+                  "left": "Inverter",
+                  "right": "Converts DC to AC"
+                }
+              ],
+              "explanation": "AC and DC are the two main types of electrical current."
+            },
+            {
               "type": "fill_in_the_blank",
-              "question": "Inverters convert (1) ____ to (2) ____. They must copy the supply of (3) ____ electricity produced at power stations. Most alternate at the required (4) ____ (e.g., 50 (5) ____). Not all can produce a current following a (6) ____ wave pattern like the (7) ____ supply used in homes.",
+              "question": "Inverters convert (1) ____ to (2) ____ at required (3) ____ (e.g. 50 (4) ____). Shape is a (5) ____ wave.",
               "blanks": [
                 {
                   "position": 1,
@@ -6647,38 +6270,27 @@
                 },
                 {
                   "position": 3,
-                  "answer": "mains"
-                },
-                {
-                  "position": 4,
                   "answer": "frequency"
                 },
                 {
-                  "position": 5,
+                  "position": 4,
                   "answer": "Hertz"
                 },
                 {
-                  "position": 6,
+                  "position": 5,
                   "answer": "sine"
-                },
-                {
-                  "position": 7,
-                  "answer": "single-phase"
                 }
               ],
               "accepted_answers": [
                 [
                   "DC",
                   "AC",
-                  "mains",
                   "frequency",
                   "Hertz",
-                  "sine",
-                  "single-phase"
+                  "sine"
                 ]
               ],
-              "hint": "Inverter operation.",
-              "explanation": "Inverters are used to convert DC from solar cells or batteries into AC for household use."
+              "explanation": "Textbook 44.1 verification."
             }
           ]
         },
@@ -6688,65 +6300,42 @@
           "theory": "Providing power:\n\n* **Generator**: Converts mechanical energy to electrical energy.\n* **Step-up transformer**: Increases voltage to reduce energy loss in **transmission lines**.\n* **Step-down transformer**: Reduces voltage for safe use in buildings.\n* **Power grid**: The network of cables and transformers.",
           "exercises": [
             {
-              "type": "fill_in_the_blank",
-              "question": "AC supply stages: 1. Current is produced in the (1) ____ of a generator. 2. Voltage is increased by a (2) ____ transformer. 3. Current enters a (3) ____ line. 4. Voltage is reduced in stages. 5. Current enters a (4) ____ line. 6. Current enters the home from the (5) ____.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "field coils"
-                },
-                {
-                  "position": 2,
-                  "answer": "step-up"
-                },
-                {
-                  "position": 3,
-                  "answer": "transmission"
-                },
-                {
-                  "position": 4,
-                  "answer": "distribution"
-                },
-                {
-                  "position": 5,
-                  "answer": "power grid"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "field coils",
-                  "step-up",
-                  "transmission",
-                  "distribution",
-                  "power grid"
-                ]
-              ],
-              "hint": "Electricity path.",
-              "explanation": "Electricity travels from power stations to homes through a series of transformers and specialized power lines."
-            },
-            {
               "type": "multiple_choice",
-              "question": "Why is electricity stepped up to high voltage for long-distance transmission?",
+              "question": "Which device increases voltage for long-distance transmission?",
               "options": [
                 {
-                  "text": "To increase the speed of the current",
+                  "text": "Step-down transformer",
                   "is_correct": false
                 },
                 {
-                  "text": "To reduce energy loss from the power lines",
+                  "text": "Step-up transformer",
                   "is_correct": true
                 },
                 {
-                  "text": "To make it safer for birds on the wires",
-                  "is_correct": false
-                },
-                {
-                  "text": "To change it from DC to AC",
+                  "text": "Generator",
                   "is_correct": false
                 }
               ],
-              "hint": "Efficiency.",
-              "explanation": "High-voltage supplies flow more efficiently, minimizing heat loss during transmission."
+              "explanation": "Step-up transformers minimize energy loss during transmission."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What increases voltage for transmission?",
+              "options": [
+                {
+                  "text": "Step-up transformer",
+                  "is_correct": true
+                },
+                {
+                  "text": "Step-down transformer",
+                  "is_correct": false
+                },
+                {
+                  "text": "Grid",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Step-up transformers reduce line losses."
             }
           ]
         }
@@ -6762,35 +6351,42 @@
           "theory": "Designing systems:\n\n* **Series circuit**: Components placed one after another.\n* **Parallel circuit**: Components on separate paths (standard for lighting).\n* **Live / Neutral / Earth**: Safety conductors in an AC supply.\n* **Circuit-breaker**: A safety switch that trips during a **short circuit**.",
           "exercises": [
             {
-              "type": "matching",
-              "question": "Match the circuit combination to its description:",
-              "pairs": [
+              "type": "multiple_choice",
+              "question": "Which circuit type allows independent control of components?",
+              "options": [
                 {
-                  "left": "Power circuit",
-                  "right": "A circuit containing one or more sockets"
+                  "text": "Series circuit",
+                  "is_correct": false
                 },
                 {
-                  "left": "Series circuit",
-                  "right": "All components placed one after another"
+                  "text": "Parallel circuit",
+                  "is_correct": true
                 },
                 {
-                  "left": "Integrated circuit",
-                  "right": "A microchip - a very small, complex circuit"
-                },
-                {
-                  "left": "Short circuit",
-                  "right": "Live and neutral conductors touch directly"
-                },
-                {
-                  "left": "Parallel circuit",
-                  "right": "Allows components to be controlled independently"
-                },
-                {
-                  "left": "Printed circuit",
-                  "right": "Can be populated with a large number of components"
+                  "text": "Short circuit",
+                  "is_correct": false
                 }
               ],
-              "explanation": "These circuit types are fundamental to both electrical and electronic systems."
+              "explanation": "Parallel circuits are standard for lighting systems."
+            },
+            {
+              "type": "matching",
+              "question": "Match the circuit conductor:",
+              "pairs": [
+                {
+                  "left": "Live",
+                  "right": "Carries high voltage supply"
+                },
+                {
+                  "left": "Neutral",
+                  "right": "Completes the circuit"
+                },
+                {
+                  "left": "Earth",
+                  "right": "Safety connection to the ground"
+                }
+              ],
+              "explanation": "AC supply safety conductors."
             }
           ]
         },
@@ -6800,41 +6396,44 @@
           "theory": "Small-scale control:\n\n* **PCB** (**Printed Circuit Board**): Base for mounting electronic components.\n* **Integrated circuit** (**microchip**): Complex small-scale circuits on silicon.\n* **Semiconductors**: Materials with variable conductivity (e.g., silicon).\n* **Sensors**: Detect levels of heat, light, or pressure.\n* **Logic gates**: Send output signals based on input logic (e.g., AND gate).",
           "exercises": [
             {
+              "type": "matching",
+              "question": "Match the electronic term:",
+              "pairs": [
+                {
+                  "left": "PCB",
+                  "right": "Printed Circuit Board"
+                },
+                {
+                  "left": "Logic gate",
+                  "right": "AND / OR decision making"
+                },
+                {
+                  "left": "Sensor",
+                  "right": "Detects heat, light or pressure"
+                }
+              ],
+              "explanation": "Electronic systems use small-scale components for control."
+            },
+            {
               "type": "fill_in_the_blank",
-              "question": "Lights are connected to two types of (1) ____. An occupancy sensor will (2) ____ movement, and a photosensor determines light levels. Both connect to an (3) ____ gate, which produces current only if it receives two inputs. A (4) ____ is sent to the light switch to (5) ____ the lights only if it is dark and someone is present.",
+              "question": "Microchips are (1) ____ circuits on (2) ____.",
               "blanks": [
                 {
                   "position": 1,
-                  "answer": "detectors"
+                  "answer": "integrated"
                 },
                 {
                   "position": 2,
-                  "answer": "sense"
-                },
-                {
-                  "position": 3,
-                  "answer": "AND"
-                },
-                {
-                  "position": 4,
-                  "answer": "signal"
-                },
-                {
-                  "position": 5,
-                  "answer": "activate"
+                  "answer": "silicon"
                 }
               ],
               "accepted_answers": [
                 [
-                  "detectors",
-                  "sense",
-                  "AND",
-                  "signal",
-                  "activate"
+                  "integrated",
+                  "silicon"
                 ]
               ],
-              "hint": "Control systems.",
-              "explanation": "Combining sensors with logic gates allows for sophisticated automatic control of electrical devices."
+              "explanation": "Textbook 45.2 verification."
             }
           ]
         }
