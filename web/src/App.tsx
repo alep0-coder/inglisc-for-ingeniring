@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState, useCallback } from 'react'
 import { App as CapApp } from '@capacitor/app'
 import type { Exercise, UnitDatabase } from './types'
 import { loadDatabase } from './loadDatabase'
-import { lessonKey, loadProgress, saveProgress, uploadProgress, downloadProgress } from './storage'
+import { lessonKey, loadProgress, saveProgress, uploadProgress, syncProgress } from './storage'
 import { auth } from './firebase'
 import { onAuthStateChanged, type User, signOut } from 'firebase/auth'
 import AuthOverlay from './components/AuthOverlay'
@@ -105,25 +105,29 @@ function BottomSheet({
   return (
     <>
       <div className={`bottom-sheet ${isOpen ? 'open' : ''} ${isCorrect ? 'correct' : 'incorrect'}`}>
-        {isCorrect ? (
+        {isOpen && (
           <>
-            <span className="sheet-icon">🎉</span>
-            <p className="sheet-title">{successMessage}</p>
-          </>
-        ) : (
-          <>
-            <span className="sheet-icon">💔</span>
-            <p className="sheet-title">Not quite...</p>
-            {correctAnswer && (
+            {isCorrect ? (
               <>
-                <p className="sheet-label">Correct answer:</p>
-                <p className="sheet-answer">{correctAnswer}</p>
+                <span className="sheet-icon">🎉</span>
+                <p className="sheet-title">{successMessage}</p>
               </>
-            )}
-            {explanation && (
+            ) : (
               <>
-                <p className="sheet-label">Explanation:</p>
-                <p className="sheet-explanation">{explanation}</p>
+                <span className="sheet-icon">💔</span>
+                <p className="sheet-title">Not quite...</p>
+                {correctAnswer && (
+                  <>
+                    <p className="sheet-label">Correct answer:</p>
+                    <p className="sheet-answer">{correctAnswer}</p>
+                  </>
+                )}
+                {explanation && (
+                  <>
+                    <p className="sheet-label">Explanation:</p>
+                    <p className="sheet-explanation">{explanation}</p>
+                  </>
+                )}
               </>
             )}
           </>
@@ -169,10 +173,13 @@ export default function App() {
   const [wrongCount, setWrongCount] = useState(0)
   const [viewingTheory, setViewingTheory] = useState(false)
   const [isReviewHub, setIsReviewHub] = useState(false)
+  const [displayIndex, setDisplayIndex] = useState(0) // Stabilizes current exercise view
 
   // Auth & Sync state
   const [user, setUser] = useState<User | null>(null)
   const [showAuth, setShowAuth] = useState(false)
+  const [lastSynced, setLastSynced] = useState<string | null>(localStorage.getItem('lastSynced'))
+  const [syncError, setSyncError] = useState<string | null>(null)
 
   const inputRefs = useRef<(HTMLInputElement | null)[]>([])
   const optionsRef = useRef<HTMLDivElement>(null)
@@ -219,6 +226,39 @@ export default function App() {
       .catch((e) => setError(e instanceof Error ? e.message : String(e)))
   }, [])
 
+  // Progress migration: convert old index-based keys (e.g. "0.0") to ID-based keys
+  useEffect(() => {
+    if (!db) return
+    
+    const current = { ...progress }
+    let migrated = false
+    const updated = { ...current, lessonNextIndex: { ...current.lessonNextIndex } }
+    
+    for (const [key, val] of Object.entries(current.lessonNextIndex)) {
+      if (key.match(/^\d+\.\d+$/)) {
+        const [uIdx, lIdx] = key.split('.').map(Number)
+        const unit = db.units[uIdx]
+        const lesson = unit?.lessons[lIdx]
+        if (unit && lesson) {
+          const newKey = lessonKey(unit.id, lesson.id)
+          updated.lessonNextIndex[newKey] = Math.max(updated.lessonNextIndex[newKey] || 0, val)
+          delete updated.lessonNextIndex[key]
+          migrated = true
+        }
+      }
+    }
+    
+    if (migrated) {
+      console.log("Migrated old progress keys to new format")
+      saveProgress(updated)
+      setProgress(updated)
+      // If user is already logged in, sync the migrated data to cloud
+      if (user) {
+        syncProgress(user.uid).then(synced => synced && setProgress(synced))
+      }
+    }
+  }, [db, user])
+
   // Handle Auth Changes
   useEffect(() => {
     if (!auth) return
@@ -227,13 +267,11 @@ export default function App() {
       if (currentUser) {
         setIsSyncing(true)
         try {
-          // Only download if we haven't synced in this session to avoid loops
-          if (!sessionStorage.getItem('synced')) {
-            const remote = await downloadProgress(currentUser.uid)
-            if (remote) {
-              setProgress(remote)
-              sessionStorage.setItem('synced', 'true')
-            }
+          // Perform bidirectional sync on login
+          const synced = await syncProgress(currentUser.uid)
+          if (synced) {
+            setProgress(synced)
+            sessionStorage.setItem('synced', 'true')
           }
         } finally {
           setIsSyncing(false)
@@ -251,11 +289,17 @@ export default function App() {
   const handleManualSync = async () => {
     if (!user || !auth) return
     setIsSyncing(true)
+    setSyncError(null)
     try {
-      const current = loadProgress()
-      await uploadProgress(user.uid, current)
-      const remote = await downloadProgress(user.uid)
-      if (remote) setProgress(remote)
+      const synced = await syncProgress(user.uid)
+      if (synced) {
+        setProgress(synced)
+        const now = new Date().toLocaleTimeString()
+        setLastSynced(now)
+        localStorage.setItem('lastSynced', now)
+      } else {
+        setSyncError('Errore durante la sincronizzazione cloud.')
+      }
     } finally {
       setIsSyncing(false)
     }
@@ -265,15 +309,23 @@ export default function App() {
     if (!user) return
     if (syncTimeoutRef.current) clearTimeout(syncTimeoutRef.current)
     
-    setIsSyncing(true)
+    setSyncError(null)
     syncTimeoutRef.current = setTimeout(async () => {
+      setIsSyncing(true)
       try {
-        await uploadProgress(user.uid, data)
+        const ok = await uploadProgress(user.uid, data)
+        if (ok) {
+          const now = new Date().toLocaleTimeString()
+          setLastSynced(now)
+          localStorage.setItem('lastSynced', now)
+        } else {
+          setSyncError('Impossibile salvare nel cloud (verifica regole Firestore)')
+        }
       } finally {
         setIsSyncing(false)
         syncTimeoutRef.current = null
       }
-    }, 2000) // Wait 2 seconds of inactivity before syncing
+    }, 2000)
   }
 
   // Ref to hold latest state for back gesture
@@ -284,6 +336,15 @@ export default function App() {
 
   useEffect(() => {
     let listenerHandle: Awaited<ReturnType<typeof CapApp.addListener>> | null = null
+
+    CapApp.addListener('appStateChange', ({ isActive }) => {
+      if (isActive && user) {
+        console.log('App resumed, syncing progress...')
+        syncProgress(user.uid).then(synced => {
+          if (synced) setProgress(synced)
+        })
+      }
+    })
 
     CapApp.addListener('backButton', () => {
       const state = stateRef.current
@@ -317,9 +378,9 @@ export default function App() {
 
   const unit = db && unitIdx !== null ? db.units[unitIdx] : null
   const lesson = unit && lessonIdx !== null ? unit.lessons[lessonIdx] : null
-  const lKey = unitIdx !== null && lessonIdx !== null ? lessonKey(unitIdx, lessonIdx) : null
+  const lKey = unit && lesson ? lessonKey(unit.id, lesson.id) : null
   const nextIndex = lKey ? (progress.lessonNextIndex[lKey] ?? 0) : 0
-  const exercise: Exercise | null = lesson ? (lesson.exercises[nextIndex] ?? null) : null
+  const exercise: Exercise | null = lesson ? (lesson.exercises[displayIndex] ?? null) : null
 
   // Computed progress % for this lesson
   const lessonProgress = lesson
@@ -341,10 +402,12 @@ export default function App() {
   useEffect(() => {
     if (exercise?.type === 'fill_in_the_blank') {
       setTextAnswers(new Array(exercise.blanks.length).fill(''))
-      inputRefs.current = new Array(exercise.blanks.length).fill(null)
     } else {
       setTextAnswers([])
     }
+    
+    // Ensure inputs are ready
+    inputRefs.current = exercise?.type === 'fill_in_the_blank' ? new Array(exercise.blanks.length).fill(null) : []
 
     if (exercise?.type === 'matching') {
       setSelectedTerm(null)
@@ -382,11 +445,14 @@ export default function App() {
     resetExerciseState()
   }
 
-  function startLesson(l: number) {
-    setLessonIdx(l)
+  function startLesson(lIdx: number) {
+    if (!unit) return
+    const l = unit.lessons[lIdx]
+    setLessonIdx(lIdx)
     setLives(MAX_LIVES)
-    const k = lessonKey(unitIdx!, l)
+    const k = lessonKey(unit.id, l.id)
     const n = progress.lessonNextIndex[k] ?? 0
+    setDisplayIndex(n)
     setViewingTheory(n === 0)
     setIsReviewHub(false)
     resetExerciseState()
@@ -402,9 +468,8 @@ export default function App() {
   // ── Game Logic ──────────────────────────────────────────────────────────────
   function advanceExercise() {
     if (!lKey || !lesson) return
-    const next = Math.min(nextIndex + 1, lesson.exercises.length)
-    const updated = loadProgress()
-    updated.lessonNextIndex[lKey] = next
+    const next = Math.min(displayIndex + 1, lesson.exercises.length)
+    const updated = { ...progress, lessonNextIndex: { ...progress.lessonNextIndex, [lKey]: next } }
     saveProgress(updated)
     setProgress(updated)
 
@@ -418,9 +483,9 @@ export default function App() {
 
   const markCorrect = useCallback(() => {
     setSuccessMessage(randomSuccess())
-    advanceExercise()
+    // DO NOT advance exercise here, wait for Continue button
     setFeedbackState('correct')
-  }, [nextIndex, lesson, lKey]) // eslint-disable-line
+  }, []) // eslint-disable-line
 
   function triggerShake(target: 'input' | 'options') {
     if (target === 'options' && optionsRef.current) {
@@ -482,8 +547,8 @@ export default function App() {
         if (matchedTerms.length === exercise.pairs.length) {
           markCorrect()
         } else {
-          triggerShake('options')
-          markWrong()
+          // If for some reason the button was clickable but not finished
+          return 
         }
       }
     } catch (err) {
@@ -494,22 +559,32 @@ export default function App() {
 
   function handleSheetAction() {
     if (!lesson) return
-    if (feedbackState === 'correct' && nextIndex >= lesson.exercises.length) {
-      setLessonComplete(true)
-      setFeedbackState('idle')
+    
+    if (feedbackState === 'correct') {
+      // Advance to next exercise only after clicking "Continue"
+      advanceExercise()
+      
+      if (displayIndex + 1 >= lesson.exercises.length) {
+        setLessonComplete(true)
+        setFeedbackState('idle')
+      } else {
+        // RESET STATE BEFORE MOVING TO NEXT EXERCISE
+        resetExerciseState()
+        setDisplayIndex(prev => prev + 1)
+      }
     } else {
+      // This is the "Got it" case for incorrect answers
       setFeedbackState('idle')
       setSelectedOptionIndex(null)
-      setTextAnswers(exercise?.type === 'fill_in_the_blank' ? new Array(exercise.blanks.length).fill('') : [])
     }
   }
 
   function resetLesson() {
     if (!lKey) return
-    const updated = loadProgress()
-    updated.lessonNextIndex[lKey] = 0
+    const updated = { ...progress, lessonNextIndex: { ...progress.lessonNextIndex, [lKey]: 0 } }
     saveProgress(updated)
-    progress.lessonNextIndex[lKey] = 0
+    setProgress(updated)
+    setDisplayIndex(0)
     setLives(MAX_LIVES)
     setViewingTheory(true)
     resetExerciseState()
@@ -523,7 +598,9 @@ export default function App() {
         ? selectedOptionIndex !== null
         : exercise?.type === 'fill_in_the_blank'
           ? textAnswers.every(ans => ans.trim().length > 0)
-          : true
+          : exercise?.type === 'matching'
+            ? matchedTerms.length === exercise.pairs.length
+            : false
     return hasAnswer ? 'cta-btn active-green' : 'cta-btn disabled'
   }
 
@@ -701,22 +778,23 @@ export default function App() {
               <div className="user-avatar">👤</div>
               <div className="user-details">
                 <span className="user-name">{user.displayName || user.email?.split('@')[0]}</span>
-                <span className={`sync-status ${isSyncing ? 'syncing' : ''}`}>
-                  {isSyncing ? 'Saving to cloud...' : 'Up to date'}
+                <span className={`sync-status ${isSyncing ? 'syncing' : ''} ${syncError ? 'error' : ''}`}>
+                  {isSyncing ? 'Salvataggio...' : syncError ? syncError : 'Sincronizzato'}
                 </span>
+                {lastSynced && !syncError && <span className="last-synced">Ultimo sync: {lastSynced}</span>}
               </div>
               <div className="user-actions">
-                <button className="icon-btn sync-btn" onClick={handleManualSync} title="Sync now" disabled={isSyncing}>
+                <button className="icon-btn sync-btn" onClick={handleManualSync} title="Sincronizza ora" disabled={isSyncing}>
                   {isSyncing ? '⏳' : '🔄'}
                 </button>
-                <button className="icon-btn logout-btn" onClick={() => auth && signOut(auth)} title="Logout">
+                <button className="icon-btn logout-btn" onClick={() => auth && signOut(auth)} title="Esci">
                   🚪
                 </button>
               </div>
             </div>
           ) : (
             <div className="auth-prompt">
-              <p>Sign in to sync your progress across devices</p>
+              <p>Accedi per salvare i tuoi progressi nel cloud</p>
               <button className="cta-btn active-green mini" onClick={() => {
                 if (auth) {
                   setShowAuth(true)
@@ -724,7 +802,7 @@ export default function App() {
                   alert("⚠️ Firebase non è configurato. Inserisci le chiavi API in src/firebase.ts per attivare la sincronizzazione.")
                 }
               }}>
-                Login
+                Accedi
               </button>
             </div>
           )}
@@ -748,9 +826,9 @@ export default function App() {
 
         {db.units.map((u, idx) => {
           const totalEx = u.lessons.reduce((a, l) => a + l.exercises.length, 0)
-          const doneEx = u.lessons.reduce((a, l, li) => {
-            const k = lessonKey(idx, li)
-            return a + Math.min(loadProgress().lessonNextIndex[k] ?? 0, l.exercises.length)
+          const doneEx = u.lessons.reduce((a, l) => {
+            const k = lessonKey(u.id, l.id)
+            return a + Math.min(progress.lessonNextIndex[k] ?? 0, l.exercises.length)
           }, 0)
           const pct = totalEx > 0 ? Math.round((doneEx / totalEx) * 100) : 0
           return (
@@ -778,6 +856,11 @@ export default function App() {
             </div>
           )
         })}
+
+        <footer className="home-footer">
+          <p>Creato con ❤️ per aiutarti a superare l'esame di Inglese!</p>
+        </footer>
+
         {showAuth && (
           <AuthOverlay 
             onClose={() => setShowAuth(false)} 
@@ -806,8 +889,8 @@ export default function App() {
 
         <div className="unit-card">
           {unit.lessons.map((l, idx) => {
-            const k = lessonKey(unitIdx, idx)
-            const done = Math.min(loadProgress().lessonNextIndex[k] ?? 0, l.exercises.length)
+            const k = lessonKey(unit.id, l.id)
+            const done = Math.min(progress.lessonNextIndex[k] ?? 0, l.exercises.length)
             const pct = l.exercises.length > 0 ? Math.round((done / l.exercises.length) * 100) : 0
             const isComplete = done >= l.exercises.length
             return (
@@ -996,7 +1079,7 @@ export default function App() {
             </span>
             <span className="crumb-sep">›</span>
             <span className="crumb active">
-              {nextIndex + 1}/{lesson.exercises.length}
+              {displayIndex + 1}/{lesson.exercises.length}
             </span>
           </div>
 

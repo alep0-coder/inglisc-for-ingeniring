@@ -1135,3 +1135,27 @@ body.dark .crumb:hover { background: var(--gray-100); }
   width: auto;
   margin: 0;
 }
+
+.sync-status.error {
+  color: var(--red);
+}
+
+.last-synced {
+  font-size: 11px;
+  color: var(--gray-500);
+  margin-top: 2px;
+}
+
+.home-footer {
+  margin-top: 40px;
+  padding: 24px 0;
+  text-align: center;
+  border-top: 1px solid var(--gray-200);
+}
+
+.home-footer p {
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 700;
+  margin: 0;
+}

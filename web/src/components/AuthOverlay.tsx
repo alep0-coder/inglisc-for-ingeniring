@@ -25,7 +25,7 @@ export default function AuthOverlay({ onClose, onSuccess }: AuthOverlayProps) {
     setLoading(true);
 
     if (!auth) {
-      setError('Firebase is not configured correctly.');
+      setError('Firebase non è configurato correttamente.');
       setLoading(false);
       return;
     }
@@ -45,13 +45,13 @@ export default function AuthOverlay({ onClose, onSuccess }: AuthOverlayProps) {
     } catch (err: any) {
       console.error(err);
       if (err.code === 'auth/invalid-credential') {
-        setError('Email or password incorrect.');
+        setError('Email o password errati.');
       } else if (err.code === 'auth/email-already-in-use') {
-        setError('This email is already in use.');
+        setError('Questa email è già in uso.');
       } else if (err.code === 'auth/weak-password') {
-        setError('Password should be at least 6 characters.');
+        setError('La password deve avere almeno 6 caratteri.');
       } else {
-        setError(err.message || 'An error occurred during authentication.');
+        setError(err.message || 'Si è verificato un errore durante l\'autenticazione.');
       }
     } finally {
       setLoading(false);
@@ -65,17 +65,17 @@ export default function AuthOverlay({ onClose, onSuccess }: AuthOverlayProps) {
         
         <div className="auth-header">
           <span className="auth-icon">{isLogin ? '🔑' : '📝'}</span>
-          <h2>{isLogin ? 'Welcome back!' : 'Create an account'}</h2>
-          <p>{isLogin ? 'Login to sync your progress' : 'Join us to save your progress on the cloud'}</p>
+          <h2>{isLogin ? 'Bentornato!' : 'Crea un account'}</h2>
+          <p>{isLogin ? 'Accedi per sincronizzare i progressi' : 'Unisciti a noi per salvare i progressi nel cloud'}</p>
         </div>
 
         <form onSubmit={handleSubmit}>
           {!isLogin && (
             <div className="form-group">
-              <label>Name</label>
+              <label>Nome</label>
               <input 
                 type="text" 
-                placeholder="Your name" 
+                placeholder="Il tuo nome" 
                 value={name} 
                 onChange={(e) => setName(e.target.value)} 
                 required={!isLogin}
@@ -108,13 +108,13 @@ export default function AuthOverlay({ onClose, onSuccess }: AuthOverlayProps) {
           {error && <p className="error-msg">{error}</p>}
 
           <button type="submit" className="cta-btn active-green" disabled={loading}>
-            {loading ? 'Processing…' : (isLogin ? 'Login' : 'Sign Up')}
+            {loading ? 'Elaborazione…' : (isLogin ? 'Accedi' : 'Registrati')}
           </button>
         </form>
 
         <div className="auth-footer">
           <button className="text-btn" onClick={() => setIsLogin(!isLogin)}>
-            {isLogin ? "Don't have an account? Sign up" : "Already have an account? Login"}
+            {isLogin ? "Non hai un account? Registrati" : "Hai già un account? Accedi"}
           </button>
         </div>
       </div>

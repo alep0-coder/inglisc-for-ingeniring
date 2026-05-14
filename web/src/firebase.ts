@@ -23,3 +23,9 @@ const app = isConfigValid ? initializeApp(firebaseConfig) : null;
 export const auth = app ? getAuth(app) : null;
 export const db = app ? getFirestore(app) : null;
 export const isFirebaseActive = isConfigValid;
+
+if (isFirebaseActive) {
+  console.log('✅ Firebase inizializzato correttamente (Cloud Sync attivo)');
+} else {
+  console.warn('⚠️ Firebase non configurato o chiavi mancanti. L\'app funzionerà solo in locale.');
+}

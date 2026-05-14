@@ -31,14 +31,14 @@ export type MatchingExercise = {
 export type Exercise = MultipleChoiceExercise | FillInBlankExercise | MatchingExercise
 
 export type Lesson = {
-  id?: string
+  id: string
   title: string
   theory: string
   exercises: Exercise[]
 }
 
 export type Unit = {
-  id?: string
+  id: string
   title: string
   lessons: Lesson[]
 }
