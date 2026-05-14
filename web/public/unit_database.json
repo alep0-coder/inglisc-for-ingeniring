@@ -3817,6 +3817,44 @@
                 ]
               ],
               "explanation": "Textbook 12.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which metal is used for making cutting tools that get very hot?",
+              "options": [
+                {
+                  "text": "Mild steel",
+                  "is_correct": false
+                },
+                {
+                  "text": "High-speed steel",
+                  "is_correct": true
+                },
+                {
+                  "text": "Low alloy steel",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "High-speed steel maintains hardness at high temperatures."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are low alloy steels mainly composed of?",
+              "options": [
+                {
+                  "text": "Chromium",
+                  "is_correct": false
+                },
+                {
+                  "text": "Iron",
+                  "is_correct": true
+                },
+                {
+                  "text": "Nickel",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Alloy steels contain mostly iron with small amounts of other metals."
             }
           ]
         },
@@ -3874,6 +3912,44 @@
                 }
               ],
               "explanation": "Iron in steel reacts with oxygen to form iron oxide (rust)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does aluminium not corrode like mild steel?",
+              "options": [
+                {
+                  "text": "It contains no iron",
+                  "is_correct": false
+                },
+                {
+                  "text": "Its oxide layer prevents further oxidation",
+                  "is_correct": true
+                },
+                {
+                  "text": "It is a precious metal",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Aluminium oxide forms a protective barrier."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is weathering steel suitable for?",
+              "options": [
+                {
+                  "text": "Surgical tools",
+                  "is_correct": false
+                },
+                {
+                  "text": "Outdoor use",
+                  "is_correct": true
+                },
+                {
+                  "text": "Electrical wires",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Weathering steel forms a stable protective rust layer."
             }
           ]
         }
@@ -3937,6 +4013,44 @@
                 ]
               ],
               "explanation": "Textbook 13.1/13.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which alloy is used in aircraft manufacturing?",
+              "options": [
+                {
+                  "text": "Brass",
+                  "is_correct": false
+                },
+                {
+                  "text": "Bronze",
+                  "is_correct": false
+                },
+                {
+                  "text": "Duralumin",
+                  "is_correct": true
+                }
+              ],
+              "explanation": "Duralumin is a strong, lightweight aluminium alloy."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which metal is used for electronic connections due to its high conductivity?",
+              "options": [
+                {
+                  "text": "Aluminium",
+                  "is_correct": false
+                },
+                {
+                  "text": "Silver",
+                  "is_correct": true
+                },
+                {
+                  "text": "Lead",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Silver is a better conductor than any other material."
             }
           ]
         },
@@ -3989,6 +4103,44 @@
                 }
               ],
               "explanation": "The electrolyte is the liquid that conducts current."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the protective process for aluminium called?",
+              "options": [
+                {
+                  "text": "Galvanizing",
+                  "is_correct": false
+                },
+                {
+                  "text": "Anodizing",
+                  "is_correct": true
+                },
+                {
+                  "text": "Sintering",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Anodizing deposits a hard layer of oxide on aluminium."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In anodizing, the component is connected to the:",
+              "options": [
+                {
+                  "text": "Negative terminal",
+                  "is_correct": false
+                },
+                {
+                  "text": "Positive terminal",
+                  "is_correct": true
+                },
+                {
+                  "text": "Earth",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "The component becomes the anode (positive side)."
             }
           ]
         }
@@ -4047,6 +4199,25 @@
                 ]
               ],
               "explanation": "Textbook 14.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which polymer is used for strong, transparent panels?",
+              "options": [
+                {
+                  "text": "ABS",
+                  "is_correct": false
+                },
+                {
+                  "text": "Polycarbonate",
+                  "is_correct": true
+                },
+                {
+                  "text": "PVC",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Polycarbonate is strong and transparent."
             }
           ]
         },
@@ -4094,6 +4265,44 @@
                 ]
               ],
               "explanation": "Textbook 14.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which plastic is used for vehicle bodywork because it is stiff and light?",
+              "options": [
+                {
+                  "text": "PVC",
+                  "is_correct": false
+                },
+                {
+                  "text": "ABS",
+                  "is_correct": true
+                },
+                {
+                  "text": "Epoxy",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "ABS is a common engineering thermoplastic."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are elastic polymers called?",
+              "options": [
+                {
+                  "text": "Engineering plastics",
+                  "is_correct": false
+                },
+                {
+                  "text": "Elastomers",
+                  "is_correct": true
+                },
+                {
+                  "text": "Thermosets",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Elastomers can return to their original length after stretching."
             }
           ]
         }
@@ -4157,6 +4366,44 @@
                 }
               ],
               "explanation": "Diamond is extremely hard and useful for cutting."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sand (silica) heated to high temperatures to make?",
+              "options": [
+                {
+                  "text": "Cement",
+                  "is_correct": false
+                },
+                {
+                  "text": "Glass",
+                  "is_correct": true
+                },
+                {
+                  "text": "Steel",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Silica is the primary ingredient of glass."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a natural, inorganic material found in the ground?",
+              "options": [
+                {
+                  "text": "Polymer",
+                  "is_correct": false
+                },
+                {
+                  "text": "Mineral",
+                  "is_correct": true
+                },
+                {
+                  "text": "Latex",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Minerals are found within rocks."
             }
           ]
         },
@@ -4209,6 +4456,44 @@
                 ]
               ],
               "explanation": "Textbook 15.3 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which safety glass is used for vehicle windscreens?",
+              "options": [
+                {
+                  "text": "Toughened glass",
+                  "is_correct": false
+                },
+                {
+                  "text": "Laminated glass",
+                  "is_correct": true
+                },
+                {
+                  "text": "Annealed glass",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Laminated glass stays intact upon impact."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is glass that is left to cool slowly called?",
+              "options": [
+                {
+                  "text": "Annealed glass",
+                  "is_correct": true
+                },
+                {
+                  "text": "Tempered glass",
+                  "is_correct": false
+                },
+                {
+                  "text": "Laminated glass",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Annealing is slow cooling to relieve internal stress."
             }
           ]
         }
@@ -4274,6 +4559,44 @@
                 ]
               ],
               "explanation": "Textbook 16.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the punto called when concrete reaches structural strength?",
+              "options": [
+                {
+                  "text": "7-day strength",
+                  "is_correct": false
+                },
+                {
+                  "text": "28-day strength",
+                  "is_correct": true
+                },
+                {
+                  "text": "Final set",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "28 days is the standard point for full strength."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What specifies the proportions of concrete ingredients?",
+              "options": [
+                {
+                  "text": "Hatching",
+                  "is_correct": false
+                },
+                {
+                  "text": "Mix design",
+                  "is_correct": true
+                },
+                {
+                  "text": "Formwork",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Mix designs define the 1:2:4 ratio etc."
             }
           ]
         },
@@ -4326,6 +4649,44 @@
                 ]
               ],
               "explanation": "Textbook 16.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is applying tension to reinforcing bars before pouring called?",
+              "options": [
+                {
+                  "text": "Pre-tensioning",
+                  "is_correct": true
+                },
+                {
+                  "text": "Post-tensioning",
+                  "is_correct": false
+                },
+                {
+                  "text": "In-situ casting",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Pre-tensioning is done before the concrete is poured."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is concrete cast at a factory called?",
+              "options": [
+                {
+                  "text": "In-situ concrete",
+                  "is_correct": false
+                },
+                {
+                  "text": "Precast concrete",
+                  "is_correct": true
+                },
+                {
+                  "text": "Vitrified concrete",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Precast elements are delivered ready for assembly."
             }
           ]
         }
@@ -4379,6 +4740,44 @@
                 ]
               ],
               "explanation": "Textbook 17.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which category describes wood with grain and knots intact?",
+              "options": [
+                {
+                  "text": "Solid wood",
+                  "is_correct": true
+                },
+                {
+                  "text": "Engineered wood",
+                  "is_correct": false
+                },
+                {
+                  "text": "Softwood",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Solid wood maintains its natural structure."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where is timber cut to its required section?",
+              "options": [
+                {
+                  "text": "Kiln",
+                  "is_correct": false
+                },
+                {
+                  "text": "Sawmill",
+                  "is_correct": true
+                },
+                {
+                  "text": "Die",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Sawmills produce various section sizes."
             }
           ]
         },
@@ -4424,6 +4823,44 @@
                 }
               ],
               "explanation": "Plywood grain orientation provides increased strength."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is chipboard more formally called?",
+              "options": [
+                {
+                  "text": "OSB",
+                  "is_correct": false
+                },
+                {
+                  "text": "Particle board",
+                  "is_correct": true
+                },
+                {
+                  "text": "MDF",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Particle board is the technical term for chipboard."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are major structural wood beams called?",
+              "options": [
+                {
+                  "text": "MDF",
+                  "is_correct": false
+                },
+                {
+                  "text": "Glulams",
+                  "is_correct": true
+                },
+                {
+                  "text": "Plywood",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Glue-laminated sections (glulams) are for major structural use."
             }
           ]
         }
@@ -4484,6 +4921,44 @@
                 ]
               ],
               "explanation": "Textbook 18.1/18.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which property describes a material that fractures easily?",
+              "options": [
+                {
+                  "text": "Stiff",
+                  "is_correct": false
+                },
+                {
+                  "text": "Brittle",
+                  "is_correct": true
+                },
+                {
+                  "text": "Plastic",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Brittle materials have low elasticity and fracture easily."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a materials ability to return to its shape called?",
+              "options": [
+                {
+                  "text": "Plasticity",
+                  "is_correct": false
+                },
+                {
+                  "text": "Elasticity",
+                  "is_correct": true
+                },
+                {
+                  "text": "Ductility",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Elasticity allows return to original shape."
             }
           ]
         },
@@ -4529,6 +5004,44 @@
                 }
               ],
               "explanation": "Malleability is the ability to be deformed by compression."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the maximum stress a material can withstand called?",
+              "options": [
+                {
+                  "text": "Elastic limit",
+                  "is_correct": false
+                },
+                {
+                  "text": "UTS",
+                  "is_correct": true
+                },
+                {
+                  "text": "Yield point",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "UTS stands for Ultimate Tensile Strength."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a narrower section appearing in a bar during testing?",
+              "options": [
+                {
+                  "text": "Waist",
+                  "is_correct": true
+                },
+                {
+                  "text": "Kerf",
+                  "is_correct": false
+                },
+                {
+                  "text": "Bore",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "A waist signals that the bar is about to fracture."
             }
           ]
         }
@@ -4587,6 +5100,44 @@
                 ]
               ],
               "explanation": "Textbook 19.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the problem caused by cyclic loads?",
+              "options": [
+                {
+                  "text": "Creep",
+                  "is_correct": false
+                },
+                {
+                  "text": "Fatigue",
+                  "is_correct": true
+                },
+                {
+                  "text": "Corrosion",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Fatigue causes micro-cracking over time."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is permanent deformation due to loads over time?",
+              "options": [
+                {
+                  "text": "Fatigue",
+                  "is_correct": false
+                },
+                {
+                  "text": "Creep",
+                  "is_correct": true
+                },
+                {
+                  "text": "Brittleness",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Creep increases over time, especially with heat."
             }
           ]
         },
@@ -4644,6 +5195,44 @@
                 }
               ],
               "explanation": "Copper carries heat very efficiently."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which material is an excellent thermal insulator?",
+              "options": [
+                {
+                  "text": "Copper",
+                  "is_correct": false
+                },
+                {
+                  "text": "Polystyrene",
+                  "is_correct": true
+                },
+                {
+                  "text": "Aluminium",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Polystyrene is a very poor thermal conductor."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is change in size per degree called?",
+              "options": [
+                {
+                  "text": "Thermal conductivity",
+                  "is_correct": false
+                },
+                {
+                  "text": "Coefficient of thermal expansion",
+                  "is_correct": true
+                },
+                {
+                  "text": "Fracture toughness",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "This coefficient measures expansion/contraction."
             }
           ]
         }
@@ -4695,6 +5284,44 @@
                 }
               ],
               "explanation": "Extrusion produces long lengths with a constant section."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is working metal by hammering it called?",
+              "options": [
+                {
+                  "text": "Casting",
+                  "is_correct": false
+                },
+                {
+                  "text": "Forging",
+                  "is_correct": true
+                },
+                {
+                  "text": "Extruding",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Forging uses compression to shape metal."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is heating metal until it is liquid called?",
+              "options": [
+                {
+                  "text": "Sintering",
+                  "is_correct": false
+                },
+                {
+                  "text": "Casting",
+                  "is_correct": true
+                },
+                {
+                  "text": "Extruding",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Casting involves pouring molten metal into a die."
             }
           ]
         },
@@ -4742,6 +5369,44 @@
                 ]
               ],
               "explanation": "Textbook 20.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which process makes metal harder by rapid cooling?",
+              "options": [
+                {
+                  "text": "Annealing",
+                  "is_correct": false
+                },
+                {
+                  "text": "Quenching",
+                  "is_correct": true
+                },
+                {
+                  "text": "Tempering",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Quenching involves heating then dipping in water or oil."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which treatment makes metal softer and more elastic?",
+              "options": [
+                {
+                  "text": "Quenching",
+                  "is_correct": false
+                },
+                {
+                  "text": "Annealing",
+                  "is_correct": true
+                },
+                {
+                  "text": "Case hardening",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Annealing involves slow cooling to soften metal."
             }
           ]
         }
@@ -4800,6 +5465,25 @@
                 }
               ],
               "explanation": "Blooms are very large steel blocks; ingots are standard size."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a fine-particle raw material called?",
+              "options": [
+                {
+                  "text": "Pellets",
+                  "is_correct": false
+                },
+                {
+                  "text": "Powder",
+                  "is_correct": true
+                },
+                {
+                  "text": "Fibres",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Powder consists of very fine particles."
             }
           ]
         },
@@ -4852,6 +5536,44 @@
                 ]
               ],
               "explanation": "Textbook 21.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What format are metal bars with a circular section called?",
+              "options": [
+                {
+                  "text": "Rods",
+                  "is_correct": true
+                },
+                {
+                  "text": "Sheets",
+                  "is_correct": false
+                },
+                {
+                  "text": "Plates",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Rods are round bars."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are flat metal pieces thicker than 3mm called?",
+              "options": [
+                {
+                  "text": "Sheets",
+                  "is_correct": false
+                },
+                {
+                  "text": "Plates",
+                  "is_correct": true
+                },
+                {
+                  "text": "Bars",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Plates are thicker than sheets."
             }
           ]
         }
@@ -4903,6 +5625,44 @@
                 }
               ],
               "explanation": "CAD/CAM automates the design and production process."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are rotating cutters used in?",
+              "options": [
+                {
+                  "text": "Turning",
+                  "is_correct": false
+                },
+                {
+                  "text": "Milling",
+                  "is_correct": true
+                },
+                {
+                  "text": "Boring",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Milling uses rotating cutters to remove material."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the metal waste produced during machining?",
+              "options": [
+                {
+                  "text": "Kerf",
+                  "is_correct": false
+                },
+                {
+                  "text": "Swarf",
+                  "is_correct": true
+                },
+                {
+                  "text": "Slag",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Swarf (or chips) is the waste metal removed."
             }
           ]
         },
@@ -4967,6 +5727,25 @@
                 ]
               ],
               "explanation": "Textbook 23.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the gap left by a saw called?",
+              "options": [
+                {
+                  "text": "Bore",
+                  "is_correct": false
+                },
+                {
+                  "text": "Kerf",
+                  "is_correct": true
+                },
+                {
+                  "text": "Swarf",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "The kerf is the width of the cut made by a saw."
             }
           ]
         }
@@ -5018,6 +5797,25 @@
                 }
               ],
               "explanation": "Guilloting uses shear force for straight cuts."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is making holes in a product called?",
+              "options": [
+                {
+                  "text": "Blanking",
+                  "is_correct": false
+                },
+                {
+                  "text": "Piercing",
+                  "is_correct": true
+                },
+                {
+                  "text": "Guilloting",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Piercing involves punching holes in a sheet."
             }
           ]
         },
@@ -5070,6 +5868,44 @@
                 ]
               ],
               "explanation": "Textbook 24.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which process has no Heat-Affected Zone (HAZ)?",
+              "options": [
+                {
+                  "text": "Laser-cutting",
+                  "is_correct": false
+                },
+                {
+                  "text": "Waterjet-cutting",
+                  "is_correct": true
+                },
+                {
+                  "text": "Plasma-cutting",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Waterjet cutting is a cold process."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which process uses spark erosion?",
+              "options": [
+                {
+                  "text": "Flame-cutting",
+                  "is_correct": false
+                },
+                {
+                  "text": "EDM",
+                  "is_correct": true
+                },
+                {
+                  "text": "Guilloting",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Electrical Discharge Machining uses electric arcs."
             }
           ]
         }
@@ -5128,6 +5964,44 @@
                 }
               ],
               "explanation": "Structural connection terms."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What prevents components from sliding?",
+              "options": [
+                {
+                  "text": "Supporting",
+                  "is_correct": false
+                },
+                {
+                  "text": "Anchoring",
+                  "is_correct": true
+                },
+                {
+                  "text": "Embedding",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Anchoring holds a component in position."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What stops components from moving downward?",
+              "options": [
+                {
+                  "text": "Anchoring",
+                  "is_correct": false
+                },
+                {
+                  "text": "Supporting",
+                  "is_correct": true
+                },
+                {
+                  "text": "Sealing",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Support prevents downward motion."
             }
           ]
         },
@@ -5175,6 +6049,25 @@
                 ]
               ],
               "explanation": "Textbook 25.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is movement allowed in a joint?",
+              "options": [
+                {
+                  "text": "Play",
+                  "is_correct": true
+                },
+                {
+                  "text": "Fit",
+                  "is_correct": false
+                },
+                {
+                  "text": "Bond",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Play allows for tolerances in mechanical assemblies."
             }
           ]
         }
@@ -5233,6 +6126,25 @@
                 ]
               ],
               "explanation": "Technical terms for bolts and tools."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the turning force for a bolt?",
+              "options": [
+                {
+                  "text": "Preload",
+                  "is_correct": false
+                },
+                {
+                  "text": "Torque",
+                  "is_correct": true
+                },
+                {
+                  "text": "Tension",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Torque is the rotational force applied during tightening."
             }
           ]
         },
@@ -5292,6 +6204,44 @@
                 ]
               ],
               "explanation": "Textbook 26.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which washer is used to absorb shocks?",
+              "options": [
+                {
+                  "text": "Plain washer",
+                  "is_correct": false
+                },
+                {
+                  "text": "Spring washer",
+                  "is_correct": true
+                },
+                {
+                  "text": "Locking washer",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Spring washers maintain tension and absorb vibration."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the initial tension in a bolt called?",
+              "options": [
+                {
+                  "text": "Preload",
+                  "is_correct": true
+                },
+                {
+                  "text": "Torque",
+                  "is_correct": false
+                },
+                {
+                  "text": "Play",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Preload is the squeezing force in a tightened joint."
             }
           ]
         }
@@ -5350,6 +6300,25 @@
                 ]
               ],
               "explanation": "Textbook 27.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which screw is also called a grub screw?",
+              "options": [
+                {
+                  "text": "Self-tapping screw",
+                  "is_correct": false
+                },
+                {
+                  "text": "Set screw",
+                  "is_correct": true
+                },
+                {
+                  "text": "Coach screw",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Set screws (grub screws) hold parts by pressure."
             }
           ]
         },
@@ -5397,6 +6366,25 @@
                 ]
               ],
               "explanation": "Textbook 27.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which rivet is used for hollow sections?",
+              "options": [
+                {
+                  "text": "Solid rivet",
+                  "is_correct": false
+                },
+                {
+                  "text": "Blind rivet",
+                  "is_correct": true
+                },
+                {
+                  "text": "Factory rivet",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Blind (pop) rivets can be installed from one side."
             }
           ]
         }
@@ -5474,6 +6462,25 @@
                 }
               ],
               "explanation": "HAZ stands for Heat-Affected Zone."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the pool of molten metal in welding called?",
+              "options": [
+                {
+                  "text": "Flux",
+                  "is_correct": false
+                },
+                {
+                  "text": "Weld pool",
+                  "is_correct": true
+                },
+                {
+                  "text": "Die",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "The weld pool is where the metal fuses."
             }
           ]
         },
@@ -5521,6 +6528,25 @@
                 ]
               ],
               "explanation": "Textbook 28.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which welding uses a non-consumable electrode?",
+              "options": [
+                {
+                  "text": "MIG",
+                  "is_correct": false
+                },
+                {
+                  "text": "TIG",
+                  "is_correct": true
+                },
+                {
+                  "text": "SMAW",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "TIG (Tungsten Inert Gas) welding uses a non-consumable tungsten electrode."
             }
           ]
         }
@@ -5572,6 +6598,25 @@
                 }
               ],
               "explanation": "Ultrasonic welding is common for plastics."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which process joins metals at lower temperatures than welding?",
+              "options": [
+                {
+                  "text": "Brazing",
+                  "is_correct": true
+                },
+                {
+                  "text": "Forging",
+                  "is_correct": false
+                },
+                {
+                  "text": "Sintering",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Brazing uses a filler metal with a lower melting point."
             }
           ]
         },
@@ -5660,6 +6705,44 @@
                 }
               ],
               "explanation": "Contact adhesives bond on contact after drying."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens when two-part adhesives mix?",
+              "options": [
+                {
+                  "text": "They evaporate",
+                  "is_correct": false
+                },
+                {
+                  "text": "They cure",
+                  "is_correct": true
+                },
+                {
+                  "text": "They dissolve",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Curing is the chemical reaction that sets the adhesive."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What evaporates in a solvent-based adhesive?",
+              "options": [
+                {
+                  "text": "Resin",
+                  "is_correct": false
+                },
+                {
+                  "text": "Solvent",
+                  "is_correct": true
+                },
+                {
+                  "text": "Catalyst",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "The solvent evaporates to leave the bond."
             }
           ]
         }
@@ -5730,6 +6813,44 @@
                 ]
               ],
               "explanation": "Textbook 37.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What transports water or gas along streets?",
+              "options": [
+                {
+                  "text": "Pipelines",
+                  "is_correct": false
+                },
+                {
+                  "text": "Mains",
+                  "is_correct": true
+                },
+                {
+                  "text": "Sewers",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Mains are the primary supply lines in a network."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What carries waste water from buildings?",
+              "options": [
+                {
+                  "text": "Mains",
+                  "is_correct": false
+                },
+                {
+                  "text": "Drains",
+                  "is_correct": true
+                },
+                {
+                  "text": "Pipelines",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Drains remove waste water to the sewers."
             }
           ]
         },
@@ -5775,6 +6896,25 @@
                 }
               ],
               "explanation": "Compressors increase the pressure of a gas."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What rotates when moved by a gas flow?",
+              "options": [
+                {
+                  "text": "Turbine",
+                  "is_correct": true
+                },
+                {
+                  "text": "Compressor",
+                  "is_correct": false
+                },
+                {
+                  "text": "Pump",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Turbines convert fluid flow into rotational motion."
             }
           ]
         }
@@ -5854,6 +6994,44 @@
                 ]
               ],
               "explanation": "Textbook 38.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is pressure relative to the atmosphere?",
+              "options": [
+                {
+                  "text": "Absolute",
+                  "is_correct": false
+                },
+                {
+                  "text": "Gauge",
+                  "is_correct": true
+                },
+                {
+                  "text": "Hydrostatic",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Gauge pressure zero is atmospheric pressure."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is zero gauge pressure equal to?",
+              "options": [
+                {
+                  "text": "Vacuum",
+                  "is_correct": false
+                },
+                {
+                  "text": "Atmospheric pressure",
+                  "is_correct": true
+                },
+                {
+                  "text": "Absolute zero",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Gauge pressure is relative to the atmosphere."
             }
           ]
         },
@@ -5901,6 +7079,25 @@
                 }
               ],
               "explanation": "Header tanks provide pressure via gravity."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What provides pressure via gravity?",
+              "options": [
+                {
+                  "text": "Pump",
+                  "is_correct": false
+                },
+                {
+                  "text": "Header tank",
+                  "is_correct": true
+                },
+                {
+                  "text": "Accumulator",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Header tanks use height (head) to create pressure."
             }
           ]
         }
@@ -5952,6 +7149,25 @@
                 }
               ],
               "explanation": "Laminar flow follows a smooth, direct path."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is air resistance called?",
+              "options": [
+                {
+                  "text": "Lift",
+                  "is_correct": false
+                },
+                {
+                  "text": "Drag",
+                  "is_correct": true
+                },
+                {
+                  "text": "Thrust",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Drag is the force resisting movement through air."
             }
           ]
         },
@@ -6009,6 +7225,44 @@
                 ]
               ],
               "explanation": "Textbook 39.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the zone of turbulent air behind an object?",
+              "options": [
+                {
+                  "text": "Slipstream",
+                  "is_correct": false
+                },
+                {
+                  "text": "Wake",
+                  "is_correct": true
+                },
+                {
+                  "text": "Laminar zone",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "The wake contains vortices and turbulent air."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the front edge of an aerofoil?",
+              "options": [
+                {
+                  "text": "Trailing edge",
+                  "is_correct": false
+                },
+                {
+                  "text": "Leading edge",
+                  "is_correct": true
+                },
+                {
+                  "text": "Chord line",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "The leading edge meets the air first."
             }
           ]
         }
@@ -6067,6 +7321,25 @@
                 ]
               ],
               "explanation": "Textbook 42.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do roller chains drive?",
+              "options": [
+                {
+                  "text": "Sprockets",
+                  "is_correct": true
+                },
+                {
+                  "text": "Pulleys",
+                  "is_correct": false
+                },
+                {
+                  "text": "Sheaves",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Chains and sprockets work together for power transmission."
             }
           ]
         },
@@ -6119,6 +7392,44 @@
                 }
               ],
               "explanation": "The crankshaft is the heart of engine motion conversion."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What provides momentum in an engine?",
+              "options": [
+                {
+                  "text": "Crankshaft",
+                  "is_correct": false
+                },
+                {
+                  "text": "Flywheel",
+                  "is_correct": true
+                },
+                {
+                  "text": "Piston",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Flywheels store kinetic energy to maintain rotation."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What converts reciprocating motion to rotary?",
+              "options": [
+                {
+                  "text": "Flywheel",
+                  "is_correct": false
+                },
+                {
+                  "text": "Crankshaft",
+                  "is_correct": true
+                },
+                {
+                  "text": "Camshaft",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Crankshafts transform up-and-down motion to rotation."
             }
           ]
         }
@@ -6172,6 +7483,25 @@
                 ]
               ],
               "explanation": "Textbook 43.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is current measured in?",
+              "options": [
+                {
+                  "text": "Amps",
+                  "is_correct": true
+                },
+                {
+                  "text": "Volts",
+                  "is_correct": false
+                },
+                {
+                  "text": "Ohms",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Amperes (Amps) are the unit of electric current."
             }
           ]
         },
@@ -6223,6 +7553,44 @@
                 ]
               ],
               "explanation": "Textbook 43.2 laws."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the unit of electrical power?",
+              "options": [
+                {
+                  "text": "Volts",
+                  "is_correct": false
+                },
+                {
+                  "text": "Amps",
+                  "is_correct": false
+                },
+                {
+                  "text": "Watts",
+                  "is_correct": true
+                }
+              ],
+              "explanation": "Watts measure power (V x I)."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is electrical resistance measured in?",
+              "options": [
+                {
+                  "text": "Watts",
+                  "is_correct": false
+                },
+                {
+                  "text": "Ohms",
+                  "is_correct": true
+                },
+                {
+                  "text": "Volts",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Ohms are the unit of resistance."
             }
           ]
         }
@@ -6291,6 +7659,25 @@
                 ]
               ],
               "explanation": "Textbook 44.1 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the shape of an AC signal?",
+              "options": [
+                {
+                  "text": "Square wave",
+                  "is_correct": false
+                },
+                {
+                  "text": "Sine wave",
+                  "is_correct": true
+                },
+                {
+                  "text": "Linear wave",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Mains electricity follows a sine wave pattern."
             }
           ]
         },
@@ -6336,6 +7723,44 @@
                 }
               ],
               "explanation": "Step-up transformers reduce line losses."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What converts DC to AC?",
+              "options": [
+                {
+                  "text": "Rectifier",
+                  "is_correct": false
+                },
+                {
+                  "text": "Inverter",
+                  "is_correct": true
+                },
+                {
+                  "text": "Transformer",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Inverters change DC supply into AC output."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which current flows only in one direction?",
+              "options": [
+                {
+                  "text": "AC",
+                  "is_correct": false
+                },
+                {
+                  "text": "DC",
+                  "is_correct": true
+                },
+                {
+                  "text": "Grid",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Direct Current (DC) flows in one direction."
             }
           ]
         }
@@ -6387,6 +7812,25 @@
                 }
               ],
               "explanation": "AC supply safety conductors."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which conductor completes the circuit?",
+              "options": [
+                {
+                  "text": "Live",
+                  "is_correct": false
+                },
+                {
+                  "text": "Neutral",
+                  "is_correct": true
+                },
+                {
+                  "text": "Earth",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "The neutral wire completes the circuit loop."
             }
           ]
         },
@@ -6434,6 +7878,44 @@
                 ]
               ],
               "explanation": "Textbook 45.2 verification."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which component detects light levels?",
+              "options": [
+                {
+                  "text": "Occupancy sensor",
+                  "is_correct": false
+                },
+                {
+                  "text": "Photosensor",
+                  "is_correct": true
+                },
+                {
+                  "text": "Logic gate",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "Photosensors are sensitive to light intensity."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the small complex circuit on silicon called?",
+              "options": [
+                {
+                  "text": "PCB",
+                  "is_correct": false
+                },
+                {
+                  "text": "Integrated circuit",
+                  "is_correct": true
+                },
+                {
+                  "text": "Resistor",
+                  "is_correct": false
+                }
+              ],
+              "explanation": "ICs (microchips) are small-scale integrated circuits."
             }
           ]
         }
