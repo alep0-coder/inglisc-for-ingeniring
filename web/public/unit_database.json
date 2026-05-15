@@ -3715,28 +3715,28 @@
               "question": "Identify the material category for each item:",
               "pairs": [
                 {
-                  "left": "Iron (Fe)",
-                  "right": "Element"
+                  "term": "Iron (Fe)",
+                  "definition": "Element"
                 },
                 {
-                  "left": "Oxygen (O)",
-                  "right": "Element"
+                  "term": "Oxygen (O)",
+                  "definition": "Element"
                 },
                 {
-                  "left": "Water (H2O)",
-                  "right": "Compound"
+                  "term": "Water (H2O)",
+                  "definition": "Compound"
                 },
                 {
-                  "left": "Iron oxide (Rust)",
-                  "right": "Compound"
+                  "term": "Iron oxide (Rust)",
+                  "definition": "Compound"
                 },
                 {
-                  "left": "Steel",
-                  "right": "Alloy"
+                  "term": "Steel",
+                  "definition": "Alloy"
                 },
                 {
-                  "left": "Reinforced concrete",
-                  "right": "Composite"
+                  "term": "Reinforced concrete",
+                  "definition": "Composite"
                 }
               ],
               "explanation": "Elements are pure; compounds are chemically bound; alloys are metallic mixtures; composites combine matrix and reinforcement."
@@ -3969,16 +3969,16 @@
               "question": "Match the non-ferrous metal with its property:",
               "pairs": [
                 {
-                  "left": "Aluminium",
-                  "right": "Lightweight and used in aircraft"
+                  "term": "Aluminium",
+                  "definition": "Lightweight and used in aircraft"
                 },
                 {
-                  "left": "Copper",
-                  "right": "Excellent electrical conductor"
+                  "term": "Copper",
+                  "definition": "Excellent electrical conductor"
                 },
                 {
-                  "left": "Gold",
-                  "right": "Highly corrosion-resistant precious metal"
+                  "term": "Gold",
+                  "definition": "Highly corrosion-resistant precious metal"
                 }
               ],
               "explanation": "Non-ferrous metals do not contain iron."
@@ -4231,16 +4231,16 @@
               "question": "Match the polymer type with its behavior:",
               "pairs": [
                 {
-                  "left": "Thermoplastic",
-                  "right": "Can be melted and remoulded many times"
+                  "term": "Thermoplastic",
+                  "definition": "Can be melted and remoulded many times"
                 },
                 {
-                  "left": "Thermoset",
-                  "right": "Sets permanently and cannot be remoulded"
+                  "term": "Thermoset",
+                  "definition": "Sets permanently and cannot be remoulded"
                 },
                 {
-                  "left": "Elastomer",
-                  "right": "Can be stretched and returns to original length"
+                  "term": "Elastomer",
+                  "definition": "Can be stretched and returns to original length"
                 }
               ],
               "explanation": "Thermoplastics and thermosets have different reaction to heat."
@@ -4417,16 +4417,16 @@
               "question": "Match the safety glass type:",
               "pairs": [
                 {
-                  "left": "Annealed glass",
-                  "right": "Breaks into dangerous, sharp pieces"
+                  "term": "Annealed glass",
+                  "definition": "Breaks into dangerous, sharp pieces"
                 },
                 {
-                  "left": "Toughened glass",
-                  "right": "Shatters into tiny, safer pieces"
+                  "term": "Toughened glass",
+                  "definition": "Shatters into tiny, safer pieces"
                 },
                 {
-                  "left": "Laminated glass",
-                  "right": "Sandwich of glass and polymer"
+                  "term": "Laminated glass",
+                  "definition": "Sandwich of glass and polymer"
                 }
               ],
               "explanation": "Safety glass is designed to minimize injury upon breaking."
@@ -4791,16 +4791,16 @@
               "question": "Match the engineered wood type:",
               "pairs": [
                 {
-                  "left": "Plywood",
-                  "right": "Layers of wood with grain at 90 degrees"
+                  "term": "Plywood",
+                  "definition": "Layers of wood with grain at 90 degrees"
                 },
                 {
-                  "left": "OSB",
-                  "right": "Strands of wood bonded with resin"
+                  "term": "OSB",
+                  "definition": "Strands of wood bonded with resin"
                 },
                 {
-                  "left": "MDF",
-                  "right": "Medium-density fibreboard"
+                  "term": "MDF",
+                  "definition": "Medium-density fibreboard"
                 }
               ],
               "explanation": "Engineered wood uses bonding to improve strength."
@@ -5061,16 +5061,16 @@
               "question": "Match the hardness type:",
               "pairs": [
                 {
-                  "left": "Scratch hardness",
-                  "right": "Resisting being scratched (abrasion)"
+                  "term": "Scratch hardness",
+                  "definition": "Resisting being scratched (abrasion)"
                 },
                 {
-                  "left": "Indentation hardness",
-                  "right": "Resisting compressions from impacts"
+                  "term": "Indentation hardness",
+                  "definition": "Resisting compressions from impacts"
                 },
                 {
-                  "left": "Durability",
-                  "right": "How long a material will last"
+                  "term": "Durability",
+                  "definition": "How long a material will last"
                 }
               ],
               "explanation": "Hardness affects the durability of a material."
@@ -5335,16 +5335,16 @@
               "question": "Match the heat treatment:",
               "pairs": [
                 {
-                  "left": "Quencing",
-                  "right": "Rapid cooling in water or oil"
+                  "term": "Quencing",
+                  "definition": "Rapid cooling in water or oil"
                 },
                 {
-                  "left": "Annealing",
-                  "right": "Slow cooling to make it softer"
+                  "term": "Annealing",
+                  "definition": "Slow cooling to make it softer"
                 },
                 {
-                  "left": "Tempering",
-                  "right": "Balance between hardness and elasticity"
+                  "term": "Tempering",
+                  "definition": "Balance between hardness and elasticity"
                 }
               ],
               "explanation": "Heat treatment changes the atomic structure and properties of metals."
@@ -5497,16 +5497,16 @@
               "question": "Match the metal format:",
               "pairs": [
                 {
-                  "left": "Bar",
-                  "right": "Long length with small cross-section"
+                  "term": "Bar",
+                  "definition": "Long length with small cross-section"
                 },
                 {
-                  "left": "Sheet",
-                  "right": "Flat and thin (thinner than 3mm)"
+                  "term": "Sheet",
+                  "definition": "Flat and thin (thinner than 3mm)"
                 },
                 {
-                  "left": "Plate",
-                  "right": "Flat and thick (thicker than 3mm)"
+                  "term": "Plate",
+                  "definition": "Flat and thick (thicker than 3mm)"
                 }
               ],
               "explanation": "Processed materials are supplied in standard shapes."
@@ -5593,16 +5593,16 @@
               "question": "Match the machining waste and coolant:",
               "pairs": [
                 {
-                  "left": "Swarf / Chips",
-                  "right": "Waste metal produced"
+                  "term": "Swarf / Chips",
+                  "definition": "Waste metal produced"
                 },
                 {
-                  "left": "Cutting fluid",
-                  "right": "Coolant pumped onto workpiece"
+                  "term": "Cutting fluid",
+                  "definition": "Coolant pumped onto workpiece"
                 },
                 {
-                  "left": "Workpiece",
-                  "right": "Material being shaped"
+                  "term": "Workpiece",
+                  "definition": "Material being shaped"
                 }
               ],
               "explanation": "Machining terms describe the process and its by-products."
@@ -5829,16 +5829,16 @@
               "question": "Match the cutting technology:",
               "pairs": [
                 {
-                  "left": "Flame-cutting",
-                  "right": "Uses oxyacetylene"
+                  "term": "Flame-cutting",
+                  "definition": "Uses oxyacetylene"
                 },
                 {
-                  "left": "EDM",
-                  "right": "Spark erosion using electric arc"
+                  "term": "EDM",
+                  "definition": "Spark erosion using electric arc"
                 },
                 {
-                  "left": "Waterjet",
-                  "right": "No heat-affected zone (HAZ)"
+                  "term": "Waterjet",
+                  "definition": "No heat-affected zone (HAZ)"
                 }
               ],
               "explanation": "Advanced cutting methods offer high precision and handle different materials."
@@ -5951,16 +5951,16 @@
               "question": "Match the structural connection:",
               "pairs": [
                 {
-                  "left": "Supported",
-                  "right": "Preventing downward movement"
+                  "term": "Supported",
+                  "definition": "Preventing downward movement"
                 },
                 {
-                  "left": "Anchored",
-                  "right": "Holding in position"
+                  "term": "Anchored",
+                  "definition": "Holding in position"
                 },
                 {
-                  "left": "Embedded",
-                  "right": "Surrounded and held"
+                  "term": "Embedded",
+                  "definition": "Surrounded and held"
                 }
               ],
               "explanation": "Structural connection terms."
@@ -6087,16 +6087,16 @@
               "question": "Match the fastener with its tool:",
               "pairs": [
                 {
-                  "left": "Hexagonal bolt head",
-                  "right": "Spanner or Wrench"
+                  "term": "Hexagonal bolt head",
+                  "definition": "Spanner or Wrench"
                 },
                 {
-                  "left": "Socket head",
-                  "right": "Allen key"
+                  "term": "Socket head",
+                  "definition": "Allen key"
                 },
                 {
-                  "left": "Nut",
-                  "right": "Screwed onto threaded shaft"
+                  "term": "Nut",
+                  "definition": "Screwed onto threaded shaft"
                 }
               ],
               "explanation": "Specific tools are required for different fastener heads."
@@ -6261,16 +6261,16 @@
               "question": "Match the screw/anchor type:",
               "pairs": [
                 {
-                  "left": "Self-tapping screw",
-                  "right": "Cuts its own hole"
+                  "term": "Self-tapping screw",
+                  "definition": "Cuts its own hole"
                 },
                 {
-                  "left": "Set screw",
-                  "right": "Grub screw; holds parts by pressure"
+                  "term": "Set screw",
+                  "definition": "Grub screw; holds parts by pressure"
                 },
                 {
-                  "left": "Chemical anchor",
-                  "right": "Uses epoxy resin"
+                  "term": "Chemical anchor",
+                  "definition": "Uses epoxy resin"
                 }
               ],
               "explanation": "Screws and anchors are chosen based on the base material."
@@ -6494,16 +6494,16 @@
               "question": "Match the welding technique:",
               "pairs": [
                 {
-                  "left": "SMAW",
-                  "right": "Stick welding with flux-coated electrode"
+                  "term": "SMAW",
+                  "definition": "Stick welding with flux-coated electrode"
                 },
                 {
-                  "left": "MIG",
-                  "right": "Wire electrode + Argon gas"
+                  "term": "MIG",
+                  "definition": "Wire electrode + Argon gas"
                 },
                 {
-                  "left": "TIG",
-                  "right": "Non-consumable tungsten electrode"
+                  "term": "TIG",
+                  "definition": "Non-consumable tungsten electrode"
                 }
               ],
               "explanation": "Different arc welding methods offer different control and speed."
@@ -6864,16 +6864,16 @@
               "question": "Match the fluid control device:",
               "pairs": [
                 {
-                  "left": "Pump",
-                  "right": "Forces liquids to flow"
+                  "term": "Pump",
+                  "definition": "Forces liquids to flow"
                 },
                 {
-                  "left": "Compressor",
-                  "right": "Increases gas pressure"
+                  "term": "Compressor",
+                  "definition": "Increases gas pressure"
                 },
                 {
-                  "left": "Turbine",
-                  "right": "Rotates when moved by gas flow"
+                  "term": "Turbine",
+                  "definition": "Rotates when moved by gas flow"
                 }
               ],
               "explanation": "Different devices are used to move or pressurize fluids."
@@ -7117,16 +7117,16 @@
               "question": "Match the aerodynamic force/zone:",
               "pairs": [
                 {
-                  "left": "Drag",
-                  "right": "Resistance to airflow"
+                  "term": "Drag",
+                  "definition": "Resistance to airflow"
                 },
                 {
-                  "left": "Slipstream",
-                  "right": "Low-pressure zone behind object"
+                  "term": "Slipstream",
+                  "definition": "Low-pressure zone behind object"
                 },
                 {
-                  "left": "Wake",
-                  "right": "Turbulent zone with vortices"
+                  "term": "Wake",
+                  "definition": "Turbulent zone with vortices"
                 }
               ],
               "explanation": "Aerodynamic design focuses on managing these forces."
@@ -7269,173 +7269,6 @@
       ]
     },
     {
-      "id": "unit_42",
-      "title": "Unit 42: Transmission 2",
-      "lessons": [
-        {
-          "id": "u42_l1",
-          "title": "Chains and pulleys",
-          "theory": "Flexible transmission:\n\n* **Roller chain**: Transmits drive across a distance to **sprockets**.\n* **Belt drive**: Uses a belt and **pulley wheels** (**sheaves**).\n* **Slip**: When a belt slides around a pulley; **toothed belts** prevent this.\n* **Mechanical advantage**: Achieved using combinations of pulleys (e.g., in cranes).",
-          "exercises": [
-            {
-              "type": "matching",
-              "question": "Match the transmission part:",
-              "pairs": [
-                {
-                  "left": "Roller chain",
-                  "right": "Drives sprockets"
-                },
-                {
-                  "left": "Belt drive",
-                  "right": "Runs on pulley wheels (sheaves)"
-                },
-                {
-                  "left": "Slip",
-                  "right": "When a belt slides around a pulley"
-                }
-              ],
-              "explanation": "Flexible transmission uses chains or belts."
-            },
-            {
-              "type": "fill_in_the_blank",
-              "question": "Chain drive transmits over a (1) ____. Chain will not (2) ____. Pulley wheels are (3) ____.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "distance"
-                },
-                {
-                  "position": 2,
-                  "answer": "slip"
-                },
-                {
-                  "position": 3,
-                  "answer": "sheaves"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "distance",
-                  "slip",
-                  "sheaves"
-                ]
-              ],
-              "explanation": "Textbook 42.1 verification."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "What do roller chains drive?",
-              "options": [
-                {
-                  "text": "Sprockets",
-                  "is_correct": true
-                },
-                {
-                  "text": "Pulleys",
-                  "is_correct": false
-                },
-                {
-                  "text": "Sheaves",
-                  "is_correct": false
-                }
-              ],
-              "explanation": "Chains and sprockets work together for power transmission."
-            }
-          ]
-        },
-        {
-          "id": "u42_l2",
-          "title": "Conversion of motion",
-          "theory": "Linear to rotary:\n\n* **Connecting rod** (**conrod**): Joins the piston to the crankshaft.\n* **Crankshaft**: Converts reciprocating motion of pistons into rotary motion.\n* **Flywheel**: A heavy wheel providing **momentum** for constant motion.\n* **Camshaft**: Rotates to open and close valves via **cams** and **followers**.",
-          "exercises": [
-            {
-              "type": "fill_in_the_blank",
-              "question": "The (1) ____ converts reciprocating motion to (2) ____. The (3) ____ provides momentum.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "answer": "crankshaft"
-                },
-                {
-                  "position": 2,
-                  "answer": "rotary"
-                },
-                {
-                  "position": 3,
-                  "answer": "flywheel"
-                }
-              ],
-              "accepted_answers": [
-                [
-                  "crankshaft",
-                  "rotary",
-                  "flywheel"
-                ]
-              ],
-              "explanation": "Conversion of motion is central to engine design."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "What converts linear motion to rotary?",
-              "options": [
-                {
-                  "text": "Camshaft",
-                  "is_correct": false
-                },
-                {
-                  "text": "Crankshaft",
-                  "is_correct": true
-                },
-                {
-                  "text": "Flywheel",
-                  "is_correct": false
-                }
-              ],
-              "explanation": "The crankshaft is the heart of engine motion conversion."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "What provides momentum in an engine?",
-              "options": [
-                {
-                  "text": "Crankshaft",
-                  "is_correct": false
-                },
-                {
-                  "text": "Flywheel",
-                  "is_correct": true
-                },
-                {
-                  "text": "Piston",
-                  "is_correct": false
-                }
-              ],
-              "explanation": "Flywheels store kinetic energy to maintain rotation."
-            },
-            {
-              "type": "multiple_choice",
-              "question": "What converts reciprocating motion to rotary?",
-              "options": [
-                {
-                  "text": "Flywheel",
-                  "is_correct": false
-                },
-                {
-                  "text": "Crankshaft",
-                  "is_correct": true
-                },
-                {
-                  "text": "Camshaft",
-                  "is_correct": false
-                }
-              ],
-              "explanation": "Crankshafts transform up-and-down motion to rotation."
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "unit_43",
       "title": "Unit 43: Current, voltage and resistance",
       "lessons": [
@@ -7515,20 +7348,20 @@
               "question": "Match the unit to its property:",
               "pairs": [
                 {
-                  "left": "Amps",
-                  "right": "Current (Amperage)"
+                  "term": "Amps",
+                  "definition": "Current (Amperage)"
                 },
                 {
-                  "left": "Volts",
-                  "right": "Voltage (EMF)"
+                  "term": "Volts",
+                  "definition": "Voltage (EMF)"
                 },
                 {
-                  "left": "Ohms",
-                  "right": "Resistance"
+                  "term": "Ohms",
+                  "definition": "Resistance"
                 },
                 {
-                  "left": "Watts",
-                  "right": "Power"
+                  "term": "Watts",
+                  "definition": "Power"
                 }
               ],
               "explanation": "Electrical properties follow Ohm's Law and Power Law."
@@ -7610,16 +7443,16 @@
               "question": "Match the current type:",
               "pairs": [
                 {
-                  "left": "DC",
-                  "right": "Flows in one direction (batteries)"
+                  "term": "DC",
+                  "definition": "Flows in one direction (batteries)"
                 },
                 {
-                  "left": "AC",
-                  "right": "Flows backwards and forwards (mains)"
+                  "term": "AC",
+                  "definition": "Flows backwards and forwards (mains)"
                 },
                 {
-                  "left": "Inverter",
-                  "right": "Converts DC to AC"
+                  "term": "Inverter",
+                  "definition": "Converts DC to AC"
                 }
               ],
               "explanation": "AC and DC are the two main types of electrical current."
@@ -7799,16 +7632,16 @@
               "question": "Match the circuit conductor:",
               "pairs": [
                 {
-                  "left": "Live",
-                  "right": "Carries high voltage supply"
+                  "term": "Live",
+                  "definition": "Carries high voltage supply"
                 },
                 {
-                  "left": "Neutral",
-                  "right": "Completes the circuit"
+                  "term": "Neutral",
+                  "definition": "Completes the circuit"
                 },
                 {
-                  "left": "Earth",
-                  "right": "Safety connection to the ground"
+                  "term": "Earth",
+                  "definition": "Safety connection to the ground"
                 }
               ],
               "explanation": "AC supply safety conductors."
@@ -7844,16 +7677,16 @@
               "question": "Match the electronic term:",
               "pairs": [
                 {
-                  "left": "PCB",
-                  "right": "Printed Circuit Board"
+                  "term": "PCB",
+                  "definition": "Printed Circuit Board"
                 },
                 {
-                  "left": "Logic gate",
-                  "right": "AND / OR decision making"
+                  "term": "Logic gate",
+                  "definition": "AND / OR decision making"
                 },
                 {
-                  "left": "Sensor",
-                  "right": "Detects heat, light or pressure"
+                  "term": "Sensor",
+                  "definition": "Detects heat, light or pressure"
                 }
               ],
               "explanation": "Electronic systems use small-scale components for control."

@@ -91,7 +91,7 @@ function normalizeExercises(rawExs) {
     } else if (ex.type === 'matching') {
       ex.pairs = [];
       if (Array.isArray(e.pairs)) {
-        ex.pairs = e.pairs.map(p => ({ left: p.left || "", right: p.right || "" }));
+        ex.pairs = e.pairs.map(p => ({ term: p.term || p.left || "", definition: p.definition || p.right || "" }));
       }
     }
     
