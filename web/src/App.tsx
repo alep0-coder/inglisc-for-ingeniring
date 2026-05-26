@@ -822,28 +822,6 @@ export default function App() {
           🎓 Open Revision Hub
         </button>
 
-        <div style={{ backgroundColor: '#fffbe1', padding: '14px', borderRadius: '12px', marginBottom: '24px', border: '1px solid #fde047', textAlign: 'center' }}>
-          <p style={{ margin: '0 0 10px 0', fontSize: '14px', color: '#854d0e', fontWeight: 600 }}>
-            ⚠️ Se nella prima unità non vedi 3 lezioni, schiaccia qui per aggiornare l'app!
-          </p>
-          <button 
-            className="cta-btn active-green" 
-            style={{ width: 'auto', padding: '8px 16px', fontSize: '14px', minHeight: 'unset', margin: '0 auto' }}
-            onClick={() => {
-              // try to clear caches
-              if ('caches' in window) {
-                caches.keys().then((names) => {
-                  names.forEach(name => {
-                    caches.delete(name);
-                  });
-                });
-              }
-              window.location.reload();
-            }}
-          >
-            🔄 Aggiorna Ora
-          </button>
-        </div>
 
         <p className="section-title">Choose a unit</p>
 
