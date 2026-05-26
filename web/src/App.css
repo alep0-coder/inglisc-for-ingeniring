@@ -18,7 +18,6 @@
   --blue:         #1cb0f6;
   --blue-dark:    #0a95d4;
 
-  --yellow:       #ffc800;
   --yellow-dark:  #e3a800;
 
   --gray-100:     #f7f7f7;
@@ -1159,3 +1158,4 @@ body.dark .crumb:hover { background: var(--gray-100); }
   font-weight: 700;
   margin: 0;
 }
+
